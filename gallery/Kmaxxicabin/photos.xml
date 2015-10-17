@@ -1,0 +1,141 @@
+<gallery
+base = ""
+background = "#FFFFFF"
+banner = "#F0F0F0"
+text = "#000000"
+link = "#0000FF"
+alink = "#FF0000"
+vlink = "#800080"
+date = "2010. 03. 28.">
+	<sitename>K Maxxi Joker Cabin</sitename>
+	<photographer></photographer>
+	<contactinfo></contactinfo>
+	<email></email>
+	<security><![CDATA[k maxxi cabin]]> </security>
+
+<banner font = "Arial" fontsize = "3" color =  "#F0F0F0"> </banner>
+<thumbnail base ="thumbnails/" font = "Arial" fontsize = "4" color = "#F0F0F0" border = "0" rows = "3" col = "5"> </thumbnail> 
+<large base ="images/" font = "Arial" fontsize = "3" color = "#F0F0F0" border = "0"> </large>
+<images id = "images">
+
+<image
+path = "IMG_3763.jpg"
+width = "600"
+height = "394"
+thumbpath = "IMG_3763.jpg"
+thumbwidth = "75"
+thumbheight = "49">
+</image>
+
+
+<image
+path = "IMG_3769.jpg"
+width = "600"
+height = "399"
+thumbpath = "IMG_3769.jpg"
+thumbwidth = "75"
+thumbheight = "49">
+</image>
+
+
+<image
+path = "IMG_3771.jpg"
+width = "600"
+height = "399"
+thumbpath = "IMG_3771.jpg"
+thumbwidth = "75"
+thumbheight = "49">
+</image>
+
+
+<image
+path = "IMG_3773.jpg"
+width = "600"
+height = "399"
+thumbpath = "IMG_3773.jpg"
+thumbwidth = "75"
+thumbheight = "49">
+</image>
+
+
+<image
+path = "IMG_3774.jpg"
+width = "600"
+height = "399"
+thumbpath = "IMG_3774.jpg"
+thumbwidth = "75"
+thumbheight = "49">
+</image>
+
+
+<image
+path = "IMG_3776.jpg"
+width = "600"
+height = "364"
+thumbpath = "IMG_3776.jpg"
+thumbwidth = "75"
+thumbheight = "45">
+</image>
+
+
+<image
+path = "IMG_3786.jpg"
+width = "600"
+height = "399"
+thumbpath = "IMG_3786.jpg"
+thumbwidth = "75"
+thumbheight = "49">
+</image>
+
+
+<image
+path = "IMG_3787.jpg"
+width = "600"
+height = "399"
+thumbpath = "IMG_3787.jpg"
+thumbwidth = "75"
+thumbheight = "49">
+</image>
+
+
+<image
+path = "IMG_3788.jpg"
+width = "399"
+height = "600"
+thumbpath = "IMG_3788.jpg"
+thumbwidth = "49"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "IMG_3789.jpg"
+width = "600"
+height = "399"
+thumbpath = "IMG_3789.jpg"
+thumbwidth = "75"
+thumbheight = "49">
+</image>
+
+
+<image
+path = "IMG_3791.jpg"
+width = "399"
+height = "600"
+thumbpath = "IMG_3791.jpg"
+thumbwidth = "49"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "IMG_3794.jpg"
+width = "399"
+height = "600"
+thumbpath = "IMG_3794.jpg"
+thumbwidth = "49"
+thumbheight = "75">
+</image>
+
+</images>
+</gallery>

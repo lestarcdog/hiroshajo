@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<meta name="verify-v1" content="IiUBeczXvX6WSUJE6W7dh79Fj46sR+3jxnuMsQz2W1Y=" />
+<title>Üvegszálas műanyag hajó, csónak, horgászcsónak gyártás.</title>
+<meta name="Description" content="A Híröshajó Kft. katamarán aljú, üvegszálas műanyag hajó, csónak, horgászcsónak tervezésével és gyártásával foglalkozik." />
+<meta name="Keywords" content="hajó, csónak, horgászcsónak, üvegszálas műanyag" />
+<link href="../hiroshajo.css" rel="stylesheet" type="text/css" media="all" />
+<!--[if lt IE 7]>
+<style type="text/css" media="screen">
+#menu{float:none;}
+body{behavior:url(csshover.htc); font-size:100%;}
+#menu ul li{float:left; width: 100%;}
+#menu a{height:1%; font: 13px Verdana, Arial, Helvetica, sans-serif;}
+</style>
+<![endif]-->
+<script type="text/javascript">
+<!--
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+//-->
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-21541800-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- TemplateParam name="EgyebFejlec" type="boolean" value="true" -->
+</head>
+
+<body>
+<!-- TemplateBeginIf cond="EgyebFejlec" --><!-- TemplateBeginEditable name="EditRegion6" -->EgyebFejlec<!-- TemplateEndEditable --><!-- TemplateEndIf -->
+
+
+
+<div id="keret">
+<div id="langbar">english language is avalaible: <img src="../images/hungarianflagOff.jpg" width="50" height="27" alt="hungarian_flag" /><a href="english/index.html"> <img src="../images/englishflagON.jpg" width="50" height="27" alt="english_flag" /></a></div><!--langbar-->
+<div id="fejlec">
+  <div id="h_egy">
+    <h1><!-- TemplateBeginEditable name="FejlecText" --> tel:+36 30 9788-120 hajó, csónak, horgászcsónak<!-- TemplateEndEditable --></h1></div><!--1-->
+	<!-- TemplateBeginEditable name="FejlecImage" -->FejlecImage<!-- TemplateEndEditable --> </div>
+
+
+<div id="tartalom">
+<div class="menu">
+		<ul>
+			<li><a href="index.html">Kezdőlap</a></li>
+			<li><a href="magyar/miertegy.html">Miért egy katamarán?</a></li>
+            <li><a href="magyar/modell.html">Modellek</a></li>
+            <li><a href="magyar/szerelvenyek.html">Szerelvények</a></li>
+            <li><a href="magyar/arlista.html">Árlista</a></li>
+			<li><a href="#">Tesztek</a>
+                <ul>
+                <li><a href="magyar/motorcsonakteszt.html">Motorcsónak</a></li>
+                <li><a href="magyar/villanymotorteszt.html">Villanymotor</a></li>
+                </ul>
+          </li>
+			<li><a href="#">Videók</a>
+                 <ul>
+                 <li><a href="videok/kmaxi_extra_joker_cabin_video.html">K maxxi joker cabin</a></li>
+                 <li><a href="videok/kmini_video.html">K mini boat&amp;box</a></li>
+                 <li><a href="videok/kmaxi_video.html">K maxxi</a></li>
+                 <li><a href="videok/kmaxi_extra_joker_video.html">K maxxi joker</a></li>
+                 <li><a href="videok/kfisherman_video.html">K1 fisherman</a></li>
+                 <li><a href="videok/kmaxi_delfin_video.html">K maxxi delfin</a></li>
+                 <li><a href="videok/k2_party_video.html">K2 party</a></li>
+                 <li><a href="videok/kmaxi_party_video.html">K maxi party</a></li>
+                 <li><a href="videok/dodgem_video.html">Dodgem</a></li>
+                 </ul>
+           </li>
+           <li><a href="magyar/hasznalt.html">Használt hajó</a></li>
+		</ul>
+	</div><!--menu-->
+<div id="szoveg"><!-- TemplateBeginEditable name="MainText" -->MainText<!-- TemplateEndEditable -->  
+
+    
+</div><!--szoveg-->
+</div><!--tartalom-->
+</div><!--keret-->
+</body>
+</html>

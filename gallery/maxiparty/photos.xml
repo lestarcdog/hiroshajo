@@ -1,0 +1,161 @@
+<gallery
+base = ""
+background = "#FFFFFF"
+banner = "#F0F0F0"
+text = "#000000"
+link = "#0000FF"
+alink = "#FF0000"
+vlink = "#800080"
+date = "2008.03.30.">
+	<sitename>Adobe Web Photo Gallery</sitename>
+	<photographer></photographer>
+	<contactinfo></contactinfo>
+	<email></email>
+	<security><![CDATA[]]> </security>
+
+<banner font = "Arial" fontsize = "3" color =  "#F0F0F0"> </banner>
+<thumbnail base ="thumbnails/" font = "Arial" fontsize = "4" color = "#F0F0F0" border = "0" rows = "3" col = "5"> </thumbnail> 
+<large base ="images/" font = "Arial" fontsize = "3" color = "#F0F0F0" border = "0"> </large>
+<images id = "images">
+
+<image
+path = "part01.jpg"
+width = "600"
+height = "349"
+thumbpath = "part01.jpg"
+thumbwidth = "75"
+thumbheight = "43">
+</image>
+
+
+<image
+path = "part02.jpg"
+width = "447"
+height = "600"
+thumbpath = "part02.jpg"
+thumbwidth = "55"
+thumbheight = "75">
+</image>
+
+
+<image
+path = "part03.jpg"
+width = "600"
+height = "445"
+thumbpath = "part03.jpg"
+thumbwidth = "75"
+thumbheight = "55">
+</image>
+
+
+<image
+path = "part04.jpg"
+width = "600"
+height = "451"
+thumbpath = "part04.jpg"
+thumbwidth = "75"
+thumbheight = "56">
+</image>
+
+
+<image
+path = "part05.jpg"
+width = "600"
+height = "367"
+thumbpath = "part05.jpg"
+thumbwidth = "75"
+thumbheight = "45">
+</image>
+
+
+<image
+path = "part06.jpg"
+width = "600"
+height = "405"
+thumbpath = "part06.jpg"
+thumbwidth = "75"
+thumbheight = "50">
+</image>
+
+
+<image
+path = "part07.jpg"
+width = "600"
+height = "382"
+thumbpath = "part07.jpg"
+thumbwidth = "75"
+thumbheight = "47">
+</image>
+
+
+<image
+path = "part08.jpg"
+width = "600"
+height = "405"
+thumbpath = "part08.jpg"
+thumbwidth = "75"
+thumbheight = "50">
+</image>
+
+
+<image
+path = "part09.jpg"
+width = "600"
+height = "405"
+thumbpath = "part09.jpg"
+thumbwidth = "75"
+thumbheight = "50">
+</image>
+
+
+<image
+path = "part10.jpg"
+width = "600"
+height = "405"
+thumbpath = "part10.jpg"
+thumbwidth = "75"
+thumbheight = "50">
+</image>
+
+
+<image
+path = "part11.jpg"
+width = "600"
+height = "405"
+thumbpath = "part11.jpg"
+thumbwidth = "75"
+thumbheight = "50">
+</image>
+
+
+<image
+path = "part12.jpg"
+width = "600"
+height = "317"
+thumbpath = "part12.jpg"
+thumbwidth = "75"
+thumbheight = "39">
+</image>
+
+
+<image
+path = "part13.jpg"
+width = "600"
+height = "436"
+thumbpath = "part13.jpg"
+thumbwidth = "75"
+thumbheight = "54">
+</image>
+
+
+<image
+path = "part14.jpg"
+width = "600"
+height = "291"
+thumbpath = "part14.jpg"
+thumbwidth = "75"
+thumbheight = "36">
+</image>
+
+</images>
+</gallery>

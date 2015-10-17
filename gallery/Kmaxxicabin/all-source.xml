@@ -1,0 +1,329 @@
+﻿<?xml version="1.0"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+
+<photoCollection mode="publish">
+<display>
+<style cellBorderColor="#787878" cellRolloverColor="#a1a1a1" cssVersion="134374224980473719" idplateEnabled="false" css="&#xA;				#previewFull {background-color: #666666 !important; width: 730px !important; color: inherit}&#xA;				#liveUpdateContactInfo {color: #b3b3b3 !important; background-color: inherit;}&#xA;				.borderRightDotted {border-right: 1px dotted #787878 !important;}&#xA;				.logo {display: none !important;}&#xA;				#liveUpdateCollectionDescription {color: #b3b3b3 !important; background-color: inherit;}&#xA;				.detailNav, .detailLinks, #detailCaption, #detailTitle {color: #b3b3b3 !important; background-color: inherit;}&#xA;				.emptyThumbnail {background-color: #949494 !important; color: inherit;}&#xA;				.thumbnail {background-color: #949494 !important; color: inherit;}&#xA;				.previewFullImage {height: 700px !important; width: 730px !important;}&#xA;				#stage2 {width: 730px !important;}&#xA;				.itemNumber {display: none !important; color: #9c9c9c !important; background-color: inherit;}&#xA;				#content {background-color: #4c4c4c !important; color: inherit;}&#xA;				.borderTopLeft {border-top: 1px solid #787878 !important; border-left: 1px solid #787878 !important;}&#xA;				#stage {width: 484px !important;}&#xA;				.caption {color: #b3b3b3 !important; background-color: inherit;}&#xA;				#wrapper2 {width: 730px !important;}&#xA;				.borderBottomRight {border-right: 1px solid #787878 !important; border-bottom: 1px solid #787878 !important;}&#xA;				#wrapper {width: 484px !important;}&#xA;				#liveUpdateCollectionTitle {color: #b3b3b3 !important; background-color: inherit;}&#xA;				.paginationLinks, .pagination, #liveUpdatePagination {color: #b3b3b3 !important; background-color: inherit;}&#xA;				.selectedThumbnail, .thumbnail:hover {background-color: #a1a1a1 !important; color: inherit;}&#xA;				#liveUpdateSiteTitle {color: #b3b3b3 !important; background-color: inherit;}&#xA;				#thumbnailName {color: #b3b3b3 !important; background-color: inherit;}&#xA;				#largeName {color: #b3b3b3 !important; background-color: inherit; margin-top: 10px; margin-left: 7px; margin-right: 7px;}&#xA;				.borderBottom {border-bottom: 1px solid #787878 !important;}&#xA;				.borderRight {border-right: 1px solid #787878 !important;}&#xA;				body {background-color: #4c4c4c !important; color: inherit;}&#xA;			" identityPlateAbsolutePath="" numCols="3" numRows="3" homePage="index.html" imageBase="content" cellColor="#949494">
+</style>
+<metadata>
+<creationDate formatted="Tue Jul 31 2012 15:44:09 GMT+0200"></creationDate>
+<groupTitle value=""></groupTitle>
+<contactInfo value="Juharos Imre" link=""></contactInfo>
+<siteTitle value="K Maxxi Cabrio"></siteTitle>
+<groupDescription value=""></groupDescription>
+</metadata>
+<localization>
+<item id="AdobeLightroomWebSite" localized="http://labs.adobe.com/technologies/lightroom/"></item>
+<item id="AdobeLightroomBeta" localized="Adobe Lightroom Beta"></item>
+<item id="Fullsize" localized="Fullsize"></item>
+<item id="Next" localized="Next"></item>
+<item id="Previous" localized="Previous"></item>
+<item id="EmptyGallery" localized="There are no images in this gallery."></item>
+<item id="more" localized="more"></item>
+<item id="Index" localized="Index"></item>
+</localization>
+</display>
+<head>
+<siteTitle></siteTitle>
+<collectionName></collectionName>
+<collectionTitle></collectionTitle>
+<collectionDescription></collectionDescription>
+<contactInfo></contactInfo>
+<slideDuration></slideDuration>
+<sizes>
+<size name="large" height="700" width="700"></size>
+<size name="thumb" height="129" width="129"></size>
+</sizes>
+</head>
+<samples totalGallerySize="35" firstSampleIndex="1">
+<img orientation="BC" imageID="0_1343742249807" filename="_7603137061" tipname="%_tempFileName_7603137061%">
+<text>
+<title></title>
+<description></description>
+</text>
+<rendition path="content/bin/images/large/_7603137061.jpg" height="395" width="600" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_7603137061.jpg" height="84" width="129" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="1_1343742249809" filename="_5559252698" tipname="%_tempFileName_5559252698%">
+<text>
+<title></title>
+<description></description>
+</text>
+<rendition path="content/bin/images/large/_5559252698.jpg" height="400" width="600" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_5559252698.jpg" height="86" width="129" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="2_1343742249810" filename="_5929277127" tipname="%_tempFileName_5929277127%">
+<text>
+<title></title>
+<description></description>
+</text>
+<rendition path="content/bin/images/large/_5929277127.jpg" height="400" width="600" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_5929277127.jpg" height="86" width="129" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="3_1343742249812" filename="_2715741075" tipname="%_tempFileName_2715741075%">
+<text>
+<title></title>
+<description></description>
+</text>
+<rendition path="content/bin/images/large/_2715741075.jpg" height="400" width="600" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_2715741075.jpg" height="86" width="129" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="4_1343742249814" filename="_1853203659" tipname="%_tempFileName_1853203659%">
+<text>
+<title></title>
+<description></description>
+</text>
+<rendition path="content/bin/images/large/_1853203659.jpg" height="400" width="600" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_1853203659.jpg" height="86" width="129" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="5_1343742249815" filename="_4026436785" tipname="%_tempFileName_4026436785%">
+<text>
+<title></title>
+<description></description>
+</text>
+<rendition path="content/bin/images/large/_4026436785.jpg" height="365" width="600" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_4026436785.jpg" height="78" width="129" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="6_1343742249817" filename="_6186811069" tipname="%_tempFileName_6186811069%">
+<text>
+<title></title>
+<description></description>
+</text>
+<rendition path="content/bin/images/large/_6186811069.jpg" height="400" width="600" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_6186811069.jpg" height="86" width="129" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="7_1343742249819" filename="_3683562003" tipname="%_tempFileName_3683562003%">
+<text>
+<title></title>
+<description></description>
+</text>
+<rendition path="content/bin/images/large/_3683562003.jpg" height="400" width="600" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_3683562003.jpg" height="86" width="129" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="8_1343742249821" filename="_8283275278" tipname="%_tempFileName_8283275278%">
+<text>
+<title></title>
+<description></description>
+</text>
+<rendition path="content/bin/images/large/_8283275278.jpg" height="600" width="400" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_8283275278.jpg" height="129" width="86" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="9_1343742249822" filename="_1843394742" tipname="%_tempFileName_1843394742%">
+<text>
+<title></title>
+<description></description>
+</text>
+<rendition path="content/bin/images/large/_1843394742.jpg" height="400" width="600" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_1843394742.jpg" height="86" width="129" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="10_1343742249824" filename="_1393200774" tipname="%_tempFileName_1393200774%">
+<text>
+<title></title>
+<description></description>
+</text>
+<rendition path="content/bin/images/large/_1393200774.jpg" height="600" width="400" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_1393200774.jpg" height="129" width="86" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="11_1343742249826" filename="_3654317098" tipname="%_tempFileName_3654317098%">
+<text>
+<title></title>
+<description></description>
+</text>
+<rendition path="content/bin/images/large/_3654317098.jpg" height="600" width="400" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_3654317098.jpg" height="129" width="86" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="12_1343742249827" filename="_6414366807" tipname="%_tempFileName_6414366807%">
+<text>
+<title></title>
+<description>OLYMPUS DIGITAL CAMERA</description>
+</text>
+<rendition path="content/bin/images/large/_6414366807.jpg" height="525" width="700" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_6414366807.jpg" height="96" width="129" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="13_1343742249829" filename="_5352265308" tipname="%_tempFileName_5352265308%">
+<text>
+<title></title>
+<description>OLYMPUS DIGITAL CAMERA</description>
+</text>
+<rendition path="content/bin/images/large/_5352265308.jpg" height="525" width="700" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_5352265308.jpg" height="96" width="129" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="14_1343742249830" filename="_8094121732" tipname="%_tempFileName_8094121732%">
+<text>
+<title></title>
+<description>OLYMPUS DIGITAL CAMERA</description>
+</text>
+<rendition path="content/bin/images/large/_8094121732.jpg" height="525" width="700" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_8094121732.jpg" height="96" width="129" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="15_1343742249832" filename="_2339663539" tipname="%_tempFileName_2339663539%">
+<text>
+<title></title>
+<description>OLYMPUS DIGITAL CAMERA</description>
+</text>
+<rendition path="content/bin/images/large/_2339663539.jpg" height="525" width="700" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_2339663539.jpg" height="96" width="129" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="16_1343742249834" filename="_4386547343" tipname="%_tempFileName_4386547343%">
+<text>
+<title></title>
+<description>OLYMPUS DIGITAL CAMERA</description>
+</text>
+<rendition path="content/bin/images/large/_4386547343.jpg" height="525" width="700" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_4386547343.jpg" height="96" width="129" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="17_1343742249836" filename="_0697673303" tipname="%_tempFileName_0697673303%">
+<text>
+<title></title>
+<description>OLYMPUS DIGITAL CAMERA</description>
+</text>
+<rendition path="content/bin/images/large/_0697673303.jpg" height="525" width="700" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_0697673303.jpg" height="96" width="129" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="18_1343742249837" filename="_6244143792" tipname="%_tempFileName_6244143792%">
+<text>
+<title></title>
+<description>OLYMPUS DIGITAL CAMERA</description>
+</text>
+<rendition path="content/bin/images/large/_6244143792.jpg" height="525" width="700" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_6244143792.jpg" height="96" width="129" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="19_1343742249839" filename="_7401833114" tipname="%_tempFileName_7401833114%">
+<text>
+<title></title>
+<description>OLYMPUS DIGITAL CAMERA</description>
+</text>
+<rendition path="content/bin/images/large/_7401833114.jpg" height="525" width="700" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_7401833114.jpg" height="96" width="129" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="20_1343742249840" filename="_8338024746" tipname="%_tempFileName_8338024746%">
+<text>
+<title></title>
+<description>OLYMPUS DIGITAL CAMERA</description>
+</text>
+<rendition path="content/bin/images/large/_8338024746.jpg" height="525" width="700" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_8338024746.jpg" height="96" width="129" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="21_1343742249842" filename="_1262336311" tipname="%_tempFileName_1262336311%">
+<text>
+<title></title>
+<description>OLYMPUS DIGITAL CAMERA</description>
+</text>
+<rendition path="content/bin/images/large/_1262336311.jpg" height="525" width="700" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_1262336311.jpg" height="96" width="129" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="22_1343742249844" filename="_0384530471" tipname="%_tempFileName_0384530471%">
+<text>
+<title></title>
+<description>OLYMPUS DIGITAL CAMERA</description>
+</text>
+<rendition path="content/bin/images/large/_0384530471.jpg" height="525" width="700" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_0384530471.jpg" height="96" width="129" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="23_1343742249845" filename="_5529381250" tipname="%_tempFileName_5529381250%">
+<text>
+<title></title>
+<description>OLYMPUS DIGITAL CAMERA</description>
+</text>
+<rendition path="content/bin/images/large/_5529381250.jpg" height="525" width="700" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_5529381250.jpg" height="96" width="129" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="24_1343742249847" filename="_2461329651" tipname="%_tempFileName_2461329651%">
+<text>
+<title></title>
+<description>OLYMPUS DIGITAL CAMERA</description>
+</text>
+<rendition path="content/bin/images/large/_2461329651.jpg" height="525" width="700" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_2461329651.jpg" height="96" width="129" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="25_1343742249848" filename="_9803586205" tipname="%_tempFileName_9803586205%">
+<text>
+<title></title>
+<description>OLYMPUS DIGITAL CAMERA</description>
+</text>
+<rendition path="content/bin/images/large/_9803586205.jpg" height="525" width="700" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_9803586205.jpg" height="96" width="129" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="26_1343742249850" filename="_9863345058" tipname="%_tempFileName_9863345058%">
+<text>
+<title></title>
+<description>OLYMPUS DIGITAL CAMERA</description>
+</text>
+<rendition path="content/bin/images/large/_9863345058.jpg" height="525" width="700" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_9863345058.jpg" height="96" width="129" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="27_1343742249852" filename="_9782960601" tipname="%_tempFileName_9782960601%">
+<text>
+<title></title>
+<description>OLYMPUS DIGITAL CAMERA</description>
+</text>
+<rendition path="content/bin/images/large/_9782960601.jpg" height="525" width="700" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_9782960601.jpg" height="96" width="129" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="28_1343742249853" filename="_0961849783" tipname="%_tempFileName_0961849783%">
+<text>
+<title></title>
+<description>OLYMPUS DIGITAL CAMERA</description>
+</text>
+<rendition path="content/bin/images/large/_0961849783.jpg" height="525" width="700" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_0961849783.jpg" height="96" width="129" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="29_1343742249855" filename="_2964923585" tipname="%_tempFileName_2964923585%">
+<text>
+<title></title>
+<description>OLYMPUS DIGITAL CAMERA</description>
+</text>
+<rendition path="content/bin/images/large/_2964923585.jpg" height="525" width="700" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_2964923585.jpg" height="96" width="129" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="30_1343742249857" filename="_5589902754" tipname="%_tempFileName_5589902754%">
+<text>
+<title></title>
+<description>OLYMPUS DIGITAL CAMERA</description>
+</text>
+<rendition path="content/bin/images/large/_5589902754.jpg" height="525" width="700" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_5589902754.jpg" height="96" width="129" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="31_1343742249859" filename="_1563734100" tipname="%_tempFileName_1563734100%">
+<text>
+<title></title>
+<description>OLYMPUS DIGITAL CAMERA</description>
+</text>
+<rendition path="content/bin/images/large/_1563734100.jpg" height="525" width="700" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_1563734100.jpg" height="96" width="129" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="32_1343742249860" filename="_5111860721" tipname="%_tempFileName_5111860721%">
+<text>
+<title></title>
+<description>OLYMPUS DIGITAL CAMERA</description>
+</text>
+<rendition path="content/bin/images/large/_5111860721.jpg" height="525" width="700" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_5111860721.jpg" height="96" width="129" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="33_1343742249862" filename="_5060516578" tipname="%_tempFileName_5060516578%">
+<text>
+<title></title>
+<description>OLYMPUS DIGITAL CAMERA</description>
+</text>
+<rendition path="content/bin/images/large/_5060516578.jpg" height="525" width="700" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_5060516578.jpg" height="96" width="129" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="34_1343742249864" filename="_0200380314" tipname="%_tempFileName_0200380314%">
+<text>
+<title></title>
+<description>OLYMPUS DIGITAL CAMERA</description>
+</text>
+<rendition path="content/bin/images/large/_0200380314.jpg" height="525" width="700" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_0200380314.jpg" height="96" width="129" size="thumb"></rendition>
+</img>
+</samples>
+<siteParams>
+<firstImage index="1"></firstImage>
+<lastImage index="35"></lastImage>
+<mode value="all"></mode>
+</siteParams>
+</photoCollection>

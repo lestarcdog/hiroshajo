@@ -1,0 +1,1682 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<files xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<file name="all-source.xml">
+<photoCollection mode="publish">
+<display>
+<style cellBorderColor="#787878" cellRolloverColor="#a1a1a1" cssVersion="130597543392191531" idplateEnabled="false" css="&#xA;				#previewFull {background-color: #666666 !important; width: 680px !important; color: inherit}&#xA;				#liveUpdateContactInfo {color: #b3b3b3 !important; background-color: inherit;}&#xA;				.borderRightDotted {border-right: 1px dotted #787878 !important;}&#xA;				.logo {display: none !important;}&#xA;				#liveUpdateCollectionDescription {color: #b3b3b3 !important; background-color: inherit;}&#xA;				.detailNav, .detailLinks, #detailCaption, #detailTitle {color: #b3b3b3 !important; background-color: inherit;}&#xA;				.emptyThumbnail {background-color: #949494 !important; color: inherit;}&#xA;				.thumbnail {background-color: #949494 !important; color: inherit;}&#xA;				.previewFullImage {height: 650px !important; width: 680px !important;}&#xA;				#stage2 {width: 680px !important;}&#xA;				.itemNumber {display: inherit !important; color: #9c9c9c !important; background-color: inherit;}&#xA;				#content {background-color: #4c4c4c !important; color: inherit;}&#xA;				.borderTopLeft {border-top: 1px solid #787878 !important; border-left: 1px solid #787878 !important;}&#xA;				#stage {width: 484px !important;}&#xA;				.caption {color: #b3b3b3 !important; background-color: inherit;}&#xA;				#wrapper2 {width: 680px !important;}&#xA;				.borderBottomRight {border-right: 1px solid #787878 !important; border-bottom: 1px solid #787878 !important;}&#xA;				#wrapper {width: 484px !important;}&#xA;				#liveUpdateCollectionTitle {color: #b3b3b3 !important; background-color: inherit;}&#xA;				.paginationLinks, .pagination, #liveUpdatePagination {color: #b3b3b3 !important; background-color: inherit;}&#xA;				.selectedThumbnail, .thumbnail:hover {background-color: #a1a1a1 !important; color: inherit;}&#xA;				#liveUpdateSiteTitle {color: #b3b3b3 !important; background-color: inherit;}&#xA;				#thumbnailName {color: #b3b3b3 !important; background-color: inherit;}&#xA;				#largeName {color: #b3b3b3 !important; background-color: inherit; margin-top: 10px; margin-left: 7px; margin-right: 7px;}&#xA;				.borderBottom {border-bottom: 1px solid #787878 !important;}&#xA;				.borderRight {border-right: 1px solid #787878 !important;}&#xA;				body {background-color: #4c4c4c !important; color: inherit;}&#xA;			" identityPlateAbsolutePath="" numCols="3" numRows="4" homePage="index.html" imageBase="content" cellColor="#949494">
+</style>
+<metadata>
+<creationDate formatted="Sat May 21 2011 12:57:13 GMT+0200"></creationDate>
+<groupTitle value=""></groupTitle>
+<contactInfo value="" link=""></contactInfo>
+<siteTitle value="Híröshajó KMaxxi"></siteTitle>
+<groupDescription value=""></groupDescription>
+</metadata>
+<localization>
+<item id="AdobeLightroomWebSite" localized="http://labs.adobe.com/technologies/lightroom/"></item>
+<item id="AdobeLightroomBeta" localized="Adobe Lightroom Beta"></item>
+<item id="Fullsize" localized="Fullsize"></item>
+<item id="Next" localized="Next"></item>
+<item id="Previous" localized="Previous"></item>
+<item id="EmptyGallery" localized="There are no images in this gallery."></item>
+<item id="more" localized="more"></item>
+<item id="Index" localized="Index"></item>
+</localization>
+</display>
+<head>
+<siteTitle></siteTitle>
+<collectionName></collectionName>
+<collectionTitle></collectionTitle>
+<collectionDescription></collectionDescription>
+<contactInfo></contactInfo>
+<slideDuration></slideDuration>
+<sizes>
+<size name="large" height="650" width="650"></size>
+<size name="thumb" height="129" width="129"></size>
+</sizes>
+</head>
+<samples totalGallerySize="10" firstSampleIndex="1">
+<img orientation="BC" imageID="0_1305975433923" filename="_9493380634" tipname="%_tempFileName_9493380634%">
+<text>
+<title></title>
+<description>OLYMPUS DIGITAL CAMERA</description>
+</text>
+<rendition path="content/bin/images/large/_9493380634.jpg" height="487" width="650" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_9493380634.jpg" height="96" width="129" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="1_1305975433924" filename="_9695691406" tipname="%_tempFileName_9695691406%">
+<text>
+<title></title>
+<description>OLYMPUS DIGITAL CAMERA</description>
+</text>
+<rendition path="content/bin/images/large/_9695691406.jpg" height="487" width="650" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_9695691406.jpg" height="96" width="129" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="2_1305975433926" filename="_4043151836" tipname="%_tempFileName_4043151836%">
+<text>
+<title></title>
+<description>OLYMPUS DIGITAL CAMERA</description>
+</text>
+<rendition path="content/bin/images/large/_4043151836.jpg" height="487" width="650" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_4043151836.jpg" height="96" width="129" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="3_1305975433927" filename="_7214900255" tipname="%_tempFileName_7214900255%">
+<text>
+<title></title>
+<description>OLYMPUS DIGITAL CAMERA</description>
+</text>
+<rendition path="content/bin/images/large/_7214900255.jpg" height="487" width="650" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_7214900255.jpg" height="96" width="129" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="4_1305975433928" filename="_1423109061" tipname="%_tempFileName_1423109061%">
+<text>
+<title></title>
+<description>OLYMPUS DIGITAL CAMERA</description>
+</text>
+<rendition path="content/bin/images/large/_1423109061.jpg" height="487" width="650" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_1423109061.jpg" height="96" width="129" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="5_1305975433929" filename="_9379403174" tipname="%_tempFileName_9379403174%">
+<text>
+<title></title>
+<description>OLYMPUS DIGITAL CAMERA</description>
+</text>
+<rendition path="content/bin/images/large/_9379403174.jpg" height="487" width="650" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_9379403174.jpg" height="96" width="129" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="6_1305975433930" filename="_5684201375" tipname="%_tempFileName_5684201375%">
+<text>
+<title></title>
+<description>OLYMPUS DIGITAL CAMERA</description>
+</text>
+<rendition path="content/bin/images/large/_5684201375.jpg" height="487" width="650" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_5684201375.jpg" height="96" width="129" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="7_1305975433931" filename="_2935908214" tipname="%_tempFileName_2935908214%">
+<text>
+<title></title>
+<description>OLYMPUS DIGITAL CAMERA</description>
+</text>
+<rendition path="content/bin/images/large/_2935908214.jpg" height="487" width="650" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_2935908214.jpg" height="96" width="129" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="8_1305975433932" filename="_6142798101" tipname="%_tempFileName_6142798101%">
+<text>
+<title></title>
+<description>OLYMPUS DIGITAL CAMERA</description>
+</text>
+<rendition path="content/bin/images/large/_6142798101.jpg" height="487" width="650" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_6142798101.jpg" height="96" width="129" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="9_1305975433933" filename="_7718648384" tipname="%_tempFileName_7718648384%">
+<text>
+<title></title>
+<description>OLYMPUS DIGITAL CAMERA</description>
+</text>
+<rendition path="content/bin/images/large/_7718648384.jpg" height="487" width="650" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_7718648384.jpg" height="96" width="129" size="thumb"></rendition>
+</img>
+</samples>
+<siteParams>
+<firstImage index="1"></firstImage>
+<lastImage index="10"></lastImage>
+<mode value="all"></mode>
+</siteParams>
+</photoCollection>
+</file>
+<file name="content/130597543392191531_custom.css">
+				#previewFull {background-color: #666666 !important; width: 680px !important; color: inherit}
+				#liveUpdateContactInfo {color: #b3b3b3 !important; background-color: inherit;}
+				.borderRightDotted {border-right: 1px dotted #787878 !important;}
+				.logo {display: none !important;}
+				#liveUpdateCollectionDescription {color: #b3b3b3 !important; background-color: inherit;}
+				.detailNav, .detailLinks, #detailCaption, #detailTitle {color: #b3b3b3 !important; background-color: inherit;}
+				.emptyThumbnail {background-color: #949494 !important; color: inherit;}
+				.thumbnail {background-color: #949494 !important; color: inherit;}
+				.previewFullImage {height: 650px !important; width: 680px !important;}
+				#stage2 {width: 680px !important;}
+				.itemNumber {display: inherit !important; color: #9c9c9c !important; background-color: inherit;}
+				#content {background-color: #4c4c4c !important; color: inherit;}
+				.borderTopLeft {border-top: 1px solid #787878 !important; border-left: 1px solid #787878 !important;}
+				#stage {width: 484px !important;}
+				.caption {color: #b3b3b3 !important; background-color: inherit;}
+				#wrapper2 {width: 680px !important;}
+				.borderBottomRight {border-right: 1px solid #787878 !important; border-bottom: 1px solid #787878 !important;}
+				#wrapper {width: 484px !important;}
+				#liveUpdateCollectionTitle {color: #b3b3b3 !important; background-color: inherit;}
+				.paginationLinks, .pagination, #liveUpdatePagination {color: #b3b3b3 !important; background-color: inherit;}
+				.selectedThumbnail, .thumbnail:hover {background-color: #a1a1a1 !important; color: inherit;}
+				#liveUpdateSiteTitle {color: #b3b3b3 !important; background-color: inherit;}
+				#thumbnailName {color: #b3b3b3 !important; background-color: inherit;}
+				#largeName {color: #b3b3b3 !important; background-color: inherit; margin-top: 10px; margin-left: 7px; margin-right: 7px;}
+				.borderBottom {border-bottom: 1px solid #787878 !important;}
+				.borderRight {border-right: 1px solid #787878 !important;}
+				body {background-color: #4c4c4c !important; color: inherit;}
+			</file>
+<file doctype-system="http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" doctype-public="-//W3C//DTD XHTML 1.1//EN" name="index.html">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="KEYWORDS" content="photography,software,photos,digital darkroom,gallery,image,photographer" />
+<meta name="generator" content="Adobe Lightroom" />
+<title>Híröshajó KMaxxi</title>
+<link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="content/130597543392191531_custom.css" />
+<link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="resources/css/master.css" />
+<script type="text/javascript">
+	  window.AgMode = "publish";
+      cellRolloverColor="#a1a1a1";
+      cellColor="#949494";
+      </script>
+<script type="text/javascript" src="resources/js/liveUpdate.js">
+<!--padding for ie-->
+</script>
+<script type="text/javascript" src="resources/js/cutName.js">
+<!--padding for ie-->
+</script>
+<!--[if lt IE 7.]> <script defer type="text/javascript" src="resources/js/pngfix.js"></script> <![endif]-->
+<!--[if gt IE 6]> <link rel="stylesheet" href="resources/css/ie7.css"></link> <![endif]-->
+<!--[if lt IE 7.]> <link rel="stylesheet" href="resources/css/ie6.css"></link> <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+<div id="sitetitle">
+<h1 onclick="clickTarget( this, 'siteTitle.text' );" id="liveUpdateSiteTitle">Híröshajó KMaxxi</h1>
+</div>
+<div id="collectionHeader">
+<h1 onclick="clickTarget( this, 'groupTitle.text' );" id="liveUpdateCollectionTitle"></h1>
+<p onclick="clickTarget( this, 'groupDescription.text' );" id="liveUpdateCollectionDescription"></p>
+</div>
+<div id="stage">
+<div id="index">
+<div id="tempDiv" xmlns=""><!--padding for OS X 10.6-->
+</div>
+<script type="text/javascript">
+		var nameDiv = document.getElementById("tempDiv");
+		var thumbnailName = getName(nameDiv.innerHTML);
+		try {
+			nameDiv.parentNode.removeChild(nameDiv);
+		} catch (e) {}
+	</script>
+<div class="thumbnail borderTopLeft   " onclick="window.location.href='content/_9493380634_large.html'">
+<div class="itemNumber">1</div>
+<div onmouseover="window.gridOn( this.parentNode, 'ID0_1305975433923_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+<div class="alignmentOuter2">
+<div class="alignmentMiddle">
+<div class="alignmentInner">
+<div class="AdjustZIndex">
+<a href="content/_9493380634_large.html" onclick="return needThumbImgLink;">
+<img src="content/bin/images/thumb/_9493380634.jpg" id="ID0_1305975433923_thumb" alt="%_tempFileName_9493380634%" />
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="tempDiv" xmlns=""><!--padding for OS X 10.6-->
+</div>
+<script type="text/javascript">
+		var nameDiv = document.getElementById("tempDiv");
+		var thumbnailName = getName(nameDiv.innerHTML);
+		try {
+			nameDiv.parentNode.removeChild(nameDiv);
+		} catch (e) {}
+	</script>
+<div class="thumbnail borderTopLeft   " onclick="window.location.href='content/_9695691406_large.html'">
+<div class="itemNumber">2</div>
+<div onmouseover="window.gridOn( this.parentNode, 'ID1_1305975433924_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+<div class="alignmentOuter2">
+<div class="alignmentMiddle">
+<div class="alignmentInner">
+<div class="AdjustZIndex">
+<a href="content/_9695691406_large.html" onclick="return needThumbImgLink;">
+<img src="content/bin/images/thumb/_9695691406.jpg" id="ID1_1305975433924_thumb" alt="%_tempFileName_9695691406%" />
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="tempDiv" xmlns=""><!--padding for OS X 10.6-->
+</div>
+<script type="text/javascript">
+		var nameDiv = document.getElementById("tempDiv");
+		var thumbnailName = getName(nameDiv.innerHTML);
+		try {
+			nameDiv.parentNode.removeChild(nameDiv);
+		} catch (e) {}
+	</script>
+<div class="thumbnail borderTopLeft borderRight  " onclick="window.location.href='content/_4043151836_large.html'">
+<div class="itemNumber">3</div>
+<div onmouseover="window.gridOn( this.parentNode, 'ID2_1305975433926_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+<div class="alignmentOuter2">
+<div class="alignmentMiddle">
+<div class="alignmentInner">
+<div class="AdjustZIndex">
+<a href="content/_4043151836_large.html" onclick="return needThumbImgLink;">
+<img src="content/bin/images/thumb/_4043151836.jpg" id="ID2_1305975433926_thumb" alt="%_tempFileName_4043151836%" />
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="clear">
+<!--padding for ie-->
+</div>
+<div id="tempDiv" xmlns=""><!--padding for OS X 10.6-->
+</div>
+<script type="text/javascript">
+		var nameDiv = document.getElementById("tempDiv");
+		var thumbnailName = getName(nameDiv.innerHTML);
+		try {
+			nameDiv.parentNode.removeChild(nameDiv);
+		} catch (e) {}
+	</script>
+<div class="thumbnail borderTopLeft   " onclick="window.location.href='content/_7214900255_large.html'">
+<div class="itemNumber">4</div>
+<div onmouseover="window.gridOn( this.parentNode, 'ID3_1305975433927_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+<div class="alignmentOuter2">
+<div class="alignmentMiddle">
+<div class="alignmentInner">
+<div class="AdjustZIndex">
+<a href="content/_7214900255_large.html" onclick="return needThumbImgLink;">
+<img src="content/bin/images/thumb/_7214900255.jpg" id="ID3_1305975433927_thumb" alt="%_tempFileName_7214900255%" />
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="tempDiv" xmlns=""><!--padding for OS X 10.6-->
+</div>
+<script type="text/javascript">
+		var nameDiv = document.getElementById("tempDiv");
+		var thumbnailName = getName(nameDiv.innerHTML);
+		try {
+			nameDiv.parentNode.removeChild(nameDiv);
+		} catch (e) {}
+	</script>
+<div class="thumbnail borderTopLeft   " onclick="window.location.href='content/_1423109061_large.html'">
+<div class="itemNumber">5</div>
+<div onmouseover="window.gridOn( this.parentNode, 'ID4_1305975433928_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+<div class="alignmentOuter2">
+<div class="alignmentMiddle">
+<div class="alignmentInner">
+<div class="AdjustZIndex">
+<a href="content/_1423109061_large.html" onclick="return needThumbImgLink;">
+<img src="content/bin/images/thumb/_1423109061.jpg" id="ID4_1305975433928_thumb" alt="%_tempFileName_1423109061%" />
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="tempDiv" xmlns=""><!--padding for OS X 10.6-->
+</div>
+<script type="text/javascript">
+		var nameDiv = document.getElementById("tempDiv");
+		var thumbnailName = getName(nameDiv.innerHTML);
+		try {
+			nameDiv.parentNode.removeChild(nameDiv);
+		} catch (e) {}
+	</script>
+<div class="thumbnail borderTopLeft borderRight  " onclick="window.location.href='content/_9379403174_large.html'">
+<div class="itemNumber">6</div>
+<div onmouseover="window.gridOn( this.parentNode, 'ID5_1305975433929_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+<div class="alignmentOuter2">
+<div class="alignmentMiddle">
+<div class="alignmentInner">
+<div class="AdjustZIndex">
+<a href="content/_9379403174_large.html" onclick="return needThumbImgLink;">
+<img src="content/bin/images/thumb/_9379403174.jpg" id="ID5_1305975433929_thumb" alt="%_tempFileName_9379403174%" />
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="clear">
+<!--padding for ie-->
+</div>
+<div id="tempDiv" xmlns=""><!--padding for OS X 10.6-->
+</div>
+<script type="text/javascript">
+		var nameDiv = document.getElementById("tempDiv");
+		var thumbnailName = getName(nameDiv.innerHTML);
+		try {
+			nameDiv.parentNode.removeChild(nameDiv);
+		} catch (e) {}
+	</script>
+<div class="thumbnail borderTopLeft   " onclick="window.location.href='content/_5684201375_large.html'">
+<div class="itemNumber">7</div>
+<div onmouseover="window.gridOn( this.parentNode, 'ID6_1305975433930_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+<div class="alignmentOuter2">
+<div class="alignmentMiddle">
+<div class="alignmentInner">
+<div class="AdjustZIndex">
+<a href="content/_5684201375_large.html" onclick="return needThumbImgLink;">
+<img src="content/bin/images/thumb/_5684201375.jpg" id="ID6_1305975433930_thumb" alt="%_tempFileName_5684201375%" />
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="tempDiv" xmlns=""><!--padding for OS X 10.6-->
+</div>
+<script type="text/javascript">
+		var nameDiv = document.getElementById("tempDiv");
+		var thumbnailName = getName(nameDiv.innerHTML);
+		try {
+			nameDiv.parentNode.removeChild(nameDiv);
+		} catch (e) {}
+	</script>
+<div class="thumbnail borderTopLeft   " onclick="window.location.href='content/_2935908214_large.html'">
+<div class="itemNumber">8</div>
+<div onmouseover="window.gridOn( this.parentNode, 'ID7_1305975433931_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+<div class="alignmentOuter2">
+<div class="alignmentMiddle">
+<div class="alignmentInner">
+<div class="AdjustZIndex">
+<a href="content/_2935908214_large.html" onclick="return needThumbImgLink;">
+<img src="content/bin/images/thumb/_2935908214.jpg" id="ID7_1305975433931_thumb" alt="%_tempFileName_2935908214%" />
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="tempDiv" xmlns=""><!--padding for OS X 10.6-->
+</div>
+<script type="text/javascript">
+		var nameDiv = document.getElementById("tempDiv");
+		var thumbnailName = getName(nameDiv.innerHTML);
+		try {
+			nameDiv.parentNode.removeChild(nameDiv);
+		} catch (e) {}
+	</script>
+<div class="thumbnail borderTopLeft borderRight  " onclick="window.location.href='content/_6142798101_large.html'">
+<div class="itemNumber">9</div>
+<div onmouseover="window.gridOn( this.parentNode, 'ID8_1305975433932_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+<div class="alignmentOuter2">
+<div class="alignmentMiddle">
+<div class="alignmentInner">
+<div class="AdjustZIndex">
+<a href="content/_6142798101_large.html" onclick="return needThumbImgLink;">
+<img src="content/bin/images/thumb/_6142798101.jpg" id="ID8_1305975433932_thumb" alt="%_tempFileName_6142798101%" />
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="clear">
+<!--padding for ie-->
+</div>
+<div id="tempDiv" xmlns=""><!--padding for OS X 10.6-->
+</div>
+<script type="text/javascript">
+		var nameDiv = document.getElementById("tempDiv");
+		var thumbnailName = getName(nameDiv.innerHTML);
+		try {
+			nameDiv.parentNode.removeChild(nameDiv);
+		} catch (e) {}
+	</script>
+<div class="thumbnail borderTopLeft  borderBottom " onclick="window.location.href='content/_7718648384_large.html'">
+<div class="itemNumber">10</div>
+<div onmouseover="window.gridOn( this.parentNode, 'ID9_1305975433933_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+<div class="alignmentOuter2">
+<div class="alignmentMiddle">
+<div class="alignmentInner">
+<div class="AdjustZIndex">
+<a href="content/_7718648384_large.html" onclick="return needThumbImgLink;">
+<img src="content/bin/images/thumb/_7718648384.jpg" id="ID9_1305975433933_thumb" alt="%_tempFileName_7718648384%" />
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="emptyThumbnail borderTopLeft  borderBottom"> </div>
+<div class="emptyThumbnail borderTopLeft borderRight borderBottom"> </div>
+<div class="clear">
+<!--padding for ie-->
+</div>
+</div>
+</div>
+<div class="clear">
+<!--padding for ie-->
+</div>
+<div id="contact">
+<a href="">
+<span onclick="clickTarget( this, 'contactInfo.text' );" id="liveUpdateContactInfo"></span></a>
+</div>
+<div class="clear">
+<!--padding for ie-->
+</div>
+</div>
+</body>
+</html>
+</file>
+<file doctype-system="http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" doctype-public="-//W3C//DTD XHTML 1.1//EN" name="content/index.html">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="KEYWORDS" content="photography,software,photos,digital darkroom,gallery,image,photographer" />
+<meta name="generator" content="Adobe Lightroom" />
+<title>Híröshajó KMaxxi</title>
+<link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="130597543392191531_custom.css" />
+<link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="../resources/css/master.css" />
+<script type="text/javascript">
+	  window.AgMode = "publish";
+      cellRolloverColor="#a1a1a1";
+      cellColor="#949494";
+      </script>
+<script type="text/javascript" src="../resources/js/liveUpdate.js">
+<!--padding for ie-->
+</script>
+<script type="text/javascript" src="../resources/js/cutName.js">
+<!--padding for ie-->
+</script>
+<!--[if lt IE 7.]> <script defer type="text/javascript" src="../resources/js/pngfix.js"></script> <![endif]-->
+<!--[if gt IE 6]> <link rel="stylesheet" href="../resources/css/ie7.css"></link> <![endif]-->
+<!--[if lt IE 7.]> <link rel="stylesheet" href="../resources/css/ie6.css"></link> <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+<div id="sitetitle">
+<h1 onclick="clickTarget( this, 'siteTitle.text' );" id="liveUpdateSiteTitle">Híröshajó KMaxxi</h1>
+</div>
+<div id="collectionHeader">
+<h1 onclick="clickTarget( this, 'groupTitle.text' );" id="liveUpdateCollectionTitle"></h1>
+<p onclick="clickTarget( this, 'groupDescription.text' );" id="liveUpdateCollectionDescription"></p>
+</div>
+<div id="stage">
+<div id="index">
+<div id="tempDiv" xmlns=""><!--padding for OS X 10.6-->
+</div>
+<script type="text/javascript">
+		var nameDiv = document.getElementById("tempDiv");
+		var thumbnailName = getName(nameDiv.innerHTML);
+		try {
+			nameDiv.parentNode.removeChild(nameDiv);
+		} catch (e) {}
+	</script>
+<div class="thumbnail borderTopLeft   " onclick="window.location.href='_9493380634_large.html'">
+<div class="itemNumber">1</div>
+<div onmouseover="window.gridOn( this.parentNode, 'ID0_1305975433923_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+<div class="alignmentOuter2">
+<div class="alignmentMiddle">
+<div class="alignmentInner">
+<div class="AdjustZIndex">
+<a href="_9493380634_large.html" onclick="return needThumbImgLink;">
+<img src="../content/bin/images/thumb/_9493380634.jpg" id="ID0_1305975433923_thumb" alt="%_tempFileName_9493380634%" />
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="tempDiv" xmlns=""><!--padding for OS X 10.6-->
+</div>
+<script type="text/javascript">
+		var nameDiv = document.getElementById("tempDiv");
+		var thumbnailName = getName(nameDiv.innerHTML);
+		try {
+			nameDiv.parentNode.removeChild(nameDiv);
+		} catch (e) {}
+	</script>
+<div class="thumbnail borderTopLeft   " onclick="window.location.href='_9695691406_large.html'">
+<div class="itemNumber">2</div>
+<div onmouseover="window.gridOn( this.parentNode, 'ID1_1305975433924_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+<div class="alignmentOuter2">
+<div class="alignmentMiddle">
+<div class="alignmentInner">
+<div class="AdjustZIndex">
+<a href="_9695691406_large.html" onclick="return needThumbImgLink;">
+<img src="../content/bin/images/thumb/_9695691406.jpg" id="ID1_1305975433924_thumb" alt="%_tempFileName_9695691406%" />
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="tempDiv" xmlns=""><!--padding for OS X 10.6-->
+</div>
+<script type="text/javascript">
+		var nameDiv = document.getElementById("tempDiv");
+		var thumbnailName = getName(nameDiv.innerHTML);
+		try {
+			nameDiv.parentNode.removeChild(nameDiv);
+		} catch (e) {}
+	</script>
+<div class="thumbnail borderTopLeft borderRight  " onclick="window.location.href='_4043151836_large.html'">
+<div class="itemNumber">3</div>
+<div onmouseover="window.gridOn( this.parentNode, 'ID2_1305975433926_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+<div class="alignmentOuter2">
+<div class="alignmentMiddle">
+<div class="alignmentInner">
+<div class="AdjustZIndex">
+<a href="_4043151836_large.html" onclick="return needThumbImgLink;">
+<img src="../content/bin/images/thumb/_4043151836.jpg" id="ID2_1305975433926_thumb" alt="%_tempFileName_4043151836%" />
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="clear">
+<!--padding for ie-->
+</div>
+<div id="tempDiv" xmlns=""><!--padding for OS X 10.6-->
+</div>
+<script type="text/javascript">
+		var nameDiv = document.getElementById("tempDiv");
+		var thumbnailName = getName(nameDiv.innerHTML);
+		try {
+			nameDiv.parentNode.removeChild(nameDiv);
+		} catch (e) {}
+	</script>
+<div class="thumbnail borderTopLeft   " onclick="window.location.href='_7214900255_large.html'">
+<div class="itemNumber">4</div>
+<div onmouseover="window.gridOn( this.parentNode, 'ID3_1305975433927_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+<div class="alignmentOuter2">
+<div class="alignmentMiddle">
+<div class="alignmentInner">
+<div class="AdjustZIndex">
+<a href="_7214900255_large.html" onclick="return needThumbImgLink;">
+<img src="../content/bin/images/thumb/_7214900255.jpg" id="ID3_1305975433927_thumb" alt="%_tempFileName_7214900255%" />
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="tempDiv" xmlns=""><!--padding for OS X 10.6-->
+</div>
+<script type="text/javascript">
+		var nameDiv = document.getElementById("tempDiv");
+		var thumbnailName = getName(nameDiv.innerHTML);
+		try {
+			nameDiv.parentNode.removeChild(nameDiv);
+		} catch (e) {}
+	</script>
+<div class="thumbnail borderTopLeft   " onclick="window.location.href='_1423109061_large.html'">
+<div class="itemNumber">5</div>
+<div onmouseover="window.gridOn( this.parentNode, 'ID4_1305975433928_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+<div class="alignmentOuter2">
+<div class="alignmentMiddle">
+<div class="alignmentInner">
+<div class="AdjustZIndex">
+<a href="_1423109061_large.html" onclick="return needThumbImgLink;">
+<img src="../content/bin/images/thumb/_1423109061.jpg" id="ID4_1305975433928_thumb" alt="%_tempFileName_1423109061%" />
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="tempDiv" xmlns=""><!--padding for OS X 10.6-->
+</div>
+<script type="text/javascript">
+		var nameDiv = document.getElementById("tempDiv");
+		var thumbnailName = getName(nameDiv.innerHTML);
+		try {
+			nameDiv.parentNode.removeChild(nameDiv);
+		} catch (e) {}
+	</script>
+<div class="thumbnail borderTopLeft borderRight  " onclick="window.location.href='_9379403174_large.html'">
+<div class="itemNumber">6</div>
+<div onmouseover="window.gridOn( this.parentNode, 'ID5_1305975433929_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+<div class="alignmentOuter2">
+<div class="alignmentMiddle">
+<div class="alignmentInner">
+<div class="AdjustZIndex">
+<a href="_9379403174_large.html" onclick="return needThumbImgLink;">
+<img src="../content/bin/images/thumb/_9379403174.jpg" id="ID5_1305975433929_thumb" alt="%_tempFileName_9379403174%" />
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="clear">
+<!--padding for ie-->
+</div>
+<div id="tempDiv" xmlns=""><!--padding for OS X 10.6-->
+</div>
+<script type="text/javascript">
+		var nameDiv = document.getElementById("tempDiv");
+		var thumbnailName = getName(nameDiv.innerHTML);
+		try {
+			nameDiv.parentNode.removeChild(nameDiv);
+		} catch (e) {}
+	</script>
+<div class="thumbnail borderTopLeft   " onclick="window.location.href='_5684201375_large.html'">
+<div class="itemNumber">7</div>
+<div onmouseover="window.gridOn( this.parentNode, 'ID6_1305975433930_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+<div class="alignmentOuter2">
+<div class="alignmentMiddle">
+<div class="alignmentInner">
+<div class="AdjustZIndex">
+<a href="_5684201375_large.html" onclick="return needThumbImgLink;">
+<img src="../content/bin/images/thumb/_5684201375.jpg" id="ID6_1305975433930_thumb" alt="%_tempFileName_5684201375%" />
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="tempDiv" xmlns=""><!--padding for OS X 10.6-->
+</div>
+<script type="text/javascript">
+		var nameDiv = document.getElementById("tempDiv");
+		var thumbnailName = getName(nameDiv.innerHTML);
+		try {
+			nameDiv.parentNode.removeChild(nameDiv);
+		} catch (e) {}
+	</script>
+<div class="thumbnail borderTopLeft   " onclick="window.location.href='_2935908214_large.html'">
+<div class="itemNumber">8</div>
+<div onmouseover="window.gridOn( this.parentNode, 'ID7_1305975433931_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+<div class="alignmentOuter2">
+<div class="alignmentMiddle">
+<div class="alignmentInner">
+<div class="AdjustZIndex">
+<a href="_2935908214_large.html" onclick="return needThumbImgLink;">
+<img src="../content/bin/images/thumb/_2935908214.jpg" id="ID7_1305975433931_thumb" alt="%_tempFileName_2935908214%" />
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="tempDiv" xmlns=""><!--padding for OS X 10.6-->
+</div>
+<script type="text/javascript">
+		var nameDiv = document.getElementById("tempDiv");
+		var thumbnailName = getName(nameDiv.innerHTML);
+		try {
+			nameDiv.parentNode.removeChild(nameDiv);
+		} catch (e) {}
+	</script>
+<div class="thumbnail borderTopLeft borderRight  " onclick="window.location.href='_6142798101_large.html'">
+<div class="itemNumber">9</div>
+<div onmouseover="window.gridOn( this.parentNode, 'ID8_1305975433932_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+<div class="alignmentOuter2">
+<div class="alignmentMiddle">
+<div class="alignmentInner">
+<div class="AdjustZIndex">
+<a href="_6142798101_large.html" onclick="return needThumbImgLink;">
+<img src="../content/bin/images/thumb/_6142798101.jpg" id="ID8_1305975433932_thumb" alt="%_tempFileName_6142798101%" />
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="clear">
+<!--padding for ie-->
+</div>
+<div id="tempDiv" xmlns=""><!--padding for OS X 10.6-->
+</div>
+<script type="text/javascript">
+		var nameDiv = document.getElementById("tempDiv");
+		var thumbnailName = getName(nameDiv.innerHTML);
+		try {
+			nameDiv.parentNode.removeChild(nameDiv);
+		} catch (e) {}
+	</script>
+<div class="thumbnail borderTopLeft  borderBottom " onclick="window.location.href='_7718648384_large.html'">
+<div class="itemNumber">10</div>
+<div onmouseover="window.gridOn( this.parentNode, 'ID9_1305975433933_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+<div class="alignmentOuter2">
+<div class="alignmentMiddle">
+<div class="alignmentInner">
+<div class="AdjustZIndex">
+<a href="_7718648384_large.html" onclick="return needThumbImgLink;">
+<img src="../content/bin/images/thumb/_7718648384.jpg" id="ID9_1305975433933_thumb" alt="%_tempFileName_7718648384%" />
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="emptyThumbnail borderTopLeft  borderBottom"> </div>
+<div class="emptyThumbnail borderTopLeft borderRight borderBottom"> </div>
+<div class="clear">
+<!--padding for ie-->
+</div>
+</div>
+</div>
+<div class="clear">
+<!--padding for ie-->
+</div>
+<div id="contact">
+<a href="">
+<span onclick="clickTarget( this, 'contactInfo.text' );" id="liveUpdateContactInfo"></span></a>
+</div>
+<div class="clear">
+<!--padding for ie-->
+</div>
+</div>
+</body>
+</html>
+</file>
+<file doctype-system="http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" doctype-public="-//W3C//DTD XHTML 1.1//EN" name="content/_9493380634_large.html">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="Adobe Lightroom" />
+<title>Híröshajó KMaxxi</title>
+<link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="130597543392191531_custom.css" />
+<link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="../resources/css/master.css" />
+<script type="text/javascript">
+	  window.AgMode = "publish";
+      cellRolloverColor="#a1a1a1";
+      cellColor="#949494";
+      
+      window.AgOnLoad = function() {
+                        tellLightroomWhatImagesWeAreUsing(); 
+                        callCallback( "showInPhotoBin", "0_1305975433923" );callCallback( "setActiveImageSize", "large" );
+                }
+      </script>
+<script type="text/javascript" src="../resources/js/liveUpdate.js">
+<!--padding for ie-->
+</script>
+<script type="text/javascript" src="../resources/js/cutName.js">
+<!--padding for ie-->
+</script>
+<!--[if lt IE 7.]> <script defer type="text/javascript"
+            src="../resources/js/pngfix.js"></script> <![endif]-->
+<!--[if gt IE 6]> <link rel="stylesheet" href="../resources/css/ie7.css"></link> <![endif]-->
+<!--[if lt IE 7.]> <link rel="stylesheet" href="../resources/css/ie6.css"></link> <![endif]-->
+</head>
+<body>
+<div id="wrapper2">
+<div id="sitetitle">
+<h1 onclick="clickTarget( this, 'siteTitle.text' );" id="liveUpdateSiteTitle">Híröshajó KMaxxi</h1>
+</div>
+<div id="collectionHeader">
+<h1 onclick="clickTarget( this, 'groupTitle.text' );" id="liveUpdateCollectionTitle"></h1>
+<p onclick="clickTarget( this, 'groupDescription.text' );" id="liveUpdateCollectionDescription"></p>
+</div>
+<div id="stage2">
+<div id="previewFull" class="borderTopLeft borderBottomRight">
+<div id="detailTitle" onclick="clickTarget( this, 'perImageSetting-title', 'ID0_1305975433923' );"> </div>
+<div class="detailNav">
+<ul>
+<li class="previous">Previous</li>
+<li class="index">
+<a href="index.html" class="detailLinks">Index</a>
+</li>
+<li class="next">
+<a class="detailLinks" href="_9695691406_large.html">Next</a>
+</li>
+</ul>
+</div>
+<div id="tempDiv"><!--padding for OS X 10.6-->
+</div>
+<div id="tempWidth"><!--padding for OS X 10.6-->
+</div>
+<script type="text/javascript">
+			var nameDiv = document.getElementById("tempDiv");
+			var widthDiv = document.getElementById("tempWidth");
+			var width = parseInt(widthDiv.innerHTML, 10);
+			var largeName = addSpace(nameDiv.innerHTML, width - 14);
+			try {
+				nameDiv.parentNode.removeChild(nameDiv);
+				widthDiv.parentNode.removeChild(widthDiv);
+			} catch (e) {}
+		</script>
+<div id="detailImage">
+<a href="index.html">
+<img src="../content/bin/images/large/_9493380634.jpg" width="650" height="487" id="ID0_1305975433923" alt="%_tempFileName_9493380634%" />
+</a>
+</div>
+<div id="detailCaption" onclick="clickTarget( this, 'perImageSetting-description', 'ID0_1305975433923' );"> OLYMPUS DIGITAL CAMERA</div>
+</div>
+</div>
+<div class="clear">
+<!--padding for ie-->
+</div>
+<div id="contact">
+<a href="">
+<span onclick="clickTarget( this, 'contactInfo.text' );" id="liveUpdateContactInfo"></span></a>
+</div>
+<div class="clear">
+<!--padding for ie-->
+</div>
+</div>
+</body>
+</html>
+</file>
+<file doctype-system="http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" doctype-public="-//W3C//DTD XHTML 1.1//EN" name="content/_9695691406_large.html">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="Adobe Lightroom" />
+<title>Híröshajó KMaxxi</title>
+<link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="130597543392191531_custom.css" />
+<link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="../resources/css/master.css" />
+<script type="text/javascript">
+	  window.AgMode = "publish";
+      cellRolloverColor="#a1a1a1";
+      cellColor="#949494";
+      
+      window.AgOnLoad = function() {
+                        tellLightroomWhatImagesWeAreUsing(); 
+                        callCallback( "showInPhotoBin", "1_1305975433924" );callCallback( "setActiveImageSize", "large" );
+                }
+      </script>
+<script type="text/javascript" src="../resources/js/liveUpdate.js">
+<!--padding for ie-->
+</script>
+<script type="text/javascript" src="../resources/js/cutName.js">
+<!--padding for ie-->
+</script>
+<!--[if lt IE 7.]> <script defer type="text/javascript"
+            src="../resources/js/pngfix.js"></script> <![endif]-->
+<!--[if gt IE 6]> <link rel="stylesheet" href="../resources/css/ie7.css"></link> <![endif]-->
+<!--[if lt IE 7.]> <link rel="stylesheet" href="../resources/css/ie6.css"></link> <![endif]-->
+</head>
+<body>
+<div id="wrapper2">
+<div id="sitetitle">
+<h1 onclick="clickTarget( this, 'siteTitle.text' );" id="liveUpdateSiteTitle">Híröshajó KMaxxi</h1>
+</div>
+<div id="collectionHeader">
+<h1 onclick="clickTarget( this, 'groupTitle.text' );" id="liveUpdateCollectionTitle"></h1>
+<p onclick="clickTarget( this, 'groupDescription.text' );" id="liveUpdateCollectionDescription"></p>
+</div>
+<div id="stage2">
+<div id="previewFull" class="borderTopLeft borderBottomRight">
+<div id="detailTitle" onclick="clickTarget( this, 'perImageSetting-title', 'ID1_1305975433924' );"> </div>
+<div class="detailNav">
+<ul>
+<li class="previous">
+<a class="detailLinks" href="_9493380634_large.html">Previous</a>
+</li>
+<li class="index">
+<a href="index.html" class="detailLinks">Index</a>
+</li>
+<li class="next">
+<a class="detailLinks" href="_4043151836_large.html">Next</a>
+</li>
+</ul>
+</div>
+<div id="tempDiv"><!--padding for OS X 10.6-->
+</div>
+<div id="tempWidth"><!--padding for OS X 10.6-->
+</div>
+<script type="text/javascript">
+			var nameDiv = document.getElementById("tempDiv");
+			var widthDiv = document.getElementById("tempWidth");
+			var width = parseInt(widthDiv.innerHTML, 10);
+			var largeName = addSpace(nameDiv.innerHTML, width - 14);
+			try {
+				nameDiv.parentNode.removeChild(nameDiv);
+				widthDiv.parentNode.removeChild(widthDiv);
+			} catch (e) {}
+		</script>
+<div id="detailImage">
+<a href="index.html">
+<img src="../content/bin/images/large/_9695691406.jpg" width="650" height="487" id="ID1_1305975433924" alt="%_tempFileName_9695691406%" />
+</a>
+</div>
+<div id="detailCaption" onclick="clickTarget( this, 'perImageSetting-description', 'ID1_1305975433924' );"> OLYMPUS DIGITAL CAMERA</div>
+</div>
+</div>
+<div class="clear">
+<!--padding for ie-->
+</div>
+<div id="contact">
+<a href="">
+<span onclick="clickTarget( this, 'contactInfo.text' );" id="liveUpdateContactInfo"></span></a>
+</div>
+<div class="clear">
+<!--padding for ie-->
+</div>
+</div>
+</body>
+</html>
+</file>
+<file doctype-system="http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" doctype-public="-//W3C//DTD XHTML 1.1//EN" name="content/_4043151836_large.html">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="Adobe Lightroom" />
+<title>Híröshajó KMaxxi</title>
+<link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="130597543392191531_custom.css" />
+<link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="../resources/css/master.css" />
+<script type="text/javascript">
+	  window.AgMode = "publish";
+      cellRolloverColor="#a1a1a1";
+      cellColor="#949494";
+      
+      window.AgOnLoad = function() {
+                        tellLightroomWhatImagesWeAreUsing(); 
+                        callCallback( "showInPhotoBin", "2_1305975433926" );callCallback( "setActiveImageSize", "large" );
+                }
+      </script>
+<script type="text/javascript" src="../resources/js/liveUpdate.js">
+<!--padding for ie-->
+</script>
+<script type="text/javascript" src="../resources/js/cutName.js">
+<!--padding for ie-->
+</script>
+<!--[if lt IE 7.]> <script defer type="text/javascript"
+            src="../resources/js/pngfix.js"></script> <![endif]-->
+<!--[if gt IE 6]> <link rel="stylesheet" href="../resources/css/ie7.css"></link> <![endif]-->
+<!--[if lt IE 7.]> <link rel="stylesheet" href="../resources/css/ie6.css"></link> <![endif]-->
+</head>
+<body>
+<div id="wrapper2">
+<div id="sitetitle">
+<h1 onclick="clickTarget( this, 'siteTitle.text' );" id="liveUpdateSiteTitle">Híröshajó KMaxxi</h1>
+</div>
+<div id="collectionHeader">
+<h1 onclick="clickTarget( this, 'groupTitle.text' );" id="liveUpdateCollectionTitle"></h1>
+<p onclick="clickTarget( this, 'groupDescription.text' );" id="liveUpdateCollectionDescription"></p>
+</div>
+<div id="stage2">
+<div id="previewFull" class="borderTopLeft borderBottomRight">
+<div id="detailTitle" onclick="clickTarget( this, 'perImageSetting-title', 'ID2_1305975433926' );"> </div>
+<div class="detailNav">
+<ul>
+<li class="previous">
+<a class="detailLinks" href="_9695691406_large.html">Previous</a>
+</li>
+<li class="index">
+<a href="index.html" class="detailLinks">Index</a>
+</li>
+<li class="next">
+<a class="detailLinks" href="_7214900255_large.html">Next</a>
+</li>
+</ul>
+</div>
+<div id="tempDiv"><!--padding for OS X 10.6-->
+</div>
+<div id="tempWidth"><!--padding for OS X 10.6-->
+</div>
+<script type="text/javascript">
+			var nameDiv = document.getElementById("tempDiv");
+			var widthDiv = document.getElementById("tempWidth");
+			var width = parseInt(widthDiv.innerHTML, 10);
+			var largeName = addSpace(nameDiv.innerHTML, width - 14);
+			try {
+				nameDiv.parentNode.removeChild(nameDiv);
+				widthDiv.parentNode.removeChild(widthDiv);
+			} catch (e) {}
+		</script>
+<div id="detailImage">
+<a href="index.html">
+<img src="../content/bin/images/large/_4043151836.jpg" width="650" height="487" id="ID2_1305975433926" alt="%_tempFileName_4043151836%" />
+</a>
+</div>
+<div id="detailCaption" onclick="clickTarget( this, 'perImageSetting-description', 'ID2_1305975433926' );"> OLYMPUS DIGITAL CAMERA</div>
+</div>
+</div>
+<div class="clear">
+<!--padding for ie-->
+</div>
+<div id="contact">
+<a href="">
+<span onclick="clickTarget( this, 'contactInfo.text' );" id="liveUpdateContactInfo"></span></a>
+</div>
+<div class="clear">
+<!--padding for ie-->
+</div>
+</div>
+</body>
+</html>
+</file>
+<file doctype-system="http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" doctype-public="-//W3C//DTD XHTML 1.1//EN" name="content/_7214900255_large.html">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="Adobe Lightroom" />
+<title>Híröshajó KMaxxi</title>
+<link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="130597543392191531_custom.css" />
+<link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="../resources/css/master.css" />
+<script type="text/javascript">
+	  window.AgMode = "publish";
+      cellRolloverColor="#a1a1a1";
+      cellColor="#949494";
+      
+      window.AgOnLoad = function() {
+                        tellLightroomWhatImagesWeAreUsing(); 
+                        callCallback( "showInPhotoBin", "3_1305975433927" );callCallback( "setActiveImageSize", "large" );
+                }
+      </script>
+<script type="text/javascript" src="../resources/js/liveUpdate.js">
+<!--padding for ie-->
+</script>
+<script type="text/javascript" src="../resources/js/cutName.js">
+<!--padding for ie-->
+</script>
+<!--[if lt IE 7.]> <script defer type="text/javascript"
+            src="../resources/js/pngfix.js"></script> <![endif]-->
+<!--[if gt IE 6]> <link rel="stylesheet" href="../resources/css/ie7.css"></link> <![endif]-->
+<!--[if lt IE 7.]> <link rel="stylesheet" href="../resources/css/ie6.css"></link> <![endif]-->
+</head>
+<body>
+<div id="wrapper2">
+<div id="sitetitle">
+<h1 onclick="clickTarget( this, 'siteTitle.text' );" id="liveUpdateSiteTitle">Híröshajó KMaxxi</h1>
+</div>
+<div id="collectionHeader">
+<h1 onclick="clickTarget( this, 'groupTitle.text' );" id="liveUpdateCollectionTitle"></h1>
+<p onclick="clickTarget( this, 'groupDescription.text' );" id="liveUpdateCollectionDescription"></p>
+</div>
+<div id="stage2">
+<div id="previewFull" class="borderTopLeft borderBottomRight">
+<div id="detailTitle" onclick="clickTarget( this, 'perImageSetting-title', 'ID3_1305975433927' );"> </div>
+<div class="detailNav">
+<ul>
+<li class="previous">
+<a class="detailLinks" href="_4043151836_large.html">Previous</a>
+</li>
+<li class="index">
+<a href="index.html" class="detailLinks">Index</a>
+</li>
+<li class="next">
+<a class="detailLinks" href="_1423109061_large.html">Next</a>
+</li>
+</ul>
+</div>
+<div id="tempDiv"><!--padding for OS X 10.6-->
+</div>
+<div id="tempWidth"><!--padding for OS X 10.6-->
+</div>
+<script type="text/javascript">
+			var nameDiv = document.getElementById("tempDiv");
+			var widthDiv = document.getElementById("tempWidth");
+			var width = parseInt(widthDiv.innerHTML, 10);
+			var largeName = addSpace(nameDiv.innerHTML, width - 14);
+			try {
+				nameDiv.parentNode.removeChild(nameDiv);
+				widthDiv.parentNode.removeChild(widthDiv);
+			} catch (e) {}
+		</script>
+<div id="detailImage">
+<a href="index.html">
+<img src="../content/bin/images/large/_7214900255.jpg" width="650" height="487" id="ID3_1305975433927" alt="%_tempFileName_7214900255%" />
+</a>
+</div>
+<div id="detailCaption" onclick="clickTarget( this, 'perImageSetting-description', 'ID3_1305975433927' );"> OLYMPUS DIGITAL CAMERA</div>
+</div>
+</div>
+<div class="clear">
+<!--padding for ie-->
+</div>
+<div id="contact">
+<a href="">
+<span onclick="clickTarget( this, 'contactInfo.text' );" id="liveUpdateContactInfo"></span></a>
+</div>
+<div class="clear">
+<!--padding for ie-->
+</div>
+</div>
+</body>
+</html>
+</file>
+<file doctype-system="http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" doctype-public="-//W3C//DTD XHTML 1.1//EN" name="content/_1423109061_large.html">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="Adobe Lightroom" />
+<title>Híröshajó KMaxxi</title>
+<link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="130597543392191531_custom.css" />
+<link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="../resources/css/master.css" />
+<script type="text/javascript">
+	  window.AgMode = "publish";
+      cellRolloverColor="#a1a1a1";
+      cellColor="#949494";
+      
+      window.AgOnLoad = function() {
+                        tellLightroomWhatImagesWeAreUsing(); 
+                        callCallback( "showInPhotoBin", "4_1305975433928" );callCallback( "setActiveImageSize", "large" );
+                }
+      </script>
+<script type="text/javascript" src="../resources/js/liveUpdate.js">
+<!--padding for ie-->
+</script>
+<script type="text/javascript" src="../resources/js/cutName.js">
+<!--padding for ie-->
+</script>
+<!--[if lt IE 7.]> <script defer type="text/javascript"
+            src="../resources/js/pngfix.js"></script> <![endif]-->
+<!--[if gt IE 6]> <link rel="stylesheet" href="../resources/css/ie7.css"></link> <![endif]-->
+<!--[if lt IE 7.]> <link rel="stylesheet" href="../resources/css/ie6.css"></link> <![endif]-->
+</head>
+<body>
+<div id="wrapper2">
+<div id="sitetitle">
+<h1 onclick="clickTarget( this, 'siteTitle.text' );" id="liveUpdateSiteTitle">Híröshajó KMaxxi</h1>
+</div>
+<div id="collectionHeader">
+<h1 onclick="clickTarget( this, 'groupTitle.text' );" id="liveUpdateCollectionTitle"></h1>
+<p onclick="clickTarget( this, 'groupDescription.text' );" id="liveUpdateCollectionDescription"></p>
+</div>
+<div id="stage2">
+<div id="previewFull" class="borderTopLeft borderBottomRight">
+<div id="detailTitle" onclick="clickTarget( this, 'perImageSetting-title', 'ID4_1305975433928' );"> </div>
+<div class="detailNav">
+<ul>
+<li class="previous">
+<a class="detailLinks" href="_7214900255_large.html">Previous</a>
+</li>
+<li class="index">
+<a href="index.html" class="detailLinks">Index</a>
+</li>
+<li class="next">
+<a class="detailLinks" href="_9379403174_large.html">Next</a>
+</li>
+</ul>
+</div>
+<div id="tempDiv"><!--padding for OS X 10.6-->
+</div>
+<div id="tempWidth"><!--padding for OS X 10.6-->
+</div>
+<script type="text/javascript">
+			var nameDiv = document.getElementById("tempDiv");
+			var widthDiv = document.getElementById("tempWidth");
+			var width = parseInt(widthDiv.innerHTML, 10);
+			var largeName = addSpace(nameDiv.innerHTML, width - 14);
+			try {
+				nameDiv.parentNode.removeChild(nameDiv);
+				widthDiv.parentNode.removeChild(widthDiv);
+			} catch (e) {}
+		</script>
+<div id="detailImage">
+<a href="index.html">
+<img src="../content/bin/images/large/_1423109061.jpg" width="650" height="487" id="ID4_1305975433928" alt="%_tempFileName_1423109061%" />
+</a>
+</div>
+<div id="detailCaption" onclick="clickTarget( this, 'perImageSetting-description', 'ID4_1305975433928' );"> OLYMPUS DIGITAL CAMERA</div>
+</div>
+</div>
+<div class="clear">
+<!--padding for ie-->
+</div>
+<div id="contact">
+<a href="">
+<span onclick="clickTarget( this, 'contactInfo.text' );" id="liveUpdateContactInfo"></span></a>
+</div>
+<div class="clear">
+<!--padding for ie-->
+</div>
+</div>
+</body>
+</html>
+</file>
+<file doctype-system="http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" doctype-public="-//W3C//DTD XHTML 1.1//EN" name="content/_9379403174_large.html">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="Adobe Lightroom" />
+<title>Híröshajó KMaxxi</title>
+<link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="130597543392191531_custom.css" />
+<link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="../resources/css/master.css" />
+<script type="text/javascript">
+	  window.AgMode = "publish";
+      cellRolloverColor="#a1a1a1";
+      cellColor="#949494";
+      
+      window.AgOnLoad = function() {
+                        tellLightroomWhatImagesWeAreUsing(); 
+                        callCallback( "showInPhotoBin", "5_1305975433929" );callCallback( "setActiveImageSize", "large" );
+                }
+      </script>
+<script type="text/javascript" src="../resources/js/liveUpdate.js">
+<!--padding for ie-->
+</script>
+<script type="text/javascript" src="../resources/js/cutName.js">
+<!--padding for ie-->
+</script>
+<!--[if lt IE 7.]> <script defer type="text/javascript"
+            src="../resources/js/pngfix.js"></script> <![endif]-->
+<!--[if gt IE 6]> <link rel="stylesheet" href="../resources/css/ie7.css"></link> <![endif]-->
+<!--[if lt IE 7.]> <link rel="stylesheet" href="../resources/css/ie6.css"></link> <![endif]-->
+</head>
+<body>
+<div id="wrapper2">
+<div id="sitetitle">
+<h1 onclick="clickTarget( this, 'siteTitle.text' );" id="liveUpdateSiteTitle">Híröshajó KMaxxi</h1>
+</div>
+<div id="collectionHeader">
+<h1 onclick="clickTarget( this, 'groupTitle.text' );" id="liveUpdateCollectionTitle"></h1>
+<p onclick="clickTarget( this, 'groupDescription.text' );" id="liveUpdateCollectionDescription"></p>
+</div>
+<div id="stage2">
+<div id="previewFull" class="borderTopLeft borderBottomRight">
+<div id="detailTitle" onclick="clickTarget( this, 'perImageSetting-title', 'ID5_1305975433929' );"> </div>
+<div class="detailNav">
+<ul>
+<li class="previous">
+<a class="detailLinks" href="_1423109061_large.html">Previous</a>
+</li>
+<li class="index">
+<a href="index.html" class="detailLinks">Index</a>
+</li>
+<li class="next">
+<a class="detailLinks" href="_5684201375_large.html">Next</a>
+</li>
+</ul>
+</div>
+<div id="tempDiv"><!--padding for OS X 10.6-->
+</div>
+<div id="tempWidth"><!--padding for OS X 10.6-->
+</div>
+<script type="text/javascript">
+			var nameDiv = document.getElementById("tempDiv");
+			var widthDiv = document.getElementById("tempWidth");
+			var width = parseInt(widthDiv.innerHTML, 10);
+			var largeName = addSpace(nameDiv.innerHTML, width - 14);
+			try {
+				nameDiv.parentNode.removeChild(nameDiv);
+				widthDiv.parentNode.removeChild(widthDiv);
+			} catch (e) {}
+		</script>
+<div id="detailImage">
+<a href="index.html">
+<img src="../content/bin/images/large/_9379403174.jpg" width="650" height="487" id="ID5_1305975433929" alt="%_tempFileName_9379403174%" />
+</a>
+</div>
+<div id="detailCaption" onclick="clickTarget( this, 'perImageSetting-description', 'ID5_1305975433929' );"> OLYMPUS DIGITAL CAMERA</div>
+</div>
+</div>
+<div class="clear">
+<!--padding for ie-->
+</div>
+<div id="contact">
+<a href="">
+<span onclick="clickTarget( this, 'contactInfo.text' );" id="liveUpdateContactInfo"></span></a>
+</div>
+<div class="clear">
+<!--padding for ie-->
+</div>
+</div>
+</body>
+</html>
+</file>
+<file doctype-system="http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" doctype-public="-//W3C//DTD XHTML 1.1//EN" name="content/_5684201375_large.html">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="Adobe Lightroom" />
+<title>Híröshajó KMaxxi</title>
+<link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="130597543392191531_custom.css" />
+<link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="../resources/css/master.css" />
+<script type="text/javascript">
+	  window.AgMode = "publish";
+      cellRolloverColor="#a1a1a1";
+      cellColor="#949494";
+      
+      window.AgOnLoad = function() {
+                        tellLightroomWhatImagesWeAreUsing(); 
+                        callCallback( "showInPhotoBin", "6_1305975433930" );callCallback( "setActiveImageSize", "large" );
+                }
+      </script>
+<script type="text/javascript" src="../resources/js/liveUpdate.js">
+<!--padding for ie-->
+</script>
+<script type="text/javascript" src="../resources/js/cutName.js">
+<!--padding for ie-->
+</script>
+<!--[if lt IE 7.]> <script defer type="text/javascript"
+            src="../resources/js/pngfix.js"></script> <![endif]-->
+<!--[if gt IE 6]> <link rel="stylesheet" href="../resources/css/ie7.css"></link> <![endif]-->
+<!--[if lt IE 7.]> <link rel="stylesheet" href="../resources/css/ie6.css"></link> <![endif]-->
+</head>
+<body>
+<div id="wrapper2">
+<div id="sitetitle">
+<h1 onclick="clickTarget( this, 'siteTitle.text' );" id="liveUpdateSiteTitle">Híröshajó KMaxxi</h1>
+</div>
+<div id="collectionHeader">
+<h1 onclick="clickTarget( this, 'groupTitle.text' );" id="liveUpdateCollectionTitle"></h1>
+<p onclick="clickTarget( this, 'groupDescription.text' );" id="liveUpdateCollectionDescription"></p>
+</div>
+<div id="stage2">
+<div id="previewFull" class="borderTopLeft borderBottomRight">
+<div id="detailTitle" onclick="clickTarget( this, 'perImageSetting-title', 'ID6_1305975433930' );"> </div>
+<div class="detailNav">
+<ul>
+<li class="previous">
+<a class="detailLinks" href="_9379403174_large.html">Previous</a>
+</li>
+<li class="index">
+<a href="index.html" class="detailLinks">Index</a>
+</li>
+<li class="next">
+<a class="detailLinks" href="_2935908214_large.html">Next</a>
+</li>
+</ul>
+</div>
+<div id="tempDiv"><!--padding for OS X 10.6-->
+</div>
+<div id="tempWidth"><!--padding for OS X 10.6-->
+</div>
+<script type="text/javascript">
+			var nameDiv = document.getElementById("tempDiv");
+			var widthDiv = document.getElementById("tempWidth");
+			var width = parseInt(widthDiv.innerHTML, 10);
+			var largeName = addSpace(nameDiv.innerHTML, width - 14);
+			try {
+				nameDiv.parentNode.removeChild(nameDiv);
+				widthDiv.parentNode.removeChild(widthDiv);
+			} catch (e) {}
+		</script>
+<div id="detailImage">
+<a href="index.html">
+<img src="../content/bin/images/large/_5684201375.jpg" width="650" height="487" id="ID6_1305975433930" alt="%_tempFileName_5684201375%" />
+</a>
+</div>
+<div id="detailCaption" onclick="clickTarget( this, 'perImageSetting-description', 'ID6_1305975433930' );"> OLYMPUS DIGITAL CAMERA</div>
+</div>
+</div>
+<div class="clear">
+<!--padding for ie-->
+</div>
+<div id="contact">
+<a href="">
+<span onclick="clickTarget( this, 'contactInfo.text' );" id="liveUpdateContactInfo"></span></a>
+</div>
+<div class="clear">
+<!--padding for ie-->
+</div>
+</div>
+</body>
+</html>
+</file>
+<file doctype-system="http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" doctype-public="-//W3C//DTD XHTML 1.1//EN" name="content/_2935908214_large.html">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="Adobe Lightroom" />
+<title>Híröshajó KMaxxi</title>
+<link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="130597543392191531_custom.css" />
+<link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="../resources/css/master.css" />
+<script type="text/javascript">
+	  window.AgMode = "publish";
+      cellRolloverColor="#a1a1a1";
+      cellColor="#949494";
+      
+      window.AgOnLoad = function() {
+                        tellLightroomWhatImagesWeAreUsing(); 
+                        callCallback( "showInPhotoBin", "7_1305975433931" );callCallback( "setActiveImageSize", "large" );
+                }
+      </script>
+<script type="text/javascript" src="../resources/js/liveUpdate.js">
+<!--padding for ie-->
+</script>
+<script type="text/javascript" src="../resources/js/cutName.js">
+<!--padding for ie-->
+</script>
+<!--[if lt IE 7.]> <script defer type="text/javascript"
+            src="../resources/js/pngfix.js"></script> <![endif]-->
+<!--[if gt IE 6]> <link rel="stylesheet" href="../resources/css/ie7.css"></link> <![endif]-->
+<!--[if lt IE 7.]> <link rel="stylesheet" href="../resources/css/ie6.css"></link> <![endif]-->
+</head>
+<body>
+<div id="wrapper2">
+<div id="sitetitle">
+<h1 onclick="clickTarget( this, 'siteTitle.text' );" id="liveUpdateSiteTitle">Híröshajó KMaxxi</h1>
+</div>
+<div id="collectionHeader">
+<h1 onclick="clickTarget( this, 'groupTitle.text' );" id="liveUpdateCollectionTitle"></h1>
+<p onclick="clickTarget( this, 'groupDescription.text' );" id="liveUpdateCollectionDescription"></p>
+</div>
+<div id="stage2">
+<div id="previewFull" class="borderTopLeft borderBottomRight">
+<div id="detailTitle" onclick="clickTarget( this, 'perImageSetting-title', 'ID7_1305975433931' );"> </div>
+<div class="detailNav">
+<ul>
+<li class="previous">
+<a class="detailLinks" href="_5684201375_large.html">Previous</a>
+</li>
+<li class="index">
+<a href="index.html" class="detailLinks">Index</a>
+</li>
+<li class="next">
+<a class="detailLinks" href="_6142798101_large.html">Next</a>
+</li>
+</ul>
+</div>
+<div id="tempDiv"><!--padding for OS X 10.6-->
+</div>
+<div id="tempWidth"><!--padding for OS X 10.6-->
+</div>
+<script type="text/javascript">
+			var nameDiv = document.getElementById("tempDiv");
+			var widthDiv = document.getElementById("tempWidth");
+			var width = parseInt(widthDiv.innerHTML, 10);
+			var largeName = addSpace(nameDiv.innerHTML, width - 14);
+			try {
+				nameDiv.parentNode.removeChild(nameDiv);
+				widthDiv.parentNode.removeChild(widthDiv);
+			} catch (e) {}
+		</script>
+<div id="detailImage">
+<a href="index.html">
+<img src="../content/bin/images/large/_2935908214.jpg" width="650" height="487" id="ID7_1305975433931" alt="%_tempFileName_2935908214%" />
+</a>
+</div>
+<div id="detailCaption" onclick="clickTarget( this, 'perImageSetting-description', 'ID7_1305975433931' );"> OLYMPUS DIGITAL CAMERA</div>
+</div>
+</div>
+<div class="clear">
+<!--padding for ie-->
+</div>
+<div id="contact">
+<a href="">
+<span onclick="clickTarget( this, 'contactInfo.text' );" id="liveUpdateContactInfo"></span></a>
+</div>
+<div class="clear">
+<!--padding for ie-->
+</div>
+</div>
+</body>
+</html>
+</file>
+<file doctype-system="http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" doctype-public="-//W3C//DTD XHTML 1.1//EN" name="content/_6142798101_large.html">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="Adobe Lightroom" />
+<title>Híröshajó KMaxxi</title>
+<link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="130597543392191531_custom.css" />
+<link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="../resources/css/master.css" />
+<script type="text/javascript">
+	  window.AgMode = "publish";
+      cellRolloverColor="#a1a1a1";
+      cellColor="#949494";
+      
+      window.AgOnLoad = function() {
+                        tellLightroomWhatImagesWeAreUsing(); 
+                        callCallback( "showInPhotoBin", "8_1305975433932" );callCallback( "setActiveImageSize", "large" );
+                }
+      </script>
+<script type="text/javascript" src="../resources/js/liveUpdate.js">
+<!--padding for ie-->
+</script>
+<script type="text/javascript" src="../resources/js/cutName.js">
+<!--padding for ie-->
+</script>
+<!--[if lt IE 7.]> <script defer type="text/javascript"
+            src="../resources/js/pngfix.js"></script> <![endif]-->
+<!--[if gt IE 6]> <link rel="stylesheet" href="../resources/css/ie7.css"></link> <![endif]-->
+<!--[if lt IE 7.]> <link rel="stylesheet" href="../resources/css/ie6.css"></link> <![endif]-->
+</head>
+<body>
+<div id="wrapper2">
+<div id="sitetitle">
+<h1 onclick="clickTarget( this, 'siteTitle.text' );" id="liveUpdateSiteTitle">Híröshajó KMaxxi</h1>
+</div>
+<div id="collectionHeader">
+<h1 onclick="clickTarget( this, 'groupTitle.text' );" id="liveUpdateCollectionTitle"></h1>
+<p onclick="clickTarget( this, 'groupDescription.text' );" id="liveUpdateCollectionDescription"></p>
+</div>
+<div id="stage2">
+<div id="previewFull" class="borderTopLeft borderBottomRight">
+<div id="detailTitle" onclick="clickTarget( this, 'perImageSetting-title', 'ID8_1305975433932' );"> </div>
+<div class="detailNav">
+<ul>
+<li class="previous">
+<a class="detailLinks" href="_2935908214_large.html">Previous</a>
+</li>
+<li class="index">
+<a href="index.html" class="detailLinks">Index</a>
+</li>
+<li class="next">
+<a class="detailLinks" href="_7718648384_large.html">Next</a>
+</li>
+</ul>
+</div>
+<div id="tempDiv"><!--padding for OS X 10.6-->
+</div>
+<div id="tempWidth"><!--padding for OS X 10.6-->
+</div>
+<script type="text/javascript">
+			var nameDiv = document.getElementById("tempDiv");
+			var widthDiv = document.getElementById("tempWidth");
+			var width = parseInt(widthDiv.innerHTML, 10);
+			var largeName = addSpace(nameDiv.innerHTML, width - 14);
+			try {
+				nameDiv.parentNode.removeChild(nameDiv);
+				widthDiv.parentNode.removeChild(widthDiv);
+			} catch (e) {}
+		</script>
+<div id="detailImage">
+<a href="index.html">
+<img src="../content/bin/images/large/_6142798101.jpg" width="650" height="487" id="ID8_1305975433932" alt="%_tempFileName_6142798101%" />
+</a>
+</div>
+<div id="detailCaption" onclick="clickTarget( this, 'perImageSetting-description', 'ID8_1305975433932' );"> OLYMPUS DIGITAL CAMERA</div>
+</div>
+</div>
+<div class="clear">
+<!--padding for ie-->
+</div>
+<div id="contact">
+<a href="">
+<span onclick="clickTarget( this, 'contactInfo.text' );" id="liveUpdateContactInfo"></span></a>
+</div>
+<div class="clear">
+<!--padding for ie-->
+</div>
+</div>
+</body>
+</html>
+</file>
+<file doctype-system="http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" doctype-public="-//W3C//DTD XHTML 1.1//EN" name="content/_7718648384_large.html">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="Adobe Lightroom" />
+<title>Híröshajó KMaxxi</title>
+<link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="130597543392191531_custom.css" />
+<link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="../resources/css/master.css" />
+<script type="text/javascript">
+	  window.AgMode = "publish";
+      cellRolloverColor="#a1a1a1";
+      cellColor="#949494";
+      
+      window.AgOnLoad = function() {
+                        tellLightroomWhatImagesWeAreUsing(); 
+                        callCallback( "showInPhotoBin", "9_1305975433933" );callCallback( "setActiveImageSize", "large" );
+                }
+      </script>
+<script type="text/javascript" src="../resources/js/liveUpdate.js">
+<!--padding for ie-->
+</script>
+<script type="text/javascript" src="../resources/js/cutName.js">
+<!--padding for ie-->
+</script>
+<!--[if lt IE 7.]> <script defer type="text/javascript"
+            src="../resources/js/pngfix.js"></script> <![endif]-->
+<!--[if gt IE 6]> <link rel="stylesheet" href="../resources/css/ie7.css"></link> <![endif]-->
+<!--[if lt IE 7.]> <link rel="stylesheet" href="../resources/css/ie6.css"></link> <![endif]-->
+</head>
+<body>
+<div id="wrapper2">
+<div id="sitetitle">
+<h1 onclick="clickTarget( this, 'siteTitle.text' );" id="liveUpdateSiteTitle">Híröshajó KMaxxi</h1>
+</div>
+<div id="collectionHeader">
+<h1 onclick="clickTarget( this, 'groupTitle.text' );" id="liveUpdateCollectionTitle"></h1>
+<p onclick="clickTarget( this, 'groupDescription.text' );" id="liveUpdateCollectionDescription"></p>
+</div>
+<div id="stage2">
+<div id="previewFull" class="borderTopLeft borderBottomRight">
+<div id="detailTitle" onclick="clickTarget( this, 'perImageSetting-title', 'ID9_1305975433933' );"> </div>
+<div class="detailNav">
+<ul>
+<li class="previous">
+<a class="detailLinks" href="_6142798101_large.html">Previous</a>
+</li>
+<li class="index">
+<a href="index.html" class="detailLinks">Index</a>
+</li>
+<li class="next">Next</li>
+</ul>
+</div>
+<div id="tempDiv"><!--padding for OS X 10.6-->
+</div>
+<div id="tempWidth"><!--padding for OS X 10.6-->
+</div>
+<script type="text/javascript">
+			var nameDiv = document.getElementById("tempDiv");
+			var widthDiv = document.getElementById("tempWidth");
+			var width = parseInt(widthDiv.innerHTML, 10);
+			var largeName = addSpace(nameDiv.innerHTML, width - 14);
+			try {
+				nameDiv.parentNode.removeChild(nameDiv);
+				widthDiv.parentNode.removeChild(widthDiv);
+			} catch (e) {}
+		</script>
+<div id="detailImage">
+<a href="index.html">
+<img src="../content/bin/images/large/_7718648384.jpg" width="650" height="487" id="ID9_1305975433933" alt="%_tempFileName_7718648384%" />
+</a>
+</div>
+<div id="detailCaption" onclick="clickTarget( this, 'perImageSetting-description', 'ID9_1305975433933' );"> OLYMPUS DIGITAL CAMERA</div>
+</div>
+</div>
+<div class="clear">
+<!--padding for ie-->
+</div>
+<div id="contact">
+<a href="">
+<span onclick="clickTarget( this, 'contactInfo.text' );" id="liveUpdateContactInfo"></span></a>
+</div>
+<div class="clear">
+<!--padding for ie-->
+</div>
+</div>
+</body>
+</html>
+</file>
+</files>
