@@ -293,6 +293,10 @@ p {
 	overflow: hidden;
 }
 
+#szoveg p {
+	margin: 10px 0;
+}
+
 /*#lablec {
 	height: 30px;
 	width: 838px;
