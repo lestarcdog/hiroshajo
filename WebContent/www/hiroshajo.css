@@ -1,14 +1,20 @@
 @charset "iso-8859-2";
 /* CSS Document */
+img {
+	border: none;
+}
 
-img {border: none;}
+div.border img {
+	border: medium solid white; 
+}
 
 a {
-	color:#FC0;
+	color: #FC0;
 	text-decoration: none;
 }
+
 a:hover {
-	text-decoration: underline;	
+	text-decoration: underline;
 }
 
 body {
@@ -46,10 +52,8 @@ body {
 	margin-left: 100px;
 }
 
-
 /*-------------------------------------------------------------magyar menü formázás*/
-
-.menu{
+.menu {
 	border: none;
 	border: 0px;
 	margin: 0px;
@@ -57,21 +61,22 @@ body {
 	font: 0.8em Verdana, Geneva, sans-serif;
 	font-weight: bold;
 	background: #333;
-	}
-.menu ul{
+}
+
+.menu ul {
 	background: #333;
 	height: 35px;
 	list-style: none;
 	margin: 0px;
 	padding: 0px;
-	}
-	
-.menu li{
+}
+
+.menu li {
 	float: left;
 	padding: 0px;
 }
 
-.menu li a{
+.menu li a {
 	background: #333;
 	color: #CCC;
 	display: block;
@@ -82,13 +87,13 @@ body {
 	text-decoration: none;
 }
 
-.menu li a:hover, .menu ul li:hover a{
+.menu li a:hover, .menu ul li:hover a {
 	background: #2580a2;
 	color: #FFF;
 	text-decoration: none;
 }
 
-.menu li ul{
+.menu li ul {
 	background: #333333;
 	display: none;
 	height: auto;
@@ -101,7 +106,7 @@ body {
 	/*left:0;*/
 }
 
-.menu li:hover ul{
+.menu li:hover ul {
 	display: block;
 }
 
@@ -112,11 +117,11 @@ body {
 	padding: 0px;
 }
 
-.menu li:hover li a{
-	background: none;		
+.menu li:hover li a {
+	background: none;
 }
 
-.menu li ul a{
+.menu li ul a {
 	display: block;
 	height: 35px;
 	font-size: 12px;
@@ -126,20 +131,19 @@ body {
 	text-align: left;
 }
 
-.menu li ul a:hover, .menu li ul li:hover a{
+.menu li ul a:hover, .menu li ul li:hover a {
 	background: #2580a2;
 	border: 0px;
 	color: #FFF;
 	text-decoration: none;
 }
 
-.menu p{
+.menu p {
 	clear: left;
-}	
+}
 
 /*-------------------------------------------------------------angol menü formázás*/
-
-.angol_menu{
+.angol_menu {
 	border: none;
 	border: 0px;
 	margin: 0px;
@@ -147,21 +151,22 @@ body {
 	font: 0.9em Verdana, Geneva, sans-serif;
 	font-weight: bold;
 	background: #333;
-	}
-.angol_menu ul{
+}
+
+.angol_menu ul {
 	background: #333;
 	height: 35px;
 	list-style: none;
 	margin: 0px;
 	padding: 0px;
-	}
-	
-.angol_menu li{
+}
+
+.angol_menu li {
 	float: left;
 	padding: 0px;
 }
 
-.angol_menu li a{
+.angol_menu li a {
 	background: #333;
 	color: #CCC;
 	display: block;
@@ -172,13 +177,13 @@ body {
 	text-decoration: none;
 }
 
-.angol_menu li a:hover, .angol_menu ul li:hover a{
+.angol_menu li a:hover, .angol_menu ul li:hover a {
 	background: #2580a2;
 	color: #FFF;
 	text-decoration: none;
 }
 
-.angol_menu li ul{
+.angol_menu li ul {
 	background: #333333;
 	display: none;
 	height: auto;
@@ -191,7 +196,7 @@ body {
 	/*left:0;*/
 }
 
-.angol_menu li:hover ul{
+.angol_menu li:hover ul {
 	display: block;
 }
 
@@ -202,11 +207,11 @@ body {
 	padding: 0px;
 }
 
-.angol_menu li:hover li a{
-	background: none;		
+.angol_menu li:hover li a {
+	background: none;
 }
 
-.angol_menu li ul a{
+.angol_menu li ul a {
 	display: block;
 	height: 35px;
 	font-size: 12px;
@@ -216,20 +221,18 @@ body {
 	text-align: left;
 }
 
-.angol_menu li ul a:hover, .angol_menu li ul li:hover a{
+.angol_menu li ul a:hover, .angol_menu li ul li:hover a {
 	background: #2580a2;
 	border: 0px;
 	color: #FFF;
 	text-decoration: none;
 }
 
-.angol_menu p{
+.angol_menu p {
 	clear: left;
-}	
-
+}
 
 /*-------------------------------------------------------------szöveg formázás*/
-
 #tel {
 	position: absolute;
 	margin-top: 100px;
@@ -238,8 +241,8 @@ body {
 	font-weight: bold;
 	color: #F93;
 	text-align: right;
+	text-shadow: 3px 3px #333;
 }
-
 
 #h_egy {
 	position: absolute;
@@ -247,8 +250,8 @@ body {
 	top: 212px;
 	right: 35px;
 	text-align: left;
-	overflow:visible;
-	/*text-shadow: 3px 3px #CCC;*/
+	overflow: visible;
+	text-shadow: 2px 2px #333;
 }
 
 h1 {
@@ -312,7 +315,6 @@ p {
 	padding: 0px;
 	background: url(images/lablec_szerelvenyek_bg.jpg) no-repeat;
 }*/
-
 .hajonev {
 	position: absolute;
 	width: 200px;
@@ -320,9 +322,9 @@ p {
 	text-align: center;
 	color: #FFF;
 	background: #000;
-	filter:alpha(opacity=80);
-    -moz-opacity:0.8;
-    opacity: 0.8;
+	filter: alpha(opacity = 80);
+	-moz-opacity: 0.8;
+	opacity: 0.8;
 }
 
 .szerelvenyek_bal {
@@ -330,7 +332,7 @@ p {
 	position: relative;
 	width: 385px;
 	height: 320px;
-	background-color:#d1dee1;
+	background-color: #d1dee1;
 }
 
 .szerelvenyek_jobb {
@@ -338,7 +340,7 @@ p {
 	position: relative;
 	width: 385px;
 	height: 320px;
-	background-color:#d1dee1;
+	background-color: #d1dee1;
 }
 
 .szerelvenyek_kep {
@@ -371,7 +373,6 @@ p {
 	height: 10px;
 }
 
-
 .arlista_nev {
 	padding-top: 5px;
 	padding-left: 2px;
@@ -390,16 +391,16 @@ p {
 	color: #F00;
 	border: 1px solid #F90;
 }
+
 #newDiv {
-	position:absolute;
-	left:189px;
-	top:359px;
-	width:134px;
-	height:122px;
-	z-index:201;
+	position: absolute;
+	left: 189px;
+	top: 359px;
+	width: 134px;
+	height: 122px;
+	z-index: 201;
 	background-position: 0px;
 }
-
 
 .teszt_jobb {
 	float: right;
@@ -421,7 +422,7 @@ p {
 .hasznalt {
 	margin: 0px 20px 30px 20px;
 	border-bottom: 1px solid #999;
-	font-weight:normal;
+	font-weight: normal;
 }
 
 .hasznalt ul {
@@ -439,7 +440,8 @@ p {
 	border: 2px solid #745a30;
 }
 
-#galeria a:link, #galeria a:visited, #galeria_angol a:link, #galeria_angol a:visited {
+#galeria a:link, #galeria a:visited, #galeria_angol a:link,
+	#galeria_angol a:visited {
 	text-decoration: none;
 	color: #000;
 }
@@ -451,38 +453,40 @@ p {
 
 /** ADVERTISEMENT **/
 #advertisement {
-	width:100%;
-	height:100%;
-	background: rgba(50,50,50,0.4);
-	position:fixed;
-	top:0;
-	left:0;
-	z-index:1;
+	width: 100%;
+	height: 100%;
+	background: rgba(50, 50, 50, 0.4);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
 }
+
 #advertisement #txt {
-	width:400px;
-	height:300px;
-	position:absolute;
-	left:10%;
-	top:50%;
+	width: 400px;
+	height: 300px;
+	position: absolute;
+	left: 10%;
+	top: 50%;
 	margin-top: -200px;
-	background:rgba(255,255,255,1.0);
-	background:white;
+	background: rgba(255, 255, 255, 1.0);
+	background: white;
 	border-radius: 15px;
-	padding:5px;
-	border:#f58020 solid 8px;
+	padding: 5px;
+	border: #f58020 solid 8px;
 }
+
 #advertisement #txt #close {
-	position:absolute;
-	left:85%;
-	width:100px;;
-	top:-5%;;
-	background:rgba(180,50,50,0.9);	
-	border-radius:20px;
-	padding:5px;
-	cursor:pointer
-	
+	position: absolute;
+	left: 85%;
+	width: 100px;;
+	top: -5%;;
+	background: rgba(180, 50, 50, 0.9);
+	border-radius: 20px;
+	padding: 5px;
+	cursor: pointer
 }
+
 #advertisement #txt #close:hover {
-	background:rgba(180,50,50,1.0);	
+	background: rgba(180, 50, 50, 1.0);
 }
