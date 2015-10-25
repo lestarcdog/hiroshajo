@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="verify-v1" content="IiUBeczXvX6WSUJE6W7dh79Fj46sR+3jxnuMsQz2W1Y=">
+<meta name="verify-v1"
+	content="IiUBeczXvX6WSUJE6W7dh79Fj46sR+3jxnuMsQz2W1Y=">
 <meta name="Description" content="{{meta.description}}">
 <meta name="Keywords" content="{{meta.keywords}}">
 <title>{{meta.title}}</title>
@@ -23,7 +24,9 @@
 		var ga = document.createElement('script');
 		ga.type = 'text/javascript';
 		ga.async = true;
-		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+				: 'http://www')
+				+ '.google-analytics.com/ga.js';
 		var s = document.getElementsByTagName('script')[0];
 		s.parentNode.insertBefore(ga, s);
 	})();
@@ -36,7 +39,8 @@
 				<header id="hiroshajo-header">
 					<div class="row">
 						<div class="col-sm-4 col-sm-offset-2">
-							<img alt="hiroshajo logo" class="img-responsive" src="images/header/logo.png">
+							<img alt="hiroshajo logo" class="img-responsive"
+								src="images/header/logo.png">
 						</div>
 						<div class="col-sm-3">
 							<img id="header-evszam" class="img-responsive">
@@ -45,29 +49,41 @@
 					</div>
 					<div class="row">
 						<div class="col-sm-12 text-center">
-							<span class="page-title">tel:+36 30 9788-120</span> <span class="page-title" data-ng-bind="page.title"></span>
+							<span class="page-title">tel:+36 30 9788-120</span> <span
+								class="page-title" data-ng-bind="page.title"></span>
 						</div>
 					</div>
 				</header>
-				<nav id="main-navigation">
+				<nav id="main-navigation" data-ng-controller="LocationCtrl">
 					<ul class="nav nav-pills nav-justified">
-						<li><a href="#/"><img alt=" hiroshajo" class="img-responsive" src="images/header/logo_mini.png"></a></li>
-						<li><a href="#/why_catamaran">Miért egy katamarán?</a></li>
-						<li><a href="#/models">Modellek</a></li>
-						<li><a href="#/fittings">Szerelvények</a></li>
-						<li><a href="#/prices">Árlista</a></li>
-						<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Tesztek <span class="caret"></span></a>
+						<li><a href="#/"><img alt=" hiroshajo"
+								class="img-responsive" src="images/header/logo_mini.png"></a></li>
+						<li data-ng-class="{active : isActive('/why_catamaran')}"><a
+							href="#/why_catamaran">Miért egy katamarán?</a></li>
+						<li data-ng-class="{active : isActive('/models')}"><a
+							href="#/models">Modellek</a></li>
+						<li data-ng-class="{active : isActive('/fittings')}"><a
+							href="#/fittings">Szerelvények</a></li>
+						<li data-ng-class="{active : isActive('/prices')}"><a
+							href="#/prices">Árlista</a></li>
+						<li
+							data-ng-class="{active : isActive('/tests/boat') || isActive('/tests/electric')}"
+							class="dropdown"><a href="" class="dropdown-toggle"
+							data-toggle="dropdown">Tesztek <span class="caret"></span></a>
 							<ul class="dropdown-menu">
 								<li><a href="#/tests/boat">Motorcsónak</a></li>
 								<li><a href="#/tests/electric">Villanymotor</a></li>
 							</ul></li>
-						<li><a href="#/videos">Videók</a></li>
-						<li><a href="#/used">Használt hajó</a></li>
-						<li><a href="#/contact">Elérhetőség</a></li>
+						<li data-ng-class="{active : isActive('/videos')}"><a
+							href="#/videos">Videók</a></li>
+						<li data-ng-class="{active : isActive('/used')}"><a
+							href="#/used">Használt hajó</a></li>
+						<li data-ng-class="{active : isActive('/contact')}"><a
+							href="#/contact">Elérhetőség</a></li>
 					</ul>
 				</nav>
-				<div class="row" style="padding: 0 20px">
-					<div class="col-sm-12" data-ng-view></div>
+				<div id="hiroshajo-content">
+					<div data-ng-view></div>
 				</div>
 			</div>
 		</div>

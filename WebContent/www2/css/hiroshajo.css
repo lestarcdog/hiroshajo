@@ -1,7 +1,7 @@
-.hiroshajo-container {
-	max-width: 80%;
-	margin: 15px auto 0 auto;
+.container {
+	margin-top: 15px;
 }
+
 .hiroshajo-border-glow {
 	height: 100%;
 	outline: none;
@@ -13,9 +13,7 @@
 
 .hiroshajo-solid-border {
 	height: 100%;
-	border-top: 3px solid #000;
-	border-right: 3px solid #000;
-	border-left: 3px solid #000;
+	border: 3px solid #000;
 	/* 	border-top-left-radius: 15px; */
 	/* 	border-top-right-radius: 15px; */
 }
@@ -37,25 +35,39 @@
 	background: url("../images/bg/blurred_main_bg.jpg") repeat;
 }
 
+#hiroshajo-content {
+	margin-top: 10px;
+	padding: 0 25px;
+}
+
+/* custom */
+.hiroshajo-text-mark, .mark {
+	color: #f67f21;
+}
+
 /* top navigation */
 #main-navigation ul {
 	font: 12px Verdana, Geneva, sans-serif;
 	font-size: 12px;
 	font-weight: bold;
-	background: #333
+	background: #333;
 }
 
 #main-navigation li {
 	vertical-align: middle;
 }
 
-#main-navigation li a, .dropdown-menu > li > a {
+#main-navigation li a, .dropdown-menu>li>a {
 	color: #EEE;
 }
 
-#main-navigation a:hover, #main-navigation a:focus, .dropdown-menu li>a:hover,
-.dropdown-menu > li > a:focus {
+#main-navigation a:hover, .dropdown-menu li>a:hover, .dropdown-menu>li>a:focus,
+	.nav .open>a, .nav .open>a:hover, .nav .open > a:focus  {
 	background: #777;
+}
+
+#main-navigation a:focus {
+	background: none;
 }
 
 #main-navigation li.active a {
@@ -66,13 +78,19 @@
 #hh-carousel {
 	margin: 10px auto;
 }
-#hh-carousel, #hh-carousel .carousel-inner{
- overflow: hidden;
- width: 600px;
- height: 300px;
+
+#hh-carousel, #hh-carousel .carousel-inner {
+	overflow: hidden;
+	width: 600px;
+	height: 300px;
 }
 
 #hh-carousel .carousel-caption {
+	/*	width: 100%;
+	background: black;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+*/
 	bottom: auto;
 	top: 10px;
 }
