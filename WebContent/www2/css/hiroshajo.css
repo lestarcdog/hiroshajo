@@ -1,17 +1,7 @@
-body, html {
-	height: 100%;
-	min-height: 100%
-}
-
-.container {
-	padding-top: 15px;
-	height: 100%;
-}
-
 .hiroshajo-container {
-	height: 100%;
+	max-width: 80%;
+	margin: 15px auto 0 auto;
 }
-
 .hiroshajo-border-glow {
 	height: 100%;
 	outline: none;
@@ -70,4 +60,19 @@ body, html {
 
 #main-navigation li.active a {
 	background: #F93;
+}
+
+/* main page */
+#hh-carousel {
+	margin: 10px auto;
+}
+#hh-carousel, #hh-carousel .carousel-inner{
+ overflow: hidden;
+ width: 600px;
+ height: 300px;
+}
+
+#hh-carousel .carousel-caption {
+	bottom: auto;
+	top: 10px;
 }

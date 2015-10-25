@@ -1,6 +1,10 @@
 var app = angular.module("HiroshajoApp", [ "ngRoute" ]);
-app.config(function($routeProvider, $locationProvider) {
-	$locationProvider.html5Mode(true);
+app.config(function($routeProvider) {
+	$routeProvider.when("/", {
+		templateUrl : "views/main.html"
+	}).otherwise({
+		redirectTo : '/'
+	});
 });
 
 app
