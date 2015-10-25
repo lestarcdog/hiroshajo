@@ -85,6 +85,10 @@
 	height: 300px;
 }
 
+#main-page-wrapper {
+	background: url('../images/bg/main_content_bg.jpg') repeat;
+}
+
 #hh-carousel .carousel-caption {
 	/*	width: 100%;
 	background: black;
