@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="verify-v1" content="IiUBeczXvX6WSUJE6W7dh79Fj46sR+3jxnuMsQz2W1Y=">
-<meta name="Description" content="{{page.description}}">
-<meta name="Keywords" content="{{page.keywords}}">
-<title>{{page.title}}</title>
+<meta name="Description" content="{{meta.description}}">
+<meta name="Keywords" content="{{meta.keywords}}">
+<title>{{meta.title}}</title>
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/hiroshajo.css" rel="stylesheet">
 <link href="css/bootstrap-theme.css" rel="stylesheet">
@@ -30,13 +30,26 @@
 </script>
 </head>
 <body>
-	<div class="container"> 
+	<div class="container">
 		<div class="hiroshajo-container">
 			<div class="hiroshajo-border-glow">
 				<div class="hiroshajo-solid-border">
-					<header class="row">
-						<div class="col-sm-12">
-							<div></div>
+					<header id="hiroshajo-header">
+						<div class="row">
+							<div class="col-sm-4 col-sm-offset-2">
+								<img alt="hiroshajo logo" class="img-responsive" src="images/header/logo.png">
+							</div>
+							<div class="col-sm-3">
+								<img id="header-evszam" class="img-responsive">
+							</div>
+							<div class="col-sm-3 pull-right" id="langbar">
+							
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-12 text-center">
+								<span class="page-title">tel:+36 30 9788-120</span> <span class="page-title" data-ng-bind="page.title"></span>
+							</div>
 						</div>
 					</header>
 				</div>
@@ -50,5 +63,7 @@
 	<script type="text/javascript" src="lib/angular-route.js"></script>
 	<!-- application -->
 	<script type="text/javascript" src="src/app.js"></script>
+	<!-- custom jquery -->
+	<script type="text/javascript" src="src/custom/custom.js"></script>
 </body>
 </html>

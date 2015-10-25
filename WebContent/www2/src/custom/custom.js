@@ -1,0 +1,1 @@
+$("#header-evszam").attr("src", "images/header/evszam" + (new Date).getFullYear() + ".png")
