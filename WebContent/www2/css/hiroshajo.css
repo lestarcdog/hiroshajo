@@ -48,25 +48,26 @@ body, html {
 }
 
 /* top navigation */
-#main-navigation {
+#main-navigation ul {
 	font: 12px Verdana, Geneva, sans-serif;
 	font-size: 12px;
 	font-weight: bold;
-	color: #EEE;
-	background-color: #333
+	background: #333
 }
 
 #main-navigation li {
 	vertical-align: middle;
 }
 
-#main-navigation li a {
+#main-navigation li a, .dropdown-menu > li > a {
 	color: #EEE;
 }
-#main-navigation li a:hover {
-	background-color: #777;
+
+#main-navigation a:hover, #main-navigation a:focus, .dropdown-menu li>a:hover,
+.dropdown-menu > li > a:focus {
+	background: #777;
 }
 
 #main-navigation li.active a {
-	background-color: #F93;
+	background: #F93;
 }
