@@ -17,8 +17,8 @@ body, html {
 	outline: none;
 	border-color: #f67f21;
 	box-shadow: 0 0 25px #f67f21;
-/* 	border-top-left-radius: 15px; */
-/* 	border-top-right-radius: 15px; */
+	/* 	border-top-left-radius: 15px; */
+	/* 	border-top-right-radius: 15px; */
 }
 
 .hiroshajo-solid-border {
@@ -26,8 +26,8 @@ body, html {
 	border-top: 3px solid #000;
 	border-right: 3px solid #000;
 	border-left: 3px solid #000;
-/* 	border-top-left-radius: 15px; */
-/* 	border-top-right-radius: 15px; */
+	/* 	border-top-left-radius: 15px; */
+	/* 	border-top-right-radius: 15px; */
 }
 
 .page-title {
@@ -45,4 +45,28 @@ body, html {
 
 #hiroshajo-header {
 	background: url("../images/bg/blurred_main_bg.jpg") repeat;
+}
+
+/* top navigation */
+#main-navigation {
+	font: 12px Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #EEE;
+	background-color: #333
+}
+
+#main-navigation li {
+	vertical-align: middle;
+}
+
+#main-navigation li a {
+	color: #EEE;
+}
+#main-navigation li a:hover {
+	background-color: #777;
+}
+
+#main-navigation li.active a {
+	background-color: #F93;
 }
