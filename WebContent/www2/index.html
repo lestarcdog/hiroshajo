@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html data-ng-app="HiroshajoApp">
-<head>
+<head data-ng-controller="HeaderCtrl">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="verify-v1"
@@ -36,7 +36,7 @@
 	<div class="container">
 		<div class="hiroshajo-border-glow">
 			<div class="hiroshajo-solid-border">
-				<header id="hiroshajo-header">
+				<header id="hiroshajo-header" data-ng-controller="HeaderCtrl" data-ng-style="{'background-image': 'url({{page.header_pic}})'}">
 					<div class="row">
 						<div class="col-sm-4 col-sm-offset-2">
 							<img alt="hiroshajo logo" class="img-responsive"
@@ -96,6 +96,7 @@
 	<script type="text/javascript" src="lib/angular-route.js"></script>
 	<!-- application -->
 	<script type="text/javascript" src="src/app.js"></script>
+	<script type="text/javascript" src="src/controllers/HeaderCtrl.js"></script>
 	<!-- custom jquery -->
 	<script type="text/javascript" src="src/custom/custom.js"></script>
 </body>

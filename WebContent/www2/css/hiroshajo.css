@@ -32,7 +32,7 @@
 }
 
 #hiroshajo-header {
-	background: url("../images/bg/blurred_main_bg.jpg") repeat;
+	background-repeat: repeat;
 }
 
 #hiroshajo-content {

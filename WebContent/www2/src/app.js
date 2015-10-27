@@ -14,23 +14,22 @@ app.config(function($routeProvider) {
 });
 
 app
-		.run(function($rootScope) {
-			var meta = {
-				title : "Üvegszálas műanyag hajó, csónak, horgászcsónak gyártás. "
-						+ (new Date).getFullYear(),
-				description : "A Híröshajó Kft. katamarán aljú, üvegszálas műanyag hajó, csónak, horgászcsónak tervezésével és gyártásával foglalkozik.",
-				keywords : "hajó, csónak, horgászcsónak, üvegszálas műanyag"
+		.controller(
+				"LocationCtrl",
+				function($scope, $location, $rootScope) {
+					var meta = {
+						title : "Üvegszálas műanyag hajó, csónak, horgászcsónak gyártás. "
+								+ (new Date).getFullYear(),
+						description : "A Híröshajó Kft. katamarán aljú, üvegszálas műanyag hajó, csónak, horgászcsónak tervezésével és gyártásával foglalkozik.",
+						keywords : "hajó, csónak, horgászcsónak, üvegszálas műanyag"
 
-			};
-			var page = {
-				title : "hajó, csónak, horgászcsónak"
-			};
-			$rootScope.meta = meta;
-			$rootScope.page = page;
-		});
+					};
+					var page = {
+						title : "hajó, csónak, horgászcsónak",
+						header_pic : ""
+					};
+					$scope.isActive = function(route) {
+						return $location.path() == route;
+					}
+				});
 
-app.controller("LocationCtrl",function($scope,$location) {
-	$scope.isActive = function(route) {
-		return $location.path() == route;
-	}
-});
