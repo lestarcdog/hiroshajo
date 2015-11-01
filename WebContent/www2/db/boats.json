@@ -1,0 +1,20 @@
+{
+	"1" : {
+		"name": "K Maxxi XXL",
+		"desc_hu": "Egy igazán nagy csónak, az igazán nagy horgászoknak. Óriási méretei ellenére, a menettulajdonsága kiváló, melyet már tesztekkel is bizonyítottunk. 2014-ben elkészül a belső tároló dobozos változat.",
+		"length" : 570,
+		"width" : 210,
+		"weight" : 280,
+		"form" : "catamaran",
+		"loadability" : 1400,
+		"engine" : "max 70",
+		"transport" : 6,
+		"price" :630000,
+		"pic1" : ["xxl/kmaxxi_xxl_small_1.jpg","xxl/kmaxxi_xxl_small_2.jpg"],
+		"gallery" : "",
+		"button_img" : "buttons/k_maxxi_XXL_on.jpg",
+		"video" : "",
+		"novelty" : true,
+		"available" : true
+	}
+}

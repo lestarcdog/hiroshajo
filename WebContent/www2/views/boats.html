@@ -1,21 +1,18 @@
-<div class="row">
-	<div class="col-sm-5 col-sm-offset-1" style="margin-top: 40px">
-		<address>
-			<p>
-				<strong>Híröshajó Kft.</strong>
-			</p>
-			<p>6000 Kecskemét, Magyarország</p>
-			<p>Máriahegy 7/A</p>
-		</address>
-
-		<p>Telefon: +36 30 9788-120</p>
-		<p>Email: juharos@hiroshajo.hu</p>
-
+<div ng-if="boat == null" id="boats-menu">
+	<div ng-repeat="(k,boat) in boats">
+		<div class="pull-left">
+			<h4>
+				{{boat.name}} <span class="label label-danger" style="top: 0">Újdonság</span>
+			</h4>
+			<a ng-click="select(boat)" href=""><img class="img-responsive center-block"
+				ng-src="images/boats/{{boat.button_img}}"> </a>
+		</div>
+		<div class="clearfix" ng-if="($index + 1) % 4 === 0"></div>
 	</div>
-	<div class="col-sm-5">
-		<iframe
-			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1362.164519239658!2d19.64017265829637!3d46.93557182625404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDbCsDU2JzA4LjEiTiAxOcKwMzgnMjguNiJF!5e0!3m2!1sen!2shu!4v1445808185430"
-			width="400" height="300" frameborder="0" style="border: 0"
-			allowfullscreen></iframe>
-	</div>
+	<div class="clearfix"></div>
+</div>
+
+<div ng-if="boat != null">
+	<button class="btn btn-primary" ng-click="back()">Vissza a modellekhez</button>
+	<h1>Kiválasztott hajó {{boat.name}}</h1>
 </div>

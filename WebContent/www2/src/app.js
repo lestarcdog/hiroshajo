@@ -12,9 +12,13 @@ app.config(function($routeProvider) {
 		controller : "FittingsController"
 	}).when("/contact", {
 		templateUrl : "views/contact.html",
-		controller: "ContactController"
-			
-	}).otherwise({
+		controller : "ContactController"
+	}).when("/boats", {
+		templateUrl : "views/boats.html",
+		controller : "BoatController"
+	})
+
+	.otherwise({
 		redirectTo : '/'
 	});
 });
