@@ -106,3 +106,20 @@
 	top: 10px;
 	width: 100%;
 }
+
+/* Fittings */
+.fittings-bg {
+	background: #d1dee1;
+}
+
+.left-border-line {
+	border-left: black 2px solid;
+}
+
+.price {
+	background: black;
+	color: #d7cd09;
+	margin: 10px auto;
+	width:95%;
+	padding: 2px 0;
+}

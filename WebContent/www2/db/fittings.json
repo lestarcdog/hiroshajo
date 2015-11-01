@@ -1,3 +1,21 @@
-[
+{
+	"1": 
+	{
+		"name_hu": "Tároló fiók kis belépő alá",
+		"desc": "Üvegszál erősítésű műanyag doboz. A csónak alján csúszik ki. Max. terhelés 27 kg. Rögzítés: 2 db behúzóél fordítóval",
+		"img" : "tarolofiokOn.jpg",
+		"type_hu": "Székek dobozok",
+		"price": 1000,
+		"type_order" : 1		
+	},
 	
-]
+	"2": 
+	{
+		"name_hu": "Vízen tároló ponyva KMaxi és Maxi Extra csónakokhoz",
+		"desc": "7 perc alatt felszerelhető ponyva, üvegszálas sátor rudakkal. PVC ponyva távtartó gerinccel, a csónak szélére szerelt műanyag elemekkel. Tároló táskával. 55x65 cm",
+		"img" : "takaroponyva.jpg",
+		"type_hu": "Takaró ponyvák",
+		"price": 2000,
+		"type_order" : 1		
+	}
+}

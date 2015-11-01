@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html data-ng-app="HiroshajoApp">
-<head data-ng-controller="HeaderCtrl">
+<head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="verify-v1"
@@ -36,7 +36,7 @@
 	<div class="container">
 		<div class="hiroshajo-border-glow">
 			<div class="hiroshajo-solid-border">
-				<header id="hiroshajo-header" data-ng-controller="HeaderCtrl" data-ng-style="{'background-image': 'url({{page.header_pic}})'}">
+				<header id="hiroshajo-header" data-ng-controller="LocationCtrl" data-ng-style="{'background-image': 'url({{page.header_pic}})'}">
 					<div class="row">
 						<div class="col-sm-4 col-sm-offset-2">
 							<img alt="hiroshajo logo" class="img-responsive"
@@ -50,7 +50,7 @@
 					<div class="row">
 						<div class="col-sm-12 text-center">
 							<span class="page-title">tel:+36 30 9788-120</span> <span
-								class="page-title" data-ng-bind="page.title"></span>
+								class="page-title">{{page.title}}</span>
 						</div>
 					</div>
 				</header>
@@ -96,7 +96,14 @@
 	<script type="text/javascript" src="lib/angular-route.js"></script>
 	<!-- application -->
 	<script type="text/javascript" src="src/app.js"></script>
-	<script type="text/javascript" src="src/controllers/HeaderCtrl.js"></script>
+	
+	<!-- controllers -->
+	<script type="text/javascript" src="src/controllers/fittingsController.js"></script>
+	<script type="text/javascript" src="src/controllers/whyCatamaranController.js"></script>
+	<script type="text/javascript" src="src/controllers/contactController.js"></script>
+	<script type="text/javascript" src="src/controllers/usedController.js"></script>
+	<!-- services -->
+	<script type="text/javascript" src="src/service/fittingsService.js"></script>
 	<!-- custom jquery -->
 	<script type="text/javascript" src="src/custom/custom.js"></script>
 </body>
