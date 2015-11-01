@@ -1,14 +1,22 @@
 <h1>Szerelvények</h1>
-<div ng-repeat="f in fittings">
-	<div class="col-sm-{{columnSize}}" ng-class="{'left-border-line' : ($index  % size) !== 0}">
+<div class="form-group form-inline">
+	<label for="size">Oszlop méret </label> 
+	<select name="size" required="required" class="form-control" ng-model="size" ng-options="item for item in sizeSelection">
+
+	</select>
+</div>
+<div ng-repeat="(k,f) in fittings" class="single-fitting">
+	<div class="col-sm-{{columnSize}}">
 		<div class="row">
 			<div class="col-sm-6">
-				<h4 ng-bind="f.name_hu"></h4>
-				<p ng-bind="f.desc"></p>
+				<a href="#{{k}}"></a>
+				<h4>
+					{{f.name_hu}} <span ng-if="f.novelty" class="label label-danger">Újdonság</span>
+				</h4>
+				<p ng-bind="f.desc_hu"></p>
 			</div>
 			<div class="col-sm-6">
-				<img class="img-responsive pull-right"
-					ng-src="images/fittings/{{f.img}}">
+				<img class="img-responsive" ng-src="images/fittings/{{f.img}}">
 			</div>
 		</div>
 		<div class="row">
@@ -17,3 +25,4 @@
 	</div>
 	<div ng-if="(($index +1 ) % size) === 0" class="clearfix"></div>
 </div>
+<div class="clearfix"></div>

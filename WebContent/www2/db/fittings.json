@@ -2,20 +2,202 @@
 	"1": 
 	{
 		"name_hu": "Tároló fiók kis belépő alá",
-		"desc": "Üvegszál erősítésű műanyag doboz. A csónak alján csúszik ki. Max. terhelés 27 kg. Rögzítés: 2 db behúzóél fordítóval",
-		"img" : "tarolofiokOn.jpg",
+		"desc_hu": "Üvegszál erősítésű műanyag doboz. A csónak alján csúszik ki. Max. terhelés 27 kg. Rögzítés: 2 db behúzóél fordítóval",
+		"img": "tarolofiokOn.jpg",
 		"type_hu": "Székek dobozok",
 		"price": 1000,
-		"type_order" : 1		
+		"type_order": 1
 	},
-	
+
 	"2": 
 	{
 		"name_hu": "Vízen tároló ponyva KMaxi és Maxi Extra csónakokhoz",
-		"desc": "7 perc alatt felszerelhető ponyva, üvegszálas sátor rudakkal. PVC ponyva távtartó gerinccel, a csónak szélére szerelt műanyag elemekkel. Tároló táskával. 55x65 cm",
-		"img" : "takaroponyva.jpg",
+		"desc_hu": "7 perc alatt felszerelhető ponyva, üvegszálas sátor rudakkal. PVC ponyva távtartó gerinccel, a csónak szélére szerelt műanyag elemekkel. Tároló táskával. 55x65 cm",
+		"img": "takaroponyva.jpg",
 		"type_hu": "Takaró ponyvák",
 		"price": 2000,
-		"type_order" : 1		
+		"type_order": 1
+	},
+
+	"3": 
+	{
+		"name_hu": "Orr borítás",
+		"desc_hu": "A K MAXXI-ba vízmentesen szerelhető tárolódoboz. A csónak belseje felől 2 szárnyú ajtóval rozsdamentes zsanérokkal lakatszemmel szerelt. Teteje 125 kg-ig járható.",
+		"img": "orr_boritas.jpg",
+		"type_hu": "Orr borítás",
+		"price": "xxx",
+		"type_order": 1
+	},
+
+	"4": 
+	{
+		"name_hu": "Orrborításra szerelhető kapaszkodó",
+		"desc_hu": "Anyagai 22mm-es rozsdamentes cső. Orrborítás gyártásánál, előre fogadó elemeket kell beépíteni.",
+		"img": "orr_boritas.jpg",
+		"type_hu": "Orr borítás",
+		"price": "xxx",
+		"novelty": true,
+		"type_order": 1
+	},
+
+	"5": 
+	{
+		"name_hu": "Halász orr lefedés",
+		"desc_hu": "Nagyméretű nem áll ki a csónak síkjából. Egyaránt illesztető Maxxira és Maxxi Extrára a gumiperem közé. Terhelhetőség 120 kg.",
+		"img": "halasz_orr_lefedes.jpg",
+		"type_hu": "Orr borítás",
+		"price": "xxx",
+		"type_order": 1
+	},
+
+	"6": 
+	{
+		"name_hu": "Korlát",
+		"desc_hu": "KMaxxi és KMaxxi Extra csónakra szerelhető korlát, anyaga 18mm-es rozsdamentes polírozott cső. Natúr és halász orrlefedéses csónakra rakható. Utólag is szerelhető",
+		"img": "korlat_maxxi.jpg",
+		"type_hu": "Orr borítás",
+		"price": "xxx",
+		"novelty": true,
+		"type_order": 1
+	},
+
+	"7": 
+	{
+		"name_hu": "Kis orrbelépő",
+		"desc_hu": "A K MAXXI-ba szerelhető ragasztással popszegeccsel. A felülete érdesített, a csónak felől nyitott. Ajtót nem tudunk hozzá adni. Azt a felületet, fedi le ami a csónak elején ferde. 120 kg-ig járható 2 db műanyag bikával szerelt.",
+		"img": "orr_belepo.jpg",
+		"type_hu": "Orr borítás",
+		"price": "xxx",
+		"type_order": 1
+	},
+
+	"8": 
+	{
+		"name_hu": "Mini orrbelépő",
+		"desc_hu": "Utólag K MAXXI-ra és K MAXXI EXTRA-ra is szerelhető.",
+		"img": "kisorrbelpo.jpg",
+		"type_hu": "Orr borítás",
+		"price": "xxx",
+		"type_order": 1
+	},
+
+	"9": 
+	{
+		"name_hu": "Hátsó műanyag ülőpad",
+		"desc_hu": "Terhelhetősége maximum 120 kg. Utólag K MAXXI-ra és K MAXXI EXTRA-ra is szerelhető.",
+		"img": "hatso_muanyag_ulopad.jpg",
+		"type_hu": "Orr borítás",
+		"price": "xxx",
+		"type_order": 1
+	},
+
+	"10": 
+	{
+		"name_hu": "Kis kormánykonzol",
+		"desc_hu": "Oldalra szerelhető, anyaga üvegszálas műanyag, kis szélvédővel. Az alacsonyabb a K MAXXI típus oldalmagasságához igazodik, a magasabb a JOKER-hez használható.",
+		"img": "kis_kormanykonzol.jpg",
+		"type_hu": "Orr borítás",
+		"price": "xxx",
+		"type_order": 1
+	},
+
+	"11": 
+	{
+		"name_hu": "Kis kormánykonzol szélvédő keret",
+		"desc_hu": "Anyaga 16mm-es rozsdamentes szálcsiszolt cső. Rögzítése 4db 6-os átmenő csavarral. A meglévő beszerelt konzolokra is felszerelhető.",
+		"img": "kiskormany_konzol_szelvedo_keret.jpg",
+		"type_hu": "Orr borítás",
+		"price": "xxx",
+		"type_order": 1
+	},
+
+	"12": 
+	{
+		"name_hu": "Nagy kormányállás középre és oldalra",
+		"desc_hu": "Csavarozással vagy ragasztással rögzíthető kormányállás, a K MAXXI-ba az üléstartó tetejére lamináljuk, a kormánybowden az üléstartó belsejében fut végig.",
+		"img": "nagy_kormanyallas_kozepre_es_oldalra.jpg",
+		"type_hu": "Orr borítás",
+		"price": "xxx",
+		"type_order": 1
+	},
+
+	"13": 
+	{
+		"name_hu": "Álló kormányállás ajtóval",
+		"desc_hu": "A csónak sík felületére ragasztható, állva is vezethető kormányállás, kormánymű nélkül, szélvédővel, kapaszkodó csővel. A kialakításának és méretének köszönhetően sok műszernek jut hely rajta.",
+		"img": "allo_kormanyallas_ajtoval.jpg",
+		"type_hu": "Orr borítás",
+		"price": "xxx",
+		"type_order": 1
+	},
+
+	"14": 
+	{
+		"name_hu": "Jet kormányállás",
+		"desc_hu": "Főleg gumicsónakba, sík felületre szerelhető. Anyaga üvegszálas műanyag, szivacs-műbőr kárpittal. A kárpit alatt kis tároló dobozok vannak.",
+		"img": "jet_kormanyallas.jpg",
+		"type_hu": "Orr borítás",
+		"price": "xxx",
+		"type_order": 1
+	},
+
+	"15": 
+	{
+		"name_hu": "Műanyag hajószék tárolós bakkal",
+		"desc_hu": "Az ülőfelület PVC, a tartószerkezet üvegszálas műanyag, létezik 6 cm-el magasabb tartó is. A bak belsejében a kerek ajtón keresztül lehet rakodni. Rozsadamentes forgató szerkezettel is rendelhető!",
+		"img": "muanyag_hajoszek_tarolo_bakkal.jpg",
+		"type_hu": "Orr borítás",
+		"price": "xxx",
+		"type_order": 1
+	},
+
+	"16": 
+	{
+		"name_hu": "Kárpitozott hajószék",
+		"desc_hu": "Vezető és utas széknek egyaránt alkalmas kényelmes szivacs-műbőr kárpíttal, tárolás bakkal 2 féle magassággal. A szivacsokat tároláskor ponyvával víz ellen védeni kell. Rozsadamentes forgató szerkezettel is rendelhető!",
+		"img": "karpitozott_hajoszek.jpg",
+		"type_hu": "Orr borítás",
+		"price": "xxx",
+		"type_order": 1
+	},
+
+	"17": 
+	{
+		"name_hu": "100 literes kárpitozott ülődoboz",
+		"desc_hu": "Sík felületre ragasztható tárolódoboz. Anyaga üvegszálas műanyag, ülőfelülete szivacs-műbőr kárpítozott, tároláskor víz ellen ponyvával védeni kell. Rozsdamentes zsanérral és lakatszemmel szerelt. Rakodó nyílás 35x49 cm-es.",
+		"img": "100_literes_karpitozott_ulodoboz.jpg",
+		"type_hu": "Orr borítás",
+		"price": "xxx",
+		"type_order": 1
+	},
+
+	"18": 
+	{
+		"name_hu": "200 literes kárpitozott ülődoboz",
+		"desc_hu": "Ugyanolyan mint a 100 literes doboz a K MAXXI-ba célszerű hosszában beszerelni mert így körbejárható és középen ülve bármely irányba kényelmesen lehet róla horgászni. Rakodó nyílás 35 cm x 105 cm-es.",
+		"img": "200_literes_karpitozott_ulodoboz.jpg",
+		"type_hu": "Orr borítás",
+		"price": "xxx",
+		"type_order": 1
+	},
+
+	"19": 
+	{
+		"name_hu": "Villanymotor tartó",
+		"desc_hu": "A K MAXXI méretéhez gyártott villanymotor tartó, rozsdamentes acéltartó, műgyantával kezelt rétegelt lemezzel.",
+		"img": "villanymotor_tarto.jpg",
+		"type_hu": "Orr borítás",
+		"price": "xxx",
+		"type_order": 1
+	},
+
+	"20": 
+	{
+		"name_hu": "Fürdő létra",
+		"desc_hu": "A K MAXXI méretéhez gyártott 3 lépcsőfokos fürdőlétra, anyaga rozsdamentes acél. 4 db 6-os csavarral szerelhető.",
+		"img": "furdo_letra.jpg",
+		"type_hu": "Orr borítás",
+		"price": "xxx",
+		"type_order": 1
 	}
 }
