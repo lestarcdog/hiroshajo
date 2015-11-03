@@ -14,8 +14,7 @@
 </div>
 
 <div ng-if="boat != null">
-	<button class="btn btn-primary" ng-click="back()">Vissza a
-		modellekhez</button>
+	<button class="btn btn-primary" ng-click="back()">Vissza a modellekhez</button>
 	<div class="row">
 		<div class="col-sm-12">
 			<div class="text-center" ng-if="boat.gallery != null">TODO
@@ -27,14 +26,18 @@
 			<div class="text-center" ng-if="boat.video != null">TODO video</div>
 		</div>
 	</div>
-	<div class="row">
+	<div class="row" id="boat-description">
 		<div class="col-sm-12" id="boat-description">
-			<div ng-if="descCollapse">{{txt1}}...</div>
-			<div ng-if="descCollapse" id="txt2" class="collapse">{{txt2}}</div>
-			<div ng-if="descCollapse" data-toggle="collapse"
-				data-target="#txt2">Bővebben...</div>
-			<div ng-if="!descCollapse">{{txt1}}</div>
+			<div ng-if="descCollapse" ng-show="!descToggle">{{txt}}...</div>
+			<div ng-if="descCollapse" id="txtFull" class="collapse">{{txtFull}}</div>
+			<div id="collapse-btn" class="text-center" ng-if="descCollapse" data-toggle="collapse"
+				data-target="#txtFull" ng-click="toggleDesc()" ng-bind="descButtonExpandText"></div>
+			<div ng-if="!descCollapse">{{txtFull}}</div>
 		</div>
+	</div>
+	<div class="row" id="boat-details">
+	    
+		<div class="row"></div>
 	</div>
 
 </div>

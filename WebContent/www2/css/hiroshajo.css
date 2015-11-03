@@ -151,3 +151,13 @@
 #boats-menu img:hover {
 	opacity: 1.0;	
 }
+
+#boat-description div {
+	color: #FC0;
+	background: black;
+	padding:5px;
+}
+
+#boat-description #collapse-btn:hover {
+	background: #333;
+}
