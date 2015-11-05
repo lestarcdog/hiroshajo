@@ -109,7 +109,7 @@
 
 /* Fittings */
 .single-fitting {
-
+	
 }
 
 .single-fitting h4 {
@@ -134,8 +134,8 @@
 	margin: 0;
 	padding: 5px 0;
 	position: relative;
-	top:0;
-	left:0;
+	top: 0;
+	left: 0;
 	right: 0;
 	width: 100%;
 	text-align: center;
@@ -144,20 +144,37 @@
 }
 
 #boats-menu img {
-	opacity:0.7; 
+	opacity: 0.7;
 	transition: opacity 0.5s;
 }
 
 #boats-menu img:hover {
-	opacity: 1.0;	
+	opacity: 1.0;
 }
 
 #boat-description div {
 	color: #FC0;
 	background: black;
-	padding:5px;
+	padding: 5px;
 }
 
 #boat-description #collapse-btn:hover {
 	background: #333;
+}
+
+#boat-details #panel {
+	background: black;
+	color: #FC0;
+	margin-top: 15px;
+}
+
+#boat-details #panel #header {
+	border-bottom: white 2px solid;
+}
+#boat-details #panel #boat-price {
+	background: red;
+	color:white;	
+	font-size: 2em;
+	font-weight: bold;
+	
 }
