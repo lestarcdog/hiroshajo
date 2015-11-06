@@ -5,15 +5,16 @@
 		"length" : 570,
 		"width" : 210,
 		"weight" : 280,
-		"form" : "catamaran",
+		"form" : "katamarán",
 		"loadability" : 1400,
 		"engine" : "max 70",
 		"transport" : 6,
 		"price" :630000,
-		"pic1" : ["xxl/kmaxxi_xxl_small_1.jpg","xxl/kmaxxi_xxl_small_2.jpg"],
+		"pics" : ["xxl/kmaxxi_xxl_small_1.jpg","xxl/kmaxxi_xxl_small_2.jpg"],
 		"gallery" : "",
 		"button_img" : "buttons/k_maxxi_XXL_on.jpg",
 		"video" : "",
+		"background" : "",
 		"novelty" : true,
 		"available" : true
 	}

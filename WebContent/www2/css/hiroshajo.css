@@ -36,8 +36,8 @@
 }
 
 #hiroshajo-content {
-	margin-top: 10px;
-	padding: 0 25px 20px 25px;
+	padding: 10px 25px;
+	
 }
 
 /* custom */
@@ -162,19 +162,23 @@
 	background: #333;
 }
 
-#boat-details #panel {
-	background: black;
-	color: #FC0;
+#boat-details {
 	margin-top: 15px;
 }
 
-#boat-details #panel #header {
-	border-bottom: white 2px solid;
+#boat-details #panel {
+	background: black;
+	color: #FC0;
 }
+
+#boat-details #panel #header {
+	font-size: 1.5em;
+	margin: 8px 0;
+}
+
 #boat-details #panel #boat-price {
 	background: red;
-	color:white;	
+	color: white;
 	font-size: 2em;
 	font-weight: bold;
-	
 }
