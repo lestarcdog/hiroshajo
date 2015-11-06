@@ -1,7 +1,7 @@
 {
 	"1" : {
 		"name": "K Maxxi XXL",
-		"desc_hu": "Egy igazán nagy csónak, az igazán nagy horgászoknak. Óriási méretei ellenére, a menettulajdonsága kiváló, melyet már tesztekkel is bizonyítottunk. 2014-ben elkészül a belső tároló dobozos változat.",
+		"desc_hu": "Egy igazán nagy csónak, az igazán nagy horgászoknak. Óriási méretei ellenére, a menettulajdonsága kiváló, melyet már tesztekkel is bizonyítottunk. 2014-ben elkészült a belső tároló dobozos változat.",
 		"length" : 570,
 		"width" : 210,
 		"weight" : 280,
@@ -14,7 +14,7 @@
 		"gallery" : "",
 		"button_img" : "buttons/k_maxxi_XXL_on.jpg",
 		"video" : "",
-		"background" : "",
+		"background" : "fishing_lake.jpg",
 		"novelty" : true,
 		"available" : true
 	}
