@@ -37,7 +37,6 @@
 
 #hiroshajo-content {
 	padding: 10px 25px;
-	
 }
 
 /* custom */
@@ -152,10 +151,13 @@
 	opacity: 1.0;
 }
 
-#boat-description div {
+#boat-description {
+	margin-top: 10px;
+	padding: 10px;
+	border-radius: 5px;
 	color: #FC0;
 	background: black;
-	padding: 5px;
+	box-shadow: 2px 2px 4px #000;
 }
 
 #boat-description #collapse-btn:hover {

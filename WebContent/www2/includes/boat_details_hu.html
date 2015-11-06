@@ -11,13 +11,15 @@
 		<div class="text-center" ng-if="boat.video != ''">TODO video</div>
 	</div>
 </div>
-<div class="row" id="boat-description">
-	<div class="col-sm-12 well-lg" id="boat-description">
-		<div ng-if="descCollapse" ng-show="!descToggle">{{txt}}...</div>
-		<div ng-if="descCollapse" id="txtFull" class="collapse">{{txtFull}}</div>
-		<div id="collapse-btn" class="text-center" ng-if="descCollapse" data-toggle="collapse" data-target="#txtFull" ng-click="toggleDesc()"
-			ng-bind="descButtonExpandText"></div>
-		<div ng-if="!descCollapse">{{txtFull}}</div>
+<div class="row">
+	<div class="col-sm-12">
+		<div id="boat-description">
+			<div ng-if="descCollapse" ng-show="!descToggle">{{txt}}...</div>
+			<div ng-if="descCollapse" id="txtFull" class="collapse">{{txtFull}}</div>
+			<div id="collapse-btn" class="text-center" ng-if="descCollapse" data-toggle="collapse" data-target="#txtFull" ng-click="toggleDesc()"
+				ng-bind="descButtonExpandText"></div>
+			<div ng-if="!descCollapse">{{txtFull}}</div>
+		</div>
 	</div>
 </div>
 <div class="row" id="boat-details">

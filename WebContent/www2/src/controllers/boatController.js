@@ -56,6 +56,7 @@ app.controller("BoatController", function($scope, $rootScope, $location, BoatSer
 		$rootScope.changePage(defaultPageTitle, null);
 		$scope.boat = null;
 		$scope.descCollapse = false;
+		angular.element("#hiroshajo-content").css("background", "");
 	}
 
 	$scope.toggleDesc = function() {
