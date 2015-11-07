@@ -1,43 +1,313 @@
 {
-	"1" : {
+	"1": 
+	{
 		"name": "K Maxxi XXL",
+		"tag_hu": "",
 		"desc_hu": "Egy igazán nagy csónak, az igazán nagy horgászoknak. Óriási méretei ellenére, a menettulajdonsága kiváló, melyet már tesztekkel is bizonyítottunk. 2014-ben elkészült a belső tároló dobozos változat.",
-		"length" : 570,
-		"width" : 210,
-		"weight" : 280,
-		"form" : "katamarán",
-		"loadability" : 1400,
-		"engine" : "max 70",
-		"transport" : 6,
-		"price" :630000,
-		"pics" : ["xxl/kmaxxi_xxl_small_1.jpg","xxl/kmaxxi_xxl_small_2.jpg"],
-		"carousel_img" :"",
-		"gallery" : "",
-		"button_img" : "buttons/k_maxxi_XXL_on.jpg",
-		"video" : "",
-		"background" : "fishing_lake.jpg",
-		"novelty" : true,
-		"available" : true
+		"length": 570,
+		"width": 210,
+		"weight": 280,
+		"form_hu": "katamarán",
+		"loadability": 1400,
+		"engine": "max 70",
+		"transport": 6,
+		"price": 630000,
+		"pics": 
+		[
+			"xxl/kmaxxi_xxl_small_1.jpg",
+			"xxl/kmaxxi_xxl_small_2.jpg"
+		],
+
+		"carousel_img": "",
+		"gallery": "",
+		"button_img": "buttons/k_maxxi_XXL_on.jpg",
+		"video": "",
+		"background": "fishing_lake.jpg",
+		"novelty": true,
+		"available": true
 	},
-	"2" : {
-		"name": "K Maxxi horgászcsónak",
+
+	"2": 
+	{
+		"name": "K Maxxi",
+		"tag_hu": "horgászcsónak",
 		"desc_hu": "Ez a horgászcsónak a horgászok álma! Méreteiben ideális tavi és folyami horgászatra egyaránt.",
-		"length" : 460,
-		"width" : 170,
-		"weight" : 150,
-		"form" : "katamarán",
-		"loadability" : 450,
-		"engine" : "max 40",
-		"transport" : 5,
-		"color" : 5000,
-		"price" :315000,
-		"pics" : ["xxl/kmaxxi_xxl_small_1.jpg","xxl/kmaxxi_xxl_small_2.jpg"],
-		"carousel_img" :"",
-		"gallery" : "",
-		"button_img" : "buttons/k_maxxi_on.jpg",
-		"video" : "",
-		"background" : "fishing_lake.jpg",
-		"novelty" : false,
-		"available" : true
+		"length": 460,
+		"width": 170,
+		"weight": 150,
+		"form_hu": "katamarán",
+		"loadability": 450,
+		"engine": "max 40",
+		"transport": 5,
+		"color": 5000,
+		"price": 315000,
+		"pics": 
+		[
+			"xxl/kmaxxi_xxl_small_1.jpg",
+			"xxl/kmaxxi_xxl_small_2.jpg"
+		],
+
+		"carousel_img": "",
+		"gallery": "",
+		"button_img": "buttons/k_maxxi_on.jpg",
+		"video": "",
+		"background": "fishing_lake.jpg",
+		"novelty": false,
+		"available": true
+	},
+
+	"3": 
+	{
+		"name": "K Maxxi Extra",
+		"tag_hu": "horgászcsónak",
+		"desc_hu": "Ez a horgászcsónak a K Maxxi meghosszabított változata. Méretei lehetővé teszik több horgász kényelmes horgászatát. A K Maxxi szerelvényei ehhez a típushoz is megfelelőek.",
+		"length": 545,
+		"width": 170,
+		"weight": 185,
+		"form_hu": "katamarán",
+		"loadability": 500,
+		"engine": "max 40",
+		"transport": 6,
+		"price": 379000,
+		"pics": 
+		[
+			"xxl/kmaxxi_xxl_small_1.jpg",
+			"xxl/kmaxxi_xxl_small_2.jpg"
+		],
+
+		"carousel_img": "",
+		"gallery": "",
+		"button_img": "buttons/k_maxxi_extra_on.jpg",
+		"video": "",
+		"background": "fishing_lake.jpg",
+		"novelty": false,
+		"available": true
+	},
+
+	"4": 
+	{
+		"name": "K Maxxi Joker",
+		"tag_hu": "az univerzális csónak",
+		"desc_hu": "Ez az univerzális csónak a K Maxxi Extra továbbfejlesztett változata. Legfontosabb újdonságai a járható orrfedés és a motorteknő. Használható kézikaros motorral is, de ebben az esetben célszerű hosszúszárú motort választani, mert az irányítókar belóghat az utastérbe. Ehhez a csónakhoz készült a kis helyigényű oldalsó kormánykonzol, mely tartalmaz egy kis szélvédőt és elfér rajta a halradar képernyője is. A csónak kapott 20 cm-es oldalmagasítást, mely jól véd a hullámosabb vizeken, de nem akadályoz a kuttyogatásban. Belső tere teljesen üres és sík, szabadon berendezhető ülésekkel. 50 LE-s motorral egy hatalmas belső terű sportcsónak.Egyedi, fülkés változatra való továbbépítésre is alkalmas, mert a fedélzet belső pereme biztosítja a vízelvezetést.",
+		"length": 545,
+		"width": 170,
+		"weight": 245,
+		"form_hu": "katamarán",
+		"loadability": 500,
+		"engine": "max 70",
+		"transport": 6,
+		"price": 535000,
+		"pics": 
+		[
+			"xxl/kmaxxi_xxl_small_1.jpg",
+			"xxl/kmaxxi_xxl_small_2.jpg"
+		],
+
+		"carousel_img": "",
+		"gallery": "",
+		"button_img": "buttons/k_maxxi_joker_on.jpg",
+		"video": "",
+		"background": "fishing_lake.jpg",
+		"novelty": false,
+		"available": true
+	},
+
+	"5": 
+	{
+		"name": "K Maxxi Joker Cabin",
+		"tag_hu": "",
+		"desc_hu": "A K MAXXI JOKER típusra, utólag ráhelyezhető kabin. Melyet a régebben gyártott JOKER-ekre is rá lehet szerelni, a kis kormánykonzol a kabin belsejében is elhelyezhető.",
+		"length": 545,
+		"width": 170,
+		"weight": 274,
+		"form_hu": "katamarán",
+		"loadability": 500,
+		"engine": "max 70",
+		"transport": 5,
+		"price": 850000,
+		"price_sub": "(kormánymű nélkül)",
+		"pics": 
+		[
+			"xxl/kmaxxi_xxl_small_1.jpg",
+			"xxl/kmaxxi_xxl_small_2.jpg"
+		],
+
+		"carousel_img": "",
+		"gallery": "",
+		"button_img": "buttons/k_maxxi_joker_cabin_on.jpg",
+		"video": "",
+		"background": "fishing_lake.jpg",
+		"novelty": false,
+		"available": true
+	},
+
+	"6": 
+	{
+		"name": "K Maxxi Cabrio",
+		"tag_hu": "",
+		"desc_hu": "",
+		"length": 0,
+		"width": 0,
+		"weight": 0,
+		"form_hu": "",
+		"loadability": 0,
+		"engine": "",
+		"transport": 0,
+		"price": "",
+		"pics": 
+		[
+			
+		],
+
+		"carousel_img": "",
+		"gallery": "",
+		"button_img": "buttons/k_maxxi_cabrio_on.jpg",
+		"video": "",
+		"background": "",
+		"novelty": false,
+		"available": false
+	},
+
+	"7": 
+	{
+		"name": "K1 fisherman",
+		"tag_hu": "egy sokcélú csónak",
+		"desc_hu": 
+		[
+			"<p>Ez a sokcélú csónak, motorosként használva, a különleges fenékvezetőnek köszönhetően rendkívül könnyen irányítható és stabil menettulajdonságú. Súlya lehetővé teszi, hogy akár kézikocsival egy ember is könnyedén mozgatni tudja. 2016-ban a cég 20 éves fennállásának évfordulójára megújult a K1 fisherman típus. </p>",
+			"<p>Miután összegyűlt 20 év adriai nyaralások tapasztalata, ezt tükrözi az új típus. Magasabb oldalfal, nagyobb belső tér, jobb hullámállóság, kiváló menetteljesítmény jellemző a 380cm hosszú 155 cm széles K1 fishermant.</p> <p>Úgymint a többi típusnál felszerelhető orrdobozzal, hátsó padokkal, belépővel, fürdőlétrával, takaró szállító ponyvával, vízen tároló ponyvával. és vagy korláttal már szinte nagy csónakos lesz.</p>",
+			"<p>A K1 fishermant lehet rövid, illetve hosszú csizmás motorhoz rendelni. Még egy nagy változás, hogy 20 LE feletti motorhoz fel kell szerelni egy hátsó fartükörhöz csatlakoztatható sikló szárnyat, mellyel ez a kis csónak 8 LE motorral, 2 személlyel is még siklik. (Tengeren 140 kg terheléssel 25 km/h) Ha egy személy használja mindenképpen szükséges a súlypontot előbbre vinni, ehhez feltétlenül szükséges a motor gázkarjának a meghosszabbítása. Csak egy ötlet 80 cm hosszú PVC csövet megmelegítve, ráhúzva a gázmarkolatra, tökéletes megoldás. Kihűlés után természetesen le lehet venni és bármikor visszarakni.</p>",
+			"<p>A K1 fisherman súlya 93 kg, így könnyen mozgatható, akár kézikocsival, vagy a hozzá kapható vizsgáztatott utánfutóval. Mint az összes típusnál lehet külső és belső színt választani, az alap változat: alul fehér, felül baige színű. Bármilyen egyéb kérés esetén forduljon hozzám Juharos Imréhez bizalommal.</p>"
+		],
+
+		"length": 380,
+		"width": 155,
+		"weight": 93,
+		"form_hu": "katamarán",
+		"loadability": 360,
+		"engine": "max 20 LE",
+		"transport": 4,
+		"price": 280000,
+		"pics": 
+		[
+			
+		],
+
+		"carousel_img": "",
+		"gallery": "",
+		"button_img": "buttons/k_1_fisherman_on.jpg",
+		"video": "",
+		"background": "fishing_lake.jpg",
+		"novelty": true,
+		"available": true
+	},
+
+	"8": 
+	{
+		"name": "K2 Party",
+		"tag_hu": "",
+		"desc_hu": "",
+		"length": 0,
+		"width": 0,
+		"weight": 0,
+		"form_hu": "",
+		"loadability": 0,
+		"engine": "",
+		"transport": 0,
+		"price": 0,
+		"pics": 
+		[
+			
+		],
+
+		"carousel_img": "",
+		"gallery": "",
+		"button_img": "buttons/k_2_party_on.jpg",
+		"video": "",
+		"background": "",
+		"novelty": false,
+		"available": false
+	},
+
+	"9": 
+	{
+		"name": "K Maxxi Party",
+		"tag_hu": "a sportcélú hajó",
+		"desc_hu": "A K Maxxi Party egyaránt alkalmas tavi és folyami csónakázásra. Már 15 LE-s motorral lendeületesen mozog a vízen.",
+		"length": 460,
+		"width": 170,
+		"weight": 220,
+		"form_hu": "katamarán",
+		"loadability": 450,
+		"engine": "max 70",
+		"transport": 5,
+		"price": 780000,
+		"price_sub": "(kárpítozott műanyagtest kormányművel)",
+		"pics": 
+		[
+			
+		],
+
+		"carousel_img": "",
+		"gallery": "",
+		"button_img": "buttons/k_maxxi_party_on.jpg",
+		"video": "",
+		"background": "",
+		"novelty": false,
+		"available": true
+	},
+
+	"10": 
+	{
+		"name": "K mini boat&box",
+		"tag_hu": "",
+		"desc_hu": "",
+		"length": 0,
+		"width": 0,
+		"weight": 0,
+		"form_hu": "",
+		"loadability": 0,
+		"engine": "",
+		"transport": 0,
+		"price": 0,
+		"pics": 
+		[
+			
+		],
+
+		"carousel_img": "",
+		"gallery": "",
+		"button_img": "buttons/k_mini_boatandbo_on.jpg",
+		"video": "",
+		"background": "",
+		"novelty": false,
+		"available": false
+	},
+
+	"11": 
+	{
+		"name": "K Maxxi delfin II",
+		"tag_hu": "",
+		"desc_hu": "",
+		"length": 0,
+		"width": 0,
+		"weight": 0,
+		"form_hu": "",
+		"loadability": 0,
+		"engine": "",
+		"transport": 0,
+		"price": 0,
+		"pics": 
+		[
+			
+		],
+
+		"carousel_img": "",
+		"gallery": "",
+		"button_img": "buttons/k_maxxi_delfin_2_on.jpg",
+		"video": "",
+		"background": "",
+		"novelty": false,
+		"available": false
 	}
 }

@@ -25,44 +25,35 @@ app.controller("BoatController", function($scope, $rootScope, $location, BoatSer
 				}
 			}
 		});
+		setBackground(null);
 
 	}
 
 	$scope.select = function(boat) {
 		$scope.boat = boat;
 		// add description toggle
-		if (boat.desc_hu.length > descLength) {
+		if (angular.isArray(boat.desc_hu)) {
 			$scope.descCollapse = true;
-			$scope.txt = boat.desc_hu.substring(0, descLength);
-			$scope.txtFull = boat.desc_hu;
+			$scope.txt = boat.desc_hu[0];
+			$scope.txtFull = boat.desc_hu.join("");
 		} else {
 			$scope.txtFull = boat.desc_hu;
 		}
 		// add background
-		var bg_path = "url(images/bg/";
-		if (boat.background != "") {
-			bg_path += boat.background;
-		} else {
-			bg_path += "blurred_main_bg.jpg";
+		setBackground(boat.background);
+
+		var tag = "";
+		if (boat.tag_hu != null && boat.tag_hu !== "") {
+			tag = " " + boat.tag_hu;
 		}
-		bg_path += ")"
-
-		var bg = angular.element("#hiroshajo-content");
-		bg.hide();
-		bg.css("background-image", bg_path);
-		bg.fadeIn(700);
-
-		$rootScope.changePage(boat.name, null);
+		$rootScope.changePage(boat.name + tag, null);
 	}
 
 	$scope.back = function() {
 		$rootScope.changePage(defaultPageTitle, null);
 		$scope.boat = null;
 		$scope.descCollapse = false;
-		var bg = angular.element("#hiroshajo-content");
-		bg.hide();
-		bg.css("background-image", "");
-		bg.fadeIn(500);
+		setBackground(null);
 	}
 
 	$scope.toggleDesc = function() {
@@ -72,6 +63,20 @@ app.controller("BoatController", function($scope, $rootScope, $location, BoatSer
 		} else {
 			$scope.descButtonExpandText = "Bővebben..."
 		}
+	}
+
+	var setBackground = function(path) {
+		var bg_path = "url(images/bg/";
+		if (path != null && path != "") {
+			bg_path += path;
+		} else {
+			bg_path += "blurred_main_bg.jpg";
+		}
+		bg_path += ")"
+		var bg = angular.element("#hiroshajo-content");
+		bg.hide();
+		bg.css("background-image", bg_path);
+		bg.fadeIn(500);
 	}
 
 	$scope.refresh();

@@ -1,8 +1,8 @@
 app
 		.run(function($rootScope) {
+			// add page header and meta controllers
 			var meta = {
-				title : "Üvegszálas műanyag hajó, csónak, horgászcsónak gyártás. "
-						+ (new Date).getFullYear(),
+				title : "Üvegszálas műanyag hajó, csónak, horgászcsónak gyártás. " + (new Date).getFullYear(),
 				description : "A Híröshajó Kft. katamarán aljú, üvegszálas műanyag hajó, csónak, horgászcsónak tervezésével és gyártásával foglalkozik.",
 				keywords : "hajó, csónak, horgászcsónak, üvegszálas műanyag"
 
@@ -42,4 +42,7 @@ app
 					header_pic : vheader_pic
 				}
 			}
+
+			// add date to header
+			angular.element("#header-evszam").attr("src", "images/header/evszam" + (new Date).getFullYear() + ".png")
 		});

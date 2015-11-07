@@ -3,8 +3,8 @@ app.filter("hunPrice", function() {
 		if ($.isNumeric(value)) {
 			var full = value.toString();
 			var out = "";
-			var c=0;
-			for (i = full.length-1; i >=0; i--) {
+			var c = 0;
+			for (i = full.length - 1; i >= 0; i--) {
 				out += full.charAt(i);
 				c++;
 				if (c === 3) {
@@ -12,7 +12,7 @@ app.filter("hunPrice", function() {
 					c = 0;
 				}
 			}
-			return reverse(out);
+			return reverse(out) + " Ft";
 		} else {
 			return value;
 		}

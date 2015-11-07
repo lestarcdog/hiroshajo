@@ -1,4 +1,4 @@
-var app = angular.module("HiroshajoApp", [ "ngRoute" ]);
+var app = angular.module("HiroshajoApp", [ "ngRoute", "ngSanitize" ]);
 app.config(function($routeProvider) {
 	$routeProvider.when("/", {
 		templateUrl : "views/main.html"
@@ -22,7 +22,6 @@ app.config(function($routeProvider) {
 		redirectTo : '/'
 	});
 });
-
 
 app.controller("LocationCtrl", function($scope, $location, $rootScope) {
 
