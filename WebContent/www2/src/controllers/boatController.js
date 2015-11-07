@@ -55,7 +55,7 @@ app.controller("BoatController", function($scope, $rootScope, $location, Lightbo
 	}
 
 	$scope.openVideos = function() {
-		Lightbox.openModal($scope.boat.gallery, 0);
+		Lightbox.openModal($scope.boat.videos, 0);
 	}
 
 	var loadBoatDetails = function(boatId) {

@@ -1,8 +1,8 @@
-app.factory("BoatService", function($http) {
+app.factory("BoatService", function($http, httpEndpoints) {
 	var getBoats = function() {
-		return $http.get("db/boats.json");
+		return $http.get(httpEndpoints.boats);
 	};
-	
+
 	return {
 		getBoats : getBoats
 	};

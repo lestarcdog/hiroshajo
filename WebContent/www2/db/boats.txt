@@ -160,11 +160,18 @@
 		],
 
 		"carousel_img": "",
-		"gallery": "",
+		"gallery": 
+		[
+			
+		],
+
 		"button_img": "buttons/k_maxxi_joker_on.jpg",
 		"videos": 
 		[
-			
+			{
+				"type": "video",
+				"url": "https://www.youtube.com/watch?v=-UVDy6f3IXs"
+			}
 		],
 
 		"background": "fishing_lake.jpg",
@@ -384,7 +391,24 @@
 		],
 
 		"carousel_img": "",
-		"gallery": "",
+		"gallery": 
+		[
+			"gallery/party/part01.jpg",
+			"gallery/party/part02.jpg",
+			"gallery/party/part03.jpg",
+			"gallery/party/part04.jpg",
+			"gallery/party/part05.jpg",
+			"gallery/party/part06.jpg",
+			"gallery/party/part07.jpg",
+			"gallery/party/part08.jpg",
+			"gallery/party/part09.jpg",
+			"gallery/party/part10.jpg",
+			"gallery/party/part11.jpg",
+			"gallery/party/part12.jpg",
+			"gallery/party/part13.jpg",
+			"gallery/party/part14.jpg"
+		],
+
 		"button_img": "buttons/k_maxxi_party_on.jpg",
 		"videos": 
 		[
