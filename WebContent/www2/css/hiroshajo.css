@@ -88,7 +88,8 @@
 }
 
 #main-page-wrapper {
-	background: url('../images/bg/main_content_bg.jpg') repeat;
+	background-image: url('../images/bg/main_content_bg.jpg') ;
+	background-repeat: repeat;
 	padding-bottom: 20px;
 }
 
@@ -147,7 +148,7 @@
 	transition: opacity 0.5s;
 }
 
-#boats-menu img.enabled:hover{
+#boats-menu img.enabled:hover {
 	opacity: 1.0;
 }
 
@@ -162,7 +163,14 @@
 }
 
 #hiroshajo-content {
-	background-repeat: repeat;
+}
+
+#model-back-button {
+	background-color: #ff972f;
+}
+
+#model-back-button:hover, #model-back-button:focus  {
+	background-color: #ff8000
 }
 
 #boat-description {
@@ -192,6 +200,10 @@
 	margin: 8px 0;
 }
 
+#boat-details table {
+	color: white;
+}
+
 #boat-details #panel #boat-price {
 	background: red;
 	color: white;
@@ -199,6 +211,14 @@
 	font-weight: bold;
 	margin-bottom: 15px;
 }
+
 #boat-details #panel .boat-subprice {
 	font-size: 0.5em;
+}
+
+#boat-details .side-img:FIRST-CHILD {
+	margin-top: 0;
+}
+#boat-details .side-img {
+	margin-top: 15px;
 }

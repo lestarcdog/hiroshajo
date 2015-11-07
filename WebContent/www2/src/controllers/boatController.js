@@ -1,6 +1,7 @@
 app.controller("BoatController", function($scope, $rootScope, $location, BoatService) {
 	var defaultPageTitle = "Csónakok, katamarán";
 	var descLength = 500;
+	var bg = angular.element("#hiroshajo-content");
 
 	$scope.descToggle = false;
 	$scope.descButtonExpandText = "Bővebben..."
@@ -17,9 +18,7 @@ app.controller("BoatController", function($scope, $rootScope, $location, BoatSer
 
 			var boatId = $location.search().boatId
 			if (boatId != null) {
-				if ($scope.boats[boatId] != null) {
-					$scope.select($scope.boats[boatId]);
-				}
+				loadBoatDetails(boatId);
 			}
 		});
 		$rootScope.changePage("Csónakok, katamarán", null);
@@ -28,26 +27,8 @@ app.controller("BoatController", function($scope, $rootScope, $location, BoatSer
 
 	}
 
-	$scope.select = function(boat) {
-		$scope.boat = boat;
-		// add description toggle
-		if (angular.isArray(boat.desc_hu)) {
-			$scope.descCollapse = true;
-			$scope.txt = boat.desc_hu[0];
-			$scope.txtFull = boat.desc_hu.join("");
-		} else {
-			$scope.txtFull = boat.desc_hu;
-		}
-		// add background
-		setBackground(boat.background);
-
-		var tag = "";
-		if (boat.tag_hu != null && boat.tag_hu !== "") {
-			tag = " " + boat.tag_hu;
-		}
-
-		$rootScope.changePage(boat.name + tag, null);
-		$rootScope.changeMeta(boat.name, boat.name + tag, boat.name + tag);
+	$scope.select = function(boatId) {
+		loadBoatDetails(boatId);
 	}
 
 	$scope.back = function() {
@@ -61,21 +42,52 @@ app.controller("BoatController", function($scope, $rootScope, $location, BoatSer
 	$scope.toggleDesc = function() {
 		$scope.descToggle = !$scope.descToggle;
 		if ($scope.descToggle) {
-			$scope.descButtonExpandText = "Bezár..."
+			$scope.descButtonExpandText = "Bezár...";
+			$scope.txt = "";
 		} else {
-			$scope.descButtonExpandText = "Bővebben..."
+			$scope.descButtonExpandText = "Bővebben...";
+			$scope.txt = $scope.boat.desc_hu[0];
 		}
+	}
+
+	var loadBoatDetails = function(boatId) {
+		var boat = $scope.boats[boatId];
+		if (boat == null) {
+			return;
+		}
+		$scope.boat = boat;
+		// add description toggle
+		if (angular.isArray(boat.desc_hu)) {
+			$scope.descCollapse = true;
+			$scope.txt = boat.desc_hu[0];
+			$scope.txtFull = boat.desc_hu.join("");
+		} else {
+			$scope.txtFull = boat.desc_hu;
+		}
+
+		var tag = "";
+		if (boat.tag_hu != null && boat.tag_hu !== "") {
+			tag = " " + boat.tag_hu;
+		}
+
+		$rootScope.changePage(boat.name + tag, null);
+		$rootScope.changeMeta(boat.name, boat.name + tag, boat.name + tag);
+
+		// add background
+		setBackground(boat.background);
 	}
 
 	var setBackground = function(path) {
 		var bg_path = "url(images/bg/";
 		if (path != null && path != "") {
 			bg_path += path;
+			bg.css("background-repeat", "no-repeat");
 		} else {
 			bg_path += "blurred_main_bg.jpg";
+			bg.css("background-repeat", "repeat");
 		}
 		bg_path += ")"
-		var bg = angular.element("#hiroshajo-content");
+
 		bg.hide();
 		bg.css("background-image", bg_path);
 		bg.fadeIn(500);

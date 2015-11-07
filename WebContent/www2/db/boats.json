@@ -14,8 +14,9 @@
 		"price": 630000,
 		"pics": 
 		[
-			"xxl/kmaxxi_xxl_small_1.jpg",
-			"xxl/kmaxxi_xxl_small_2.jpg"
+			"xxl/happy_guy.jpg",
+			"xxl/schnell_boat.jpg",
+			"xxl/tarolo_dobozos.jpg"
 		],
 
 		"carousel_img": "",
@@ -43,8 +44,9 @@
 		"price": 315000,
 		"pics": 
 		[
-			"xxl/kmaxxi_xxl_small_1.jpg",
-			"xxl/kmaxxi_xxl_small_2.jpg"
+			"maxxi/hatso.jpg",
+			"maxxi/korlat.jpg",
+			"maxxi/vizen.jpg"
 		],
 
 		"carousel_img": "",
@@ -71,8 +73,8 @@
 		"price": 379000,
 		"pics": 
 		[
-			"xxl/kmaxxi_xxl_small_1.jpg",
-			"xxl/kmaxxi_xxl_small_2.jpg"
+			"extra/tomeg.jpg",
+			"extra/szembol.jpg"
 		],
 
 		"carousel_img": "",
@@ -99,8 +101,9 @@
 		"price": 535000,
 		"pics": 
 		[
-			"xxl/kmaxxi_xxl_small_1.jpg",
-			"xxl/kmaxxi_xxl_small_2.jpg"
+			"joker/imi_vezet.jpg",
+			"joker/jokerponyvaMotion.gif",
+			"joker/pakolas.jpg"
 		],
 
 		"carousel_img": "",
@@ -128,15 +131,16 @@
 		"price_sub": "(kormánymű nélkül)",
 		"pics": 
 		[
-			"xxl/kmaxxi_xxl_small_1.jpg",
-			"xxl/kmaxxi_xxl_small_2.jpg"
+			"cabin/elore_oldalt.jpg",
+			"cabin/oldalso.jpg",
+			"cabin/szembol.jpg"
 		],
 
 		"carousel_img": "",
 		"gallery": "",
 		"button_img": "buttons/k_maxxi_joker_cabin_on.jpg",
 		"video": "",
-		"background": "fishing_lake.jpg",
+		"background": "fishing_lake2.jpg",
 		"novelty": false,
 		"available": true
 	},
@@ -190,7 +194,8 @@
 		"price": 280000,
 		"pics": 
 		[
-			
+			"fisherman/k1_fisherman_1.jpg",
+			"fisherman/k1_fisherman_2.jpg"
 		],
 
 		"carousel_img": "",
@@ -245,7 +250,8 @@
 		"price_sub": "(kárpítozott műanyagtest kormányművel)",
 		"pics": 
 		[
-			
+			"party/belso.jpg",
+			"party/vizen.jpg"
 		],
 
 		"carousel_img": "",

@@ -13,7 +13,7 @@ app.config(function($routeProvider) {
 	}).when("/contact", {
 		templateUrl : "views/contact.html",
 		controller : "ContactController"
-	}).when("/boats", {
+	}).when("/boats/", {
 		templateUrl : "views/boats.html",
 		controller : "BoatController"
 	})
@@ -26,6 +26,6 @@ app.config(function($routeProvider) {
 app.controller("LocationCtrl", function($scope, $location, $rootScope) {
 
 	$scope.isActive = function(route) {
-		return $location.path().indexOf(route) != -1;
+		return $location.path().indexOf(route) !== -1;
 	};
 });

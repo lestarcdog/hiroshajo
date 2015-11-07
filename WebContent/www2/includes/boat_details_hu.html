@@ -1,6 +1,6 @@
 <div class="row">
 	<div class="col-sm-5">
-		<button class="btn btn-primary" ng-click="back()">Vissza a modellekhez</button>
+		<button class="btn btn-warning" ng-click="back()">Vissza a modellekhez</button>
 	</div>
 </div>
 <div class="row">
@@ -16,9 +16,9 @@
 <div class="row">
 	<div class="col-sm-12">
 		<div id="boat-description">
-			<div ng-if="descCollapse" ng-show="!descToggle" ng-bind-html="txt">...</div>
+			<div ng-if="descCollapse" ng-bind-html="txt"></div>
 			<div ng-if="descCollapse" id="txtFull" class="collapse" ng-bind-html="txtFull"></div>
-			<div id="collapse-btn" class="text-center" ng-if="descCollapse" data-toggle="collapse" data-target="#txtFull" ng-click="toggleDesc()"
+			<div id="collapse-btn" class="text-center" ng-show="descCollapse" data-toggle="collapse" data-target="#txtFull" ng-click="toggleDesc()"
 				ng-bind="descButtonExpandText"></div>
 			<div ng-if="!descCollapse" ng-bind-html="txtFull"></div>
 		</div>
@@ -29,7 +29,7 @@
 		<div id="panel" class="panel">
 			<div class="row">
 				<div id="header" class="col-sm-12 text-center">
-					<p>A csónak technikai adatai
+					<p>{{boat.name}} technikai adatai
 					<p>
 				</div>
 			</div>
@@ -76,7 +76,8 @@
 			<div class="row">
 				<div class="col-sm-12">
 					<div id="boat-price" class="text-center">
-						{{boat.price | hunPrice }} <p ng-if="boat.price_sub != null" class="boat-subprice">{{boat.price_sub}}</p>
+						{{boat.price | hunPrice }}
+						<p ng-if="boat.price_sub != null" class="boat-subprice">{{boat.price_sub}}</p>
 					</div>
 				</div>
 			</div>
@@ -97,12 +98,9 @@
 			</div>
 		</div>
 	</div>
-	<div class="col-sm-4 col-sm-offset-2">
-		<img alt="hiroshajo1" class="img-responsive" ng-src="images/boats/{{boat.pics[0]}}">
-	</div>
-</div>
-<div class="row">
-	<div class="col-sm-12 ">
-		<img alt="hiroshajo2" class="img-responsive center-block" ng-src="images/boats/{{boat.pics[1]}}">
+	<div class="col-sm-4 col-sm-offset-1">
+		<div ng-repeat="path in boat.pics" class="side-img">
+			<img alt="hiroshajo1" class="img-responsive img-thumbnail" ng-src="images/boats/{{path}}">
+		</div>
 	</div>
 </div>
