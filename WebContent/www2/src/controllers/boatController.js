@@ -10,9 +10,6 @@ app.controller("BoatController", function($scope, $rootScope, $location, BoatSer
 	$scope.boat = null;
 	$scope.descCollapse = false;
 
-	$rootScope.changePage("Csónakok, katamarán", null);
-	$rootScope.changeMeta("Csónakok", null, null)
-
 	$scope.refresh = function() {
 		BoatService.getBoats().then(function(response) {
 			$scope.boats = response.data;
@@ -25,6 +22,8 @@ app.controller("BoatController", function($scope, $rootScope, $location, BoatSer
 				}
 			}
 		});
+		$rootScope.changePage("Csónakok, katamarán", null);
+		$rootScope.changeMeta("Csónakok", "Híröshajó kecskemét horgász csónakok", "horgász csónak, katamarán");
 		setBackground(null);
 
 	}
@@ -46,11 +45,14 @@ app.controller("BoatController", function($scope, $rootScope, $location, BoatSer
 		if (boat.tag_hu != null && boat.tag_hu !== "") {
 			tag = " " + boat.tag_hu;
 		}
+
 		$rootScope.changePage(boat.name + tag, null);
+		$rootScope.changeMeta(boat.name, boat.name + tag, boat.name + tag);
 	}
 
 	$scope.back = function() {
-		$rootScope.changePage(defaultPageTitle, null);
+		$rootScope.changePage("Csónakok, katamarán", null);
+		$rootScope.changeMeta("Csónakok", "Híröshajó kecskemét horgász csónakok", "horgász csónak, katamarán");
 		$scope.boat = null;
 		$scope.descCollapse = false;
 		setBackground(null);

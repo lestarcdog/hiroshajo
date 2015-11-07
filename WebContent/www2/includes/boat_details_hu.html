@@ -76,22 +76,15 @@
 			<div class="row">
 				<div class="col-sm-12">
 					<div id="boat-price" class="text-center">
-						<div class="row">
-							<div class="col-sm-12">{{boat.price | hunPrice }}</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-12">
-								<small class="boat-subprice">{{boat.price_sub}}</small>
-							</div>
-						</div>
+						{{boat.price | hunPrice }} <p ng-if="boat.price_sub != null" class="boat-subprice">{{boat.price_sub}}</p>
 					</div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-sm-12">
 					<p class="text-center ">
-						A csónakhoz rendelhető kiegészítőket a <strong><a href="#/fittings">Szerelvények</a></strong> és az <strong><a href="#/prices">Árlista</a></strong>
-						oldalon találja.
+						A csónakhoz rendelhető kiegészítőket a <strong><a href="#/fittings">Szerelvények</a></strong> és az <strong><a
+							href="#/prices">Árlista</a></strong> oldalon találja.
 					</p>
 				</div>
 			</div>

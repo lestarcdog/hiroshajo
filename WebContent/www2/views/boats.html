@@ -3,6 +3,7 @@
 		<div class="pull-left boat-item">
 			<h4>
 				{{boat.name}} <span class="label label-danger" ng-if="boat.novelty" style="top: 0">Újdonság</span>
+				<small ng-if="!boat.available"><br />(Nem elérhető)</small>
 			</h4>
 			<a ng-click="select(boat)" href=""><img
 				class="img-responsive center-block"
