@@ -2,18 +2,19 @@
 	<div ng-repeat="(k,boat) in boats">
 		<div class="pull-left boat-item">
 			<h4>
-				{{boat.name}} <span class="label label-danger" ng-if="boat.novelty" style="top: 0">Újdonság</span>
-				<small ng-if="!boat.available"><br />(Nem elérhető)</small>
+				{{boat.name}} <span class="label label-danger" ng-if="boat.novelty" style="top: 0">Újdonság</span> <small ng-if="!boat.available"><br />(Nem
+					elérhető)</small>
 			</h4>
-			<a ng-click="select(boat)" href=""><img
-				class="img-responsive center-block"
+			<a ng-if="boat.available" ng-click="select(boat)" href=""><img class="img-responsive center-block enabled"
 				ng-src="images/boats/{{boat.button_img}}"> </a>
+				
+			<a ng-if="!boat.available" href=""><img
+				class="img-responsive center-block disabled" ng-src="images/boats/{{boat.button_img}}"> </a>
 		</div>
 		<div class="clearfix" ng-if="($index + 1) % 4 === 0"></div>
 	</div>
 	<div class="clearfix"></div>
 </div>
-
 <div ng-if="boat != null">
 	<ng-include src="'includes/boat_details_hu.html'"></ng-include>
 </div>

@@ -147,8 +147,13 @@
 	transition: opacity 0.5s;
 }
 
-#boats-menu img:hover {
+#boats-menu img.enabled:hover{
 	opacity: 1.0;
+}
+
+#boats-menu img.disabled {
+	cursor: default;
+	transition-property: none;
 }
 
 #boats-menu .boat-item {
