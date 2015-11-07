@@ -1,4 +1,5 @@
-var app = angular.module("HiroshajoApp", [ "ngRoute", "ngSanitize", "ui.bootstrap", "angular-loading-bar", "bootstrapLightbox" ]);
+var app = angular.module("HiroshajoApp", [ "ngRoute", "ngSanitize", "ui.bootstrap", "videosharing-embed", "angular-loading-bar",
+		"bootstrapLightbox" ]);
 
 app.config(function($routeProvider) {
 	$routeProvider.when("/", {

@@ -102,5 +102,6 @@ app.controller("BoatController", function($scope, $rootScope, $location, Lightbo
 	}
 
 	$scope.refresh();
+	$scope.Lightbox = Lightbox;
 
 });

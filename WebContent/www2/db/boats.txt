@@ -52,7 +52,15 @@
 		"button_img": "buttons/k_maxxi_XXL_on.jpg",
 		"videos": 
 		[
-			
+			{
+				"type": "video",
+				"url": "https://www.youtube.com/watch?v=YtLDXGwLQrc"
+			},
+
+			{
+				"type": "video",
+				"url": "https://www.youtube.com/watch?v=0TRR-Z7_-c8"
+			}
 		],
 
 		"background": "fishing_lake.jpg",
@@ -99,7 +107,10 @@
 		"button_img": "buttons/k_maxxi_on.jpg",
 		"videos": 
 		[
-			
+			{
+				"type": "video",
+				"url": "https://www.youtube.com/watch?v=cNqs6evgrsU"
+			}
 		],
 
 		"background": "fishing_lake.jpg",
@@ -243,7 +254,10 @@
 		"button_img": "buttons/k_maxxi_joker_cabin_on.jpg",
 		"videos": 
 		[
-			
+			{
+				"type": "video",
+				"url": "https://www.youtube.com/watch?v=AFkY5Yi_P3E"
+			}
 		],
 
 		"background": "fishing_lake2.jpg",
@@ -331,7 +345,10 @@
 		"button_img": "buttons/k_1_fisherman_on.jpg",
 		"videos": 
 		[
-			
+			{
+				"type": "video",
+				"url": "https://www.youtube.com/watch?v=0hMtH0CSaPY"
+			}
 		],
 
 		"background": "fishing_lake.jpg",
@@ -412,7 +429,10 @@
 		"button_img": "buttons/k_maxxi_party_on.jpg",
 		"videos": 
 		[
-			
+			{
+				"type": "video",
+				"url": "https://www.youtube.com/watch?v=gwnKcecTdMY"
+			}
 		],
 
 		"background": "beach.jpg",
