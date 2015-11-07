@@ -151,6 +151,15 @@
 	opacity: 1.0;
 }
 
+#boats-menu .boat-item {
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+#hiroshajo-content {
+	background-repeat: repeat;
+}
+
 #boat-description {
 	margin-top: 10px;
 	padding: 10px;

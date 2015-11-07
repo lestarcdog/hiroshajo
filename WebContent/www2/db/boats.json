@@ -11,11 +11,33 @@
 		"transport" : 6,
 		"price" :630000,
 		"pics" : ["xxl/kmaxxi_xxl_small_1.jpg","xxl/kmaxxi_xxl_small_2.jpg"],
+		"carousel_img" :"",
 		"gallery" : "",
 		"button_img" : "buttons/k_maxxi_XXL_on.jpg",
 		"video" : "",
 		"background" : "fishing_lake.jpg",
 		"novelty" : true,
+		"available" : true
+	},
+	"2" : {
+		"name": "K Maxxi horgászcsónak",
+		"desc_hu": "Ez a horgászcsónak a horgászok álma! Méreteiben ideális tavi és folyami horgászatra egyaránt.",
+		"length" : 460,
+		"width" : 170,
+		"weight" : 150,
+		"form" : "katamarán",
+		"loadability" : 450,
+		"engine" : "max 40",
+		"transport" : 5,
+		"color" : 5000,
+		"price" :315000,
+		"pics" : ["xxl/kmaxxi_xxl_small_1.jpg","xxl/kmaxxi_xxl_small_2.jpg"],
+		"carousel_img" :"",
+		"gallery" : "",
+		"button_img" : "buttons/k_maxxi_on.jpg",
+		"video" : "",
+		"background" : "fishing_lake.jpg",
+		"novelty" : false,
 		"available" : true
 	}
 }

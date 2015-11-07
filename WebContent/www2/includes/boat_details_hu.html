@@ -62,6 +62,10 @@
 							<td>Szállítható személyek</td>
 							<td>{{boat.transport}} fő</td>
 						</tr>
+						<tr ng-if="color != null">
+							<td>Színfelár</td>
+							<td>{{boat.color | hunPrice}} Ft</td>
+						</tr>
 					</tbody>
 				</table>
 			</div>

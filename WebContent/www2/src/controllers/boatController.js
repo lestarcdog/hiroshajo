@@ -45,9 +45,12 @@ app.controller("BoatController", function($scope, $rootScope, $location, BoatSer
 		} else {
 			bg_path += "blurred_main_bg.jpg";
 		}
-		bg_path += ") repeat"
+		bg_path += ")"
 
-		angular.element("#hiroshajo-content").css("background", bg_path);
+		var bg = angular.element("#hiroshajo-content");
+		bg.hide();
+		bg.css("background-image", bg_path);
+		bg.fadeIn(700);
 
 		$rootScope.changePage(boat.name, null);
 	}
@@ -56,7 +59,10 @@ app.controller("BoatController", function($scope, $rootScope, $location, BoatSer
 		$rootScope.changePage(defaultPageTitle, null);
 		$scope.boat = null;
 		$scope.descCollapse = false;
-		angular.element("#hiroshajo-content").css("background", "");
+		var bg = angular.element("#hiroshajo-content");
+		bg.hide();
+		bg.css("background-image", "");
+		bg.fadeIn(500);
 	}
 
 	$scope.toggleDesc = function() {

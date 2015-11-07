@@ -1,8 +1,8 @@
 <div ng-if="boat == null" id="boats-menu">
 	<div ng-repeat="(k,boat) in boats">
-		<div class="pull-left">
+		<div class="pull-left boat-item">
 			<h4>
-				{{boat.name}} <span class="label label-danger" style="top: 0">Újdonság</span>
+				{{boat.name}} <span class="label label-danger" ng-if="boat.novelty" style="top: 0">Újdonság</span>
 			</h4>
 			<a ng-click="select(boat)" href=""><img
 				class="img-responsive center-block"
