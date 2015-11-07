@@ -222,3 +222,8 @@
 #boat-details .side-img {
 	margin-top: 15px;
 }
+
+#boat-details #boat-gallery {
+	background: black;	
+	color: white;
+}

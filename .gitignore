@@ -2,3 +2,6 @@
 .project
 *.flc
 *.swf
+/build/
+.classpath
+.tern-project

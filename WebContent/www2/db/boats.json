@@ -14,15 +14,47 @@
 		"price": 630000,
 		"pics": 
 		[
-			"xxl/happy_guy.jpg",
-			"xxl/schnell_boat.jpg",
-			"xxl/tarolo_dobozos.jpg"
+			"images/boats/xxl/happy_guy.jpg",
+			"images/boats/xxl/schnell_boat.jpg",
+			"images/boats/xxl/tarolo_dobozos.jpg"
 		],
 
 		"carousel_img": "",
-		"gallery": "",
+		"gallery": 
+		[
+			"gallery/xxl/IMG_0328.jpg",
+			"gallery/xxl/IMG_0332.jpg",
+			"gallery/xxl/IMG_0333.jpg",
+			"gallery/xxl/IMG_0336.jpg",
+			"gallery/xxl/IMG_0337.jpg",
+			"gallery/xxl/IMG_0347.jpg",
+			"gallery/xxl/IMG_0355.jpg",
+			"gallery/xxl/IMG_0356.jpg",
+			"gallery/xxl/IMG_0362.jpg",
+			"gallery/xxl/IMG_0364.jpg",
+			"gallery/xxl/IMG_0373.jpg",
+			"gallery/xxl/IMG_0375.jpg",
+			"gallery/xxl/IMG_0434.jpg",
+			"gallery/xxl/IMG_0446.jpg",
+			"gallery/xxl/IMG_0450.jpg",
+			"gallery/xxl/IMG_0455.jpg",
+			"gallery/xxl/IMG_0457.jpg",
+			"gallery/xxl/IMG_0461.jpg",
+			"gallery/xxl/IMG_0481.jpg",
+			"gallery/xxl/IMG_5651.jpg",
+			"gallery/xxl/IMG_5654.jpg",
+			"gallery/xxl/IMG_5664.jpg",
+			"gallery/xxl/IMG_5670.jpg",
+			"gallery/xxl/IMG_5671.jpg",
+			"gallery/xxl/IMG_5672.jpg"
+		],
+
 		"button_img": "buttons/k_maxxi_XXL_on.jpg",
-		"video": "",
+		"videos": 
+		[
+			
+		],
+
 		"background": "fishing_lake.jpg",
 		"novelty": true,
 		"available": true
@@ -44,15 +76,32 @@
 		"price": 315000,
 		"pics": 
 		[
-			"maxxi/hatso.jpg",
-			"maxxi/korlat.jpg",
-			"maxxi/vizen.jpg"
+			"images/boats/maxxi/hatso.jpg",
+			"images/boats/maxxi/korlat.jpg",
+			"images/boats/maxxi/vizen.jpg"
 		],
 
 		"carousel_img": "",
-		"gallery": "",
+		"gallery": 
+		[
+			"gallery/maxxi/_1423109061.jpg",
+			"gallery/maxxi/_2935908214.jpg",
+			"gallery/maxxi/_4043151836.jpg",
+			"gallery/maxxi/_5684201375.jpg",
+			"gallery/maxxi/_6142798101.jpg",
+			"gallery/maxxi/_7214900255.jpg",
+			"gallery/maxxi/_7718648384.jpg",
+			"gallery/maxxi/_9379403174.jpg",
+			"gallery/maxxi/_9493380634.jpg",
+			"gallery/maxxi/_9695691406.jpg"
+		],
+
 		"button_img": "buttons/k_maxxi_on.jpg",
-		"video": "",
+		"videos": 
+		[
+			
+		],
+
 		"background": "fishing_lake.jpg",
 		"novelty": false,
 		"available": true
@@ -73,14 +122,18 @@
 		"price": 379000,
 		"pics": 
 		[
-			"extra/tomeg.jpg",
-			"extra/szembol.jpg"
+			"images/boats/extra/tomeg.jpg",
+			"images/boats/extra/szembol.jpg"
 		],
 
 		"carousel_img": "",
 		"gallery": "",
 		"button_img": "buttons/k_maxxi_extra_on.jpg",
-		"video": "",
+		"videos": 
+		[
+			
+		],
+
 		"background": "fishing_lake.jpg",
 		"novelty": false,
 		"available": true
@@ -101,15 +154,19 @@
 		"price": 535000,
 		"pics": 
 		[
-			"joker/imi_vezet.jpg",
-			"joker/jokerponyvaMotion.gif",
-			"joker/pakolas.jpg"
+			"images/boats/joker/imi_vezet.jpg",
+			"images/boats/joker/jokerponyvaMotion.gif",
+			"images/boats/joker/pakolas.jpg"
 		],
 
 		"carousel_img": "",
 		"gallery": "",
 		"button_img": "buttons/k_maxxi_joker_on.jpg",
-		"video": "",
+		"videos": 
+		[
+			
+		],
+
 		"background": "fishing_lake.jpg",
 		"novelty": false,
 		"available": true
@@ -131,15 +188,57 @@
 		"price_sub": "(kormánymű nélkül)",
 		"pics": 
 		[
-			"cabin/elore_oldalt.jpg",
-			"cabin/oldalso.jpg",
-			"cabin/szembol.jpg"
+			"images/boats/cabin/elore_oldalt.jpg",
+			"images/boats/cabin/oldalso.jpg",
+			"images/boats/cabin/szembol.jpg"
 		],
 
 		"carousel_img": "",
-		"gallery": "",
+		"gallery": 
+		[
+			"gallery/cabin/_0200380314.jpg",
+			"gallery/cabin/_0384530471.jpg",
+			"gallery/cabin/_0697673303.jpg",
+			"gallery/cabin/_0961849783.jpg",
+			"gallery/cabin/_1262336311.jpg",
+			"gallery/cabin/_1393200774.jpg",
+			"gallery/cabin/_1563734100.jpg",
+			"gallery/cabin/_1843394742.jpg",
+			"gallery/cabin/_1853203659.jpg",
+			"gallery/cabin/_2339663539.jpg",
+			"gallery/cabin/_2461329651.jpg",
+			"gallery/cabin/_2715741075.jpg",
+			"gallery/cabin/_2964923585.jpg",
+			"gallery/cabin/_3654317098.jpg",
+			"gallery/cabin/_3683562003.jpg",
+			"gallery/cabin/_4026436785.jpg",
+			"gallery/cabin/_4386547343.jpg",
+			"gallery/cabin/_5060516578.jpg",
+			"gallery/cabin/_5111860721.jpg",
+			"gallery/cabin/_5352265308.jpg",
+			"gallery/cabin/_5529381250.jpg",
+			"gallery/cabin/_5559252698.jpg",
+			"gallery/cabin/_5589902754.jpg",
+			"gallery/cabin/_5929277127.jpg",
+			"gallery/cabin/_6186811069.jpg",
+			"gallery/cabin/_6244143792.jpg",
+			"gallery/cabin/_6414366807.jpg",
+			"gallery/cabin/_7401833114.jpg",
+			"gallery/cabin/_7603137061.jpg",
+			"gallery/cabin/_8094121732.jpg",
+			"gallery/cabin/_8283275278.jpg",
+			"gallery/cabin/_8338024746.jpg",
+			"gallery/cabin/_9782960601.jpg",
+			"gallery/cabin/_9803586205.jpg",
+			"gallery/cabin/_9863345058.jpg"
+		],
+
 		"button_img": "buttons/k_maxxi_joker_cabin_on.jpg",
-		"video": "",
+		"videos": 
+		[
+			
+		],
+
 		"background": "fishing_lake2.jpg",
 		"novelty": false,
 		"available": true
@@ -166,7 +265,11 @@
 		"carousel_img": "",
 		"gallery": "",
 		"button_img": "buttons/k_maxxi_cabrio_on.jpg",
-		"video": "",
+		"videos": 
+		[
+			
+		],
+
 		"background": "",
 		"novelty": false,
 		"available": false
@@ -194,14 +297,36 @@
 		"price": 280000,
 		"pics": 
 		[
-			"fisherman/k1_fisherman_1.jpg",
-			"fisherman/k1_fisherman_2.jpg"
+			"images/boats/fisherman/k1_fisherman_1.jpg",
+			"images/boats/fisherman/k1_fisherman_2.jpg"
 		],
 
 		"carousel_img": "",
-		"gallery": "",
+		"gallery": 
+		[
+			"gallery/k1fisherman/1.JPG",
+			"gallery/k1fisherman/10.JPG",
+			"gallery/k1fisherman/11.JPG",
+			"gallery/k1fisherman/12.JPG",
+			"gallery/k1fisherman/13.JPG",
+			"gallery/k1fisherman/14.JPG",
+			"gallery/k1fisherman/15.JPG",
+			"gallery/k1fisherman/2.JPG",
+			"gallery/k1fisherman/3.JPG",
+			"gallery/k1fisherman/4.JPG",
+			"gallery/k1fisherman/5.JPG",
+			"gallery/k1fisherman/6.JPG",
+			"gallery/k1fisherman/7.JPG",
+			"gallery/k1fisherman/8.JPG",
+			"gallery/k1fisherman/9.JPG"
+		],
+
 		"button_img": "buttons/k_1_fisherman_on.jpg",
-		"video": "",
+		"videos": 
+		[
+			
+		],
+
 		"background": "fishing_lake.jpg",
 		"novelty": true,
 		"available": true
@@ -228,7 +353,11 @@
 		"carousel_img": "",
 		"gallery": "",
 		"button_img": "buttons/k_2_party_on.jpg",
-		"video": "",
+		"videos": 
+		[
+			
+		],
+
 		"background": "",
 		"novelty": false,
 		"available": false
@@ -250,14 +379,18 @@
 		"price_sub": "(kárpítozott műanyagtest kormányművel)",
 		"pics": 
 		[
-			"party/belso.jpg",
-			"party/vizen.jpg"
+			"images/boats/party/belso.jpg",
+			"images/boats/party/vizen.jpg"
 		],
 
 		"carousel_img": "",
 		"gallery": "",
 		"button_img": "buttons/k_maxxi_party_on.jpg",
-		"video": "",
+		"videos": 
+		[
+			
+		],
+
 		"background": "beach.jpg",
 		"novelty": false,
 		"available": true
@@ -284,7 +417,11 @@
 		"carousel_img": "",
 		"gallery": "",
 		"button_img": "buttons/k_mini_boatandbo_on.jpg",
-		"video": "",
+		"videos": 
+		[
+			
+		],
+
 		"background": "",
 		"novelty": false,
 		"available": false
@@ -311,7 +448,11 @@
 		"carousel_img": "",
 		"gallery": "",
 		"button_img": "buttons/k_maxxi_delfin_2_on.jpg",
-		"video": "",
+		"videos": 
+		[
+			
+		],
+
 		"background": "",
 		"novelty": false,
 		"available": false

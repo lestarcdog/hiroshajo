@@ -1,4 +1,5 @@
-var app = angular.module("HiroshajoApp", [ "ngRoute", "ngSanitize" ]);
+var app = angular.module("HiroshajoApp", [ "ngRoute", "ngSanitize", "ui.bootstrap", "angular-loading-bar", "bootstrapLightbox" ]);
+
 app.config(function($routeProvider) {
 	$routeProvider.when("/", {
 		templateUrl : "views/main.html"
@@ -21,6 +22,10 @@ app.config(function($routeProvider) {
 	.otherwise({
 		redirectTo : '/'
 	});
+});
+
+app.config(function(LightboxProvider) {
+	LightboxProvider.templateUrl = "includes/lightbox_hu.html";
 });
 
 app.controller("LocationCtrl", function($scope, $location, $rootScope) {

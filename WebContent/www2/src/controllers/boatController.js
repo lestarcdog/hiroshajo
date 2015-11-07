@@ -1,4 +1,4 @@
-app.controller("BoatController", function($scope, $rootScope, $location, BoatService) {
+app.controller("BoatController", function($scope, $rootScope, $location, Lightbox, BoatService) {
 	var defaultPageTitle = "Csónakok, katamarán";
 	var descLength = 500;
 	var bg = angular.element("#hiroshajo-content");
@@ -48,6 +48,14 @@ app.controller("BoatController", function($scope, $rootScope, $location, BoatSer
 			$scope.descButtonExpandText = "Bővebben...";
 			$scope.txt = $scope.boat.desc_hu[0];
 		}
+	}
+
+	$scope.openGallery = function() {
+		Lightbox.openModal($scope.boat.gallery, 0);
+	}
+
+	$scope.openVideos = function() {
+		Lightbox.openModal($scope.boat.gallery, 0);
 	}
 
 	var loadBoatDetails = function(boatId) {

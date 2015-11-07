@@ -5,16 +5,6 @@
 </div>
 <div class="row">
 	<div class="col-sm-12">
-		<div class="text-center" ng-if="boat.gallery != ''">TODO galléria</div>
-	</div>
-</div>
-<div class="row">
-	<div class="col-sm-12">
-		<div class="text-center" ng-if="boat.video != ''">TODO video</div>
-	</div>
-</div>
-<div class="row">
-	<div class="col-sm-12">
 		<div id="boat-description">
 			<div ng-if="descCollapse" ng-bind-html="txt"></div>
 			<div ng-if="descCollapse" id="txtFull" class="collapse" ng-bind-html="txtFull"></div>
@@ -97,10 +87,21 @@
 				</div>
 			</div>
 		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="panel" id="boat-gallery">
+					<div class="panel-heading">További képek és videók</div>
+					<div class="panel-body">
+						<button class="btn btn-warning" ng-if="boat.gallery != null && boat.gallery.length > 0" ng-click="openGallery()">Galéria</button>
+						<button class="btn btn-warning" ng-if="boat.videos != null && boat.videos.length > 0" ng-click="openVideos()">Videók</button>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 	<div class="col-sm-4 col-sm-offset-1">
 		<div ng-repeat="path in boat.pics" class="side-img">
-			<img alt="hiroshajo1" class="img-responsive img-thumbnail" ng-src="images/boats/{{path}}">
+			<img alt="hiroshajo1" class="img-responsive img-thumbnail" ng-src="{{path}}">
 		</div>
 	</div>
 </div>
