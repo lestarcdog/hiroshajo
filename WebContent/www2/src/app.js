@@ -32,7 +32,7 @@ app.config(function($routeProvider) {
 });
 
 app.config(function(LightboxProvider) {
-	LightboxProvider.templateUrl = "includes/lightbox_hu.html";
+	LightboxProvider.templateUrl = "src/includes/lightbox_hu.html";
 });
 
 app.controller("LocationCtrl", function($scope, $location, $rootScope) {
