@@ -1,11 +1,14 @@
-var app = angular.module("HiroshajoApp", [ "ngRoute", "ngSanitize", "ui.bootstrap", "videosharing-embed", "angular-loading-bar",
+var app = angular.module("HiroshajoApp", [ "ngRoute", "ngSanitize",
+		"ui.bootstrap", "videosharing-embed", "angular-loading-bar",
 		"bootstrapLightbox", "ngAnimate" ]);
 
 app.config(function($routeProvider) {
 	$routeProvider.when("/", {
-		templateUrl : "views/main.html"
+		templateUrl : "views/main.html",
+		controller : "MainController"
 	}).when("/used", {
-		templateUrl : "views/used.html"
+		templateUrl : "views/used.html",
+		controller : "UsedController"
 	}).when("/why_catamaran", {
 		templateUrl : "views/why_catamaran.html",
 		controller : "WhyCatamaranController"

@@ -235,3 +235,9 @@
 	font-size: 1.5em;
 	background: #ffac59;
 }
+
+label.small-label {
+	font-weight: normal;
+	font-size: 11px;
+	padding: 0 5px;
+}

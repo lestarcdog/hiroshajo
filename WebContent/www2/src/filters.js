@@ -1,6 +1,6 @@
 app.filter("hunPrice", function() {
 	return function(value) {
-		if ($.isNumeric(value)) {
+		if (angular.isNumber(value)) {
 			var full = value.toString();
 			var out = "";
 			var c = 0;

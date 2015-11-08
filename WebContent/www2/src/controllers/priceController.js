@@ -1,15 +1,26 @@
-app.controller("PriceController", function($scope, $rootScope) {
+app.controller("PriceController",
+		function($scope, $rootScope, ProductCategory) {
+			var categories = [];
+			$scope.search = {};
 
-	$scope.search = {};
+			var refresh = function() {
+				$rootScope.changePage("Árak", null);
+				$rootScope.changeMeta("Árak", null, null);
+				categories = [];
+				angular.forEach(ProductCategory, function(value, key) {
+					categories.push({
+						"name" : value.name_hu.substring(0, 20),
+						"value" : true
+					});
+				})
+				
+				$scope.reset();
+			};
 
-	var refresh = function() {
-		$rootScope.changePage("Árak", null);
-		$rootScope.changeMeta("Árak", null, null);
-	}
+			$scope.reset = function() {
+				$scope.search = {};
+				$scope.search.categories = angular.copy(categories);
+			};
 
-	$scope.reset = function() {
-		$scope.search = {};
-	}
-
-	refresh();
-});
+			refresh();
+		});
