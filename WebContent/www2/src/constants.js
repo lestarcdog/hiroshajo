@@ -12,7 +12,7 @@ app.constant("StorageConstants", {
 });
 
 app.constant("ProductCategory", {
-	"boat" : {
+	"boats" : {
 		"name_hu" : "Csónakok",
 		"name_en" : "Boats"
 	},
