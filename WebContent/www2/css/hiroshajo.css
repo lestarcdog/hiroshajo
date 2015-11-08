@@ -230,3 +230,8 @@
 	background: black;
 	color: white;
 }
+
+.price-table-header {
+	font-size: 1.5em;
+	background: #ffac59;
+}

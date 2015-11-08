@@ -1,6 +1,7 @@
 app.constant("httpEndpoints", {
 	"fittings" : "db/fittings.txt",
-	"boats" : "db/boats.txt"
+	"boats" : "db/boats.txt",
+	"prices" : "db/additional_prices.txt"
 });
 
 app.constant("StorageConstants", {
