@@ -151,6 +151,12 @@
 
 	{
 		"type": "chair-box",
+		"name_hu": "Kárpitozott hajósszék",
+		"price": 31000
+	},
+
+	{
+		"type": "chair-box",
 		"name_hu": "Forgó kárpitozott szék",
 		"price": 39000
 	},
@@ -333,5 +339,41 @@
 		"type": "miscellaneous",
 		"name_hu": "K Maxxi Extra, XXL szőnyeg",
 		"price": 29000
+	},
+
+	{
+		"type": "trailer",
+		"name_hu": "K1 fisherman 3.60-hoz",
+		"price": 315000
+	},
+
+	{
+		"type": "trailer",
+		"name_hu": "K Maxxi 4.60-hoz",
+		"price": 340000
+	},
+
+	{
+		"type": "trailer",
+		"name_hu": "K Maxxi Extra 5.45-höz",
+		"price": 360000
+	},
+
+	{
+		"type": "trailer",
+		"name_hu": "K Maxxi XXL",
+		"price": 390000
+	},
+
+	{
+		"type": "trailer",
+		"name_hu": "Ráfutófék (bármely típushoz)",
+		"price": 100000
+	},
+
+	{
+		"type": "trailer",
+		"name_hu": "Forgalomba helyezési díj",
+		"price": 40000
 	}
 ]

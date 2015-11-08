@@ -15,6 +15,9 @@ app.config(function($routeProvider) {
 	}).when("/contact", {
 		templateUrl : "views/contact.html",
 		controller : "ContactController"
+	}).when("/prices", {
+		templateUrl : "views/prices.html",
+		controller : "PriceController"
 	}).when("/boats/", {
 		templateUrl : "views/boats.html",
 		controller : "BoatController"
