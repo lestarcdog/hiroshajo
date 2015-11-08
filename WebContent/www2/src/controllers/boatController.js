@@ -11,7 +11,7 @@ app.controller("BoatController", function($scope, $rootScope, $location, Lightbo
 	$scope.boat = null;
 	$scope.descCollapse = false;
 
-	$scope.refresh = function() {
+	var refresh = function() {
 		BoatService.getBoats().then(function(response) {
 			$scope.boats = response.data;
 			// console.log($scope.boats);
@@ -101,7 +101,7 @@ app.controller("BoatController", function($scope, $rootScope, $location, Lightbo
 		bg.fadeIn(500);
 	}
 
-	$scope.refresh();
+	refresh();
 	$scope.Lightbox = Lightbox;
 
 });

@@ -19,7 +19,7 @@
 			"images/boats/xxl/tarolo_dobozos.jpg"
 		],
 
-		"carousel_img": "",
+		"carousel_img": "images/boats/xxl/xxl_carousel.jpg",
 		"gallery": 
 		[
 			"gallery/xxl/IMG_0328.jpg",
@@ -89,7 +89,7 @@
 			"images/boats/maxxi/vizen.jpg"
 		],
 
-		"carousel_img": "",
+		"carousel_img": "images/boats/maxxi/hatso.jpg",
 		"gallery": 
 		[
 			"gallery/maxxi/_1423109061.jpg",
@@ -137,7 +137,7 @@
 			"images/boats/extra/szembol.jpg"
 		],
 
-		"carousel_img": "",
+		"carousel_img": "images/boats/extra/tomeg.jpg",
 		"gallery": "",
 		"button_img": "buttons/k_maxxi_extra_on.jpg",
 		"videos": 
@@ -170,7 +170,7 @@
 			"images/boats/joker/pakolas.jpg"
 		],
 
-		"carousel_img": "",
+		"carousel_img": "images/boats/joker/vizen_adria.jpg",
 		"gallery": 
 		[
 			
@@ -211,7 +211,7 @@
 			"images/boats/cabin/szembol.jpg"
 		],
 
-		"carousel_img": "",
+		"carousel_img": "images/boats/cabin/oldalso.jpg",
 		"gallery": 
 		[
 			"gallery/cabin/_0200380314.jpg",
@@ -322,7 +322,7 @@
 			"images/boats/fisherman/k1_fisherman_2.jpg"
 		],
 
-		"carousel_img": "",
+		"carousel_img": "images/boats/fisherman/vizen_hegyek.jpg",
 		"gallery": 
 		[
 			"gallery/k1fisherman/1.JPG",
@@ -407,7 +407,7 @@
 			"images/boats/party/vizen.jpg"
 		],
 
-		"carousel_img": "",
+		"carousel_img": "images/boats/party/vizen.jpg",
 		"gallery": 
 		[
 			"gallery/party/part01.jpg",

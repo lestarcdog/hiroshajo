@@ -1,45 +1,16 @@
 <div id="main-page-wrapper">
-	<div id="hiroshajo-jumbotron">
-		<div id="hh-carousel" class="carousel slide center-block"
-			data-ride="carousel">
-			<!-- Indicators -->
-			<ol class="carousel-indicators">
-				<li data-target="#hh-carousel" data-slide-to="0" class="active"></li>
-				<li data-target="#hh-carousel" data-slide-to="1"></li>
-				<li data-target="#hh-carousel" data-slide-to="2"></li>
-				<li data-target="#hh-carousel" data-slide-to="3"></li>
-				<li data-target="#hh-carousel" data-slide-to="4"></li>
-				<li data-target="#hh-carousel" data-slide-to="5"></li>
-				<li data-target="#hh-carousel" data-slide-to="6"></li>
-				<li data-target="#hh-carousel" data-slide-to="7"></li>
-			</ol>
-			<!-- Wrapper for slides -->
-			<div class="carousel-inner" role="listbox">
-				<div class="item active">
-					<a href="#/models/xxl"> <img
-						ng-src="images/boats/xxl/xxl_carousel.jpg"></a>
-					<div class="carousel-caption">K Maxxi XXL</div>
+	<div id="hiroshajo-jumbotron" ng-controller="MainCarouselController">
+		<uib-carousel id="hh-carousel" no-wrap="false" interval="4000"> 
+			<uib-slide ng-repeat="slide in slides"> 
+				<a ng-href="#/boats?boatId={{slide.id}}">
+					<img ng-src="{{slide.image}}" style="margin: auto;">
+				</a>
+				<div class="carousel-caption">
+					<span>{{slide.text}}</span>
 				</div>
-				<div class="item">
-					<a href="#/models/fisherman"> <img
-						ng-src="images/boats/fisherman/fisherman_carousel.jpg"></a>
-					<div class="carousel-caption">K1 Fisherman</div>
-				</div>
-			</div>
-			<!-- Controls -->
-			<a class="left carousel-control" href="#hh-carousel" role="button"
-				data-slide="prev"> <span
-				class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-				<span class="sr-only">Előző</span>
-			</a> <a class="right carousel-control" href="#hh-carousel" role="button"
-				data-slide="next"> <span
-				class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-				<span class="sr-only">Következő</span>
-			</a>
-		</div>
+			</uib-slide> 
+		</uib-carousel>
 	</div>
-
-
 	<div class="row">
 		<div class="col-sm-4">
 			<h3>Üdvözlöm!</h3>
@@ -48,52 +19,37 @@
 	<div class="row">
 		<div class="col-sm-8">
 			<p class="lead text-justify">
-				A <strong class="hiroshajo-text-mark">Híröshajó</strong>, <em>Juharos
-					Imre</em> egyéni vállalkozása, katamarán aljú, üvegszálas műanyag hajó,
-				csónak, horgászcsónak tervezésével és gyártásával foglalkozik.
+				A <strong class="hiroshajo-text-mark">Híröshajó</strong>, <em>Juharos Imre</em> egyéni vállalkozása, katamarán aljú, üvegszálas műanyag
+				hajó, csónak, horgászcsónak tervezésével és gyártásával foglalkozik.
 			</p>
 			<p class="text-justify">
-				Az általunk gyártott hajó, csónak illetve horgászcsónak <strong>K
-					Maxxi, K Maxxi extra, K Maxxi joker, K1 fisherman, K maxxi cabin,
-					K2 party, K maxxi party, valamint K Maxxi XXL</strong> fantázianéven
-				kerülnek forgalomba.
+				Az általunk gyártott hajó, csónak illetve horgászcsónak <strong>K Maxxi, K Maxxi extra, K Maxxi joker, K1 fisherman, K maxxi
+					cabin, K2 party, K maxxi party, valamint K Maxxi XXL</strong> fantázianéven kerülnek forgalomba.
 			</p>
-			<p class="text-justify">A tervezéstől kezdve, a gyártáson
-				keresztűl, a végső minőségellenőrzésig a következő szempontokat
-				tartjuk szem előtt. Minden test - legyen az egy komoly motorral
-				szerelt hajó, egy többszemélyes horgászcsónak, vagy egy két fős kis
-				csónak - a vele szemben támasztható biztonsági követelményeknek
-				maximálisan megfeleljen. A kialakítása messzemenőkig tegye
-				alkalmassá a vele űzött tevékenységek felhőtlen élvezésének, hiszen
-				más-más szempontnak kell, hogy megfeleljen egy sport célú hajó, mint
-				egy csónakázásra szánt csónak, vagy egy - akár többnapos
-				horgásztúrára használt - horgászcsónak.</p>
-			<p class="text-justify">További fontos szempont még, hogy a
-				gyártás során felhasznált anyagok és technológiák, egy hosszú
-				élettartamú, strapabíró szerkezetet eredményezzenek, mely
-				rendeltetésszerű használat mellett, minimális karbantartással - ami
-				a rendszeres takarítást jelenti - hosszú időn keresztűl híven
-				szolgálja tulajdonosát.</p>
+			<p class="text-justify">A tervezéstől kezdve, a gyártáson keresztűl, a végső minőségellenőrzésig a következő szempontokat tartjuk
+				szem előtt. Minden test - legyen az egy komoly motorral szerelt hajó, egy többszemélyes horgászcsónak, vagy egy két fős kis csónak - a
+				vele szemben támasztható biztonsági követelményeknek maximálisan megfeleljen. A kialakítása messzemenőkig tegye alkalmassá a vele űzött
+				tevékenységek felhőtlen élvezésének, hiszen más-más szempontnak kell, hogy megfeleljen egy sport célú hajó, mint egy csónakázásra szánt
+				csónak, vagy egy - akár többnapos horgásztúrára használt - horgászcsónak.</p>
+			<p class="text-justify">További fontos szempont még, hogy a gyártás során felhasznált anyagok és technológiák, egy hosszú
+				élettartamú, strapabíró szerkezetet eredményezzenek, mely rendeltetésszerű használat mellett, minimális karbantartással - ami a
+				rendszeres takarítást jelenti - hosszú időn keresztűl híven szolgálja tulajdonosát.</p>
 			<p class="text-justify">
-				Amennyiben Ön, tisztelt látogató most keres egy elérhető árú, <em>jó
-					ár-érték arányú hajót</em>, csónakot esetleg horgászcsónakot, vagy csak
-				szimplán kíváncsi a termékeinkre, a további oldalakon sok
-				illusztráció mellet, mindenre választ kaphat. Természetesen
-				személyesen, vagy akár telefonon is készséggel állok rendelkezésére.
+				Amennyiben Ön, tisztelt látogató most keres egy elérhető árú, <em>jó ár-érték arányú hajót</em>, csónakot esetleg horgászcsónakot, vagy
+				csak szimplán kíváncsi a termékeinkre, a további oldalakon sok illusztráció mellet, mindenre választ kaphat. Természetesen személyesen,
+				vagy akár telefonon is készséggel állok rendelkezésére.
 			</p>
 			<p>
 				<em>Tisztelettel Juharos Imre</em>
 			</p>
 		</div>
 		<div class="col-sm-4">
-			<img class="img-responsive pull-right img-thumbnail"
-				src="images/boats/k2/k2_party_1.jpg" />
+			<img class="img-responsive pull-right img-thumbnail" src="images/boats/k2/k2_party_1.jpg" />
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-sm-4">
-			<img ng-src="images/misc/juharos_imre.jpg" alt="Juharos Imre"
-				class="img-responsive" />
+			<img ng-src="images/misc/juharos_imre.jpg" alt="Juharos Imre" class="img-responsive" />
 		</div>
 		<div class="col-sm-4">
 			<img ng-src="images/misc/terkep_1.jpg" class="img-responsive" />

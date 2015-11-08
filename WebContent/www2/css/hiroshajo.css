@@ -76,9 +76,6 @@
 /* main page */
 #hh-carousel {
 	margin: 10px auto;
-}
-
-#hh-carousel {
 	width: 60%;
 	overflow: hidden;
 }
@@ -87,10 +84,7 @@
 	height: 300px;
 }
 
-#main-page-wrapper {
-	background-image: url('../images/bg/main_content_bg.jpg') ;
-	background-repeat: repeat;
-	padding-bottom: 20px;
+#hh-carousel, #hh-carousel .carousel-inner img {
 }
 
 #hh-carousel .carousel-caption {
@@ -104,8 +98,15 @@
 	padding: 0;
 	bottom: auto;
 	top: 10px;
-	width: 100%;
 }
+
+#main-page-wrapper {
+	background-image: url('../images/bg/main_content_bg.jpg');
+	background-repeat: repeat;
+	padding-bottom: 20px;
+}
+
+
 
 /* Fittings */
 .single-fitting {
@@ -163,13 +164,14 @@
 }
 
 #hiroshajo-content {
+	
 }
 
 #model-back-button {
 	background-color: #ff972f;
 }
 
-#model-back-button:hover, #model-back-button:focus  {
+#model-back-button:hover, #model-back-button:focus {
 	background-color: #ff8000
 }
 
@@ -219,11 +221,12 @@
 #boat-details .side-img:FIRST-CHILD {
 	margin-top: 0;
 }
+
 #boat-details .side-img {
 	margin-top: 15px;
 }
 
 #boat-details #boat-gallery {
-	background: black;	
+	background: black;
 	color: white;
 }

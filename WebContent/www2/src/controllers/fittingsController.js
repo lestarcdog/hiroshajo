@@ -7,7 +7,7 @@ app.controller("FittingsController", function($scope, $rootScope, FittingsServic
 	$rootScope.changePage("Szerelvények", null);
 	$rootScope.changeMeta("Szerelvények", null, null)
 
-	$scope.refresh = function() {
+	var refresh = function() {
 		FittingsService.getFittings().then(function(response) {
 			console.log(response);
 			$scope.fittings = response.data;
@@ -18,5 +18,5 @@ app.controller("FittingsController", function($scope, $rootScope, FittingsServic
 		$scope.columnSize = 12 / newVal;
 	});
 
-	$scope.refresh();
+	refresh();
 });
