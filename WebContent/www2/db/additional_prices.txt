@@ -1,0 +1,337 @@
+[
+	{
+		"type": "boats",
+		"name_hu": "4.60-as erősítés 25 LE felett",
+		"price": 38000
+	},
+
+	{
+		"type": "boats",
+		"name_hu": "5.45-as erősítés 25 LE felett",
+		"price": 40000
+	},
+
+	{
+		"type": "boats",
+		"name_hu": "K Maxxi XXL komplett belső tárolókkal",
+		"price": 980000
+	},
+
+	{
+		"type": "boats",
+		"name_hu": "Színfelár erős színek esetén",
+		"price": "6000 Ft / felület"
+	},
+
+	{
+		"type": "wheel-corbel",
+		"name_hu": "Kis kormánykonzol",
+		"price": 28000
+	},
+
+	{
+		"type": "wheel-corbel",
+		"name_hu": "Kis kormánykonzolra védőkeret",
+		"price": 11000
+	},
+
+	{
+		"type": "wheel-corbel",
+		"name_hu": "Nagy kormányállás",
+		"price": 35000
+	},
+
+	{
+		"type": "wheel-corbel",
+		"name_hu": "Álló kormányállás nagyajtóval",
+		"price": 83000
+	},
+
+	{
+		"type": "wheel-corbel",
+		"name_hu": "Jet kormányállás",
+		"price": 59000
+	},
+
+	{
+		"type": "beak-entry",
+		"name_hu": "Mini belépő",
+		"price": 34000
+	},
+
+	{
+		"type": "beak-entry",
+		"name_hu": "Kis orrbelépő",
+		"price": 41000
+	},
+
+	{
+		"type": "beak-entry",
+		"name_hu": "Kis orrbelépőre kapaszkodó korlát",
+		"price": 25000
+	},
+
+	{
+		"type": "beak-entry",
+		"name_hu": "Halász orrlefedés",
+		"price": 45000
+	},
+
+	{
+		"type": "beak-entry",
+		"name_hu": "Orrborítás ajtóval",
+		"price": 61000
+	},
+
+	{
+		"type": "beak-entry",
+		"name_hu": "XXL orrlefedés",
+		"price": 120000
+	},
+
+	{
+		"type": "beak-entry",
+		"name_hu": "Belépő K1-re",
+		"price": 33000
+	},
+
+	{
+		"type": "beak-entry",
+		"name_hu": "Belépő lezárás gumi kötéllel",
+		"price": 5000
+	},
+
+	{
+		"type": "beak-entry",
+		"name_hu": "Első tároló doboz K1-re",
+		"price": 55000
+	},
+
+	{
+		"type": "chair-box",
+		"name_hu": "K Maxxi ülődeszka",
+		"price": 7500
+	},
+
+	{
+		"type": "chair-box",
+		"name_hu": "K Maxxi Extra ülődeszka",
+		"price": 7500
+	},
+
+	{
+		"type": "chair-box",
+		"name_hu": "K1 fisherman ülődeszka",
+		"price": 7500
+	},
+
+	{
+		"type": "chair-box",
+		"name_hu": "K Maxxi és Extra hátsó műanyag pad",
+		"price": 33000
+	},
+
+	{
+		"type": "chair-box",
+		"name_hu": "K1 fisherman hátsó műanyag pad",
+		"price": 32000
+	},
+
+	{
+		"type": "chair-box",
+		"name_hu": "Műanyag hajósszék",
+		"price": 25000
+	},
+
+	{
+		"type": "chair-box",
+		"name_hu": "Forgó műanyag hajósszék",
+		"price": 34000
+	},
+
+	{
+		"type": "chair-box",
+		"name_hu": "Forgó kárpitozott szék",
+		"price": 39000
+	},
+
+	{
+		"type": "chair-box",
+		"name_hu": "XXL hátsó ülődoboz (jobb vagy baloldalra",
+		"price": 72000
+	},
+
+	{
+		"type": "chair-box",
+		"name_hu": "XXL oldalsó tároló doboz (jobb vagy baloldalra)",
+		"price": 85000
+	},
+
+	{
+		"type": "canvas",
+		"name_hu": "K Maxxi 4.60 szállító ponyva",
+		"price": 53000
+	},
+
+	{
+		"type": "canvas",
+		"name_hu": "K Maxxi Extra 5.45 szállító ponyva",
+		"price": 59000
+	},
+
+	{
+		"type": "canvas",
+		"name_hu": "K Maxxi Joker 5.45 ponyva",
+		"price": 65000
+	},
+
+	{
+		"type": "canvas",
+		"name_hu": "K Maxxi Party 4.60 ponyva",
+		"price": 62000
+	},
+
+	{
+		"type": "canvas",
+		"name_hu": "K1 fisherman szállító ponyva",
+		"price": 48000
+	},
+
+	{
+		"type": "canvas",
+		"name_hu": "K Maxxi XXL szállító ponyva",
+		"price": 89000
+	},
+
+	{
+		"type": "canvas",
+		"name_hu": "K Maxxi XXL ponyva kormyányállással",
+		"price": 110000
+	},
+
+	{
+		"type": "canvas",
+		"name_hu": "K Maxxi és Extrára vizentároló ponyva",
+		"price": 68000
+	},
+
+	{
+		"type": "canvas",
+		"name_hu": "K1 fisherman vízentároló ponyva",
+		"price": 60000
+	},
+
+	{
+		"type": "miscellaneous",
+		"name_hu": "Színfelár kiegészítőkre erős színek esetén",
+		"price": "3 000 Ft / db"
+	},
+
+	{
+		"type": "miscellaneous",
+		"name_hu": "K1 fisherman korlát",
+		"price": 55000
+	},
+
+	{
+		"type": "miscellaneous",
+		"name_hu": "K Maxxi korlát",
+		"price": 60000
+	},
+
+	{
+		"type": "miscellaneous",
+		"name_hu": "Fürdőlétra",
+		"price": 39000
+	},
+
+	{
+		"type": "miscellaneous",
+		"name_hu": "Villanymotortartó",
+		"price": 13000
+	},
+
+	{
+		"type": "miscellaneous",
+		"name_hu": "K1 fisherman fém evező villahüvely",
+		"price": 12000
+	},
+
+	{
+		"type": "miscellaneous",
+		"name_hu": "Motorkikötő elem (tőcsavar) beépítése",
+		"price": 18000
+	},
+
+	{
+		"type": "miscellaneous",
+		"name_hu": "K1 fisherman réz evező villa",
+		"price": 8000
+	},
+
+	{
+		"type": "miscellaneous",
+		"name_hu": "K1 fisherman 230 cm-es faevező",
+		"price": 22000
+	},
+
+	{
+		"type": "miscellaneous",
+		"name_hu": "K Maxxi XXL korlát 3/4 hosszig",
+		"price": 165000
+	},
+
+	{
+		"type": "miscellaneous",
+		"name_hu": "K mini műanyag evező villa és hüvely",
+		"price": 4500
+	},
+
+	{
+		"type": "miscellaneous",
+		"name_hu": "Műanyag bika felszerelve 4db",
+		"price": 3600
+	},
+
+	{
+		"type": "miscellaneous",
+		"name_hu": "Alumínium bika felszerelve 1db",
+		"price": 3900
+	},
+
+	{
+		"type": "miscellaneous",
+		"name_hu": "Napvédő tető alumínium vázas",
+		"price": 35000
+	},
+
+	{
+		"type": "miscellaneous",
+		"name_hu": "K Maxxi Jokerre szerelhető lehajtható Cabrio tető",
+		"price": 138000
+	},
+
+	{
+		"type": "miscellaneous",
+		"name_hu": "Bármely típusba komplett kormánymű 150 LE-ig beszerelve",
+		"price": 88000
+	},
+
+	{
+		"type": "miscellaneous",
+		"name_hu": "K1 fisherman szőnyeg",
+		"price": 16000
+	},
+
+	{
+		"type": "miscellaneous",
+		"name_hu": "K Maxxi szőnyeg",
+		"price": 25000
+	},
+
+	{
+		"type": "miscellaneous",
+		"name_hu": "K Maxxi Extra, XXL szőnyeg",
+		"price": 29000
+	}
+]
