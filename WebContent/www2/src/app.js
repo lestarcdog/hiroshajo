@@ -24,6 +24,9 @@ app.config(function($routeProvider) {
 	}).when("/boats/", {
 		templateUrl : "views/boats.html",
 		controller : "BoatController"
+	}).when("/tests/boat", {
+		templateUrl : "views/tests/boat_test.html",
+		controller : "TestController"
 	})
 
 	.otherwise({

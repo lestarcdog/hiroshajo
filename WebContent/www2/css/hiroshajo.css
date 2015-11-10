@@ -69,8 +69,12 @@
 	background: none;
 }
 
-#main-navigation li.active a {
+#main-navigation ul.nav li.active a {
 	background: #ff8000;
+}
+
+#main-navigation ul.nav li.active ul li a {
+	background: none;
 }
 
 /* main page */
