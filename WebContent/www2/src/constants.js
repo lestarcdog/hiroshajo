@@ -6,8 +6,8 @@ app.constant("httpEndpoints", {
 
 app.constant("StorageConstants", {
 	"langProperty" : "hiroshajo.lang",
-	"lang.hu" : "hu",
-	"lang.eng" : "eng"
+	"lang_hu" : "hu",
+	"lang_eng" : "en"
 
 });
 

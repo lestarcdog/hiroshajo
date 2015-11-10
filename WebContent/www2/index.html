@@ -26,7 +26,9 @@
 		var ga = document.createElement('script');
 		ga.type = 'text/javascript';
 		ga.async = true;
-		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+				: 'http://www')
+				+ '.google-analytics.com/ga.js';
 		var s = document.getElementsByTagName('script')[0];
 		s.parentNode.insertBefore(ga, s);
 	})();
@@ -44,7 +46,11 @@
 						<div class="col-sm-3">
 							<img id="header-evszam" class="img-responsive">
 						</div>
-						<div class="col-sm-3 pull-right" id="langbar"></div>
+						<div class="col-sm-3" id="langbar">
+							<a href=""> <img alt="hun_flag" src="images/header/hun_flag.jpg" ng-click="setLang('hu')" ng-class="{disabled : lang == 'hu'}"
+								class="img-responsive pull-right"></a> <a href=""><img alt="english_flag" src="images/header/union_jack.jpg"
+								ng-click="setLang('en')" ng-class="{disabled : lang == 'en'}" class="img-responsive pull-right"></a>
+						</div>
 					</div>
 					<div class="row">
 						<div class="col-sm-12 text-center">
@@ -54,7 +60,7 @@
 				</header>
 				<div class="row">
 					<nav class="col-lg-12" id="main-navigation" data-ng-controller="LocationCtrl">
-						<ng-include src="'src/includes/menu_hu.html'"></ng-include>
+						<ng-include src="'includes/menu/menu_'+lang+'.html'"></ng-include>
 					</nav>
 				</div>
 				<div class="row">

@@ -35,6 +35,18 @@
 	background-repeat: repeat;
 }
 
+#langbar {
+	padding: 5px 20px;
+}
+
+#langbar img {
+	margin-left: 15px;
+}
+
+#langbar img.disabled {
+	opacity: 0.5;
+}
+
 #hiroshajo-content {
 	padding: 10px 25px;
 }

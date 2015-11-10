@@ -1,5 +1,5 @@
 app
-		.run(function($rootScope) {
+		.run(function($rootScope, $window, LocalStorageService, StorageConstants) {
 			var meta = {
 				"title" : "Üvegszálas műanyag hajó, csónak, horgászcsónak gyártás. "
 						+ (new Date).getFullYear(),
@@ -45,7 +45,29 @@ app
 				}
 			}
 
+			$rootScope.setLang = function(lang) {
+				if (lang.indexOf("hu") != -1) {
+					LocalStorageService.lang(StorageConstants.lang_hu);
+					$rootScope.lang = StorageConstants.lang_hu;
+				} else if (lang.indexOf("en") != -1) {
+					LocalStorageService.lang(StorageConstants.lang_eng);
+					$rootScope.lang = StorageConstants.lang_eng;
+				} else {
+					LocalStorageService.lang(StorageConstants.lang_hu);
+					$rootScope.lang = StorageConstants.lang_hu;
+				}
+				//$window.location.reload();
+			}
+
 			// add date to header
 			angular.element("#header-evszam").attr("src",
-					"images/header/evszam" + (new Date).getFullYear() + ".png")
+					"images/header/evszam" + (new Date).getFullYear() + ".png");
+
+			// get language default is hun
+			var lang = LocalStorageService.lang();
+			if (lang == null) {
+				LocalStorageService.lang(StorageConstants.lang_hu);
+				lang = LocalStorageService.lang();
+			}
+			$rootScope.lang = lang;
 		});

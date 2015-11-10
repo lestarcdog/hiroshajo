@@ -31,7 +31,6 @@ app.config(function($routeProvider) {
 		templateUrl : "views/tests/electric_test.html",
 		controller : "TestController"
 	})
-	
 
 	.otherwise({
 		redirectTo : '/'
@@ -39,7 +38,13 @@ app.config(function($routeProvider) {
 });
 
 app.config(function(LightboxProvider) {
-	LightboxProvider.templateUrl = "src/includes/lightbox_hu.html";
+	//check for localStorageservice
+	var lang = window.localStorage.getItem("hiroshajo.lang");
+	if (lang === "en") {
+		LightboxProvider.templateUrl = "includes/lightbox/lightbox_en.html";
+	} else {
+		LightboxProvider.templateUrl = "includes/lightbox/lightbox_hu.html";
+	}
 });
 
 app.controller("LocationCtrl", function($scope, $location, $rootScope) {
