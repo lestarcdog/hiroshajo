@@ -1,6 +1,4 @@
-app.controller("BoatController", function($scope, $rootScope, $location, Lightbox, BoatService) {
-	var defaultPageTitle = "Csónakok, katamarán";
-	var descLength = 500;
+app.controller("BoatController", function($scope, $rootScope, $location, Lightbox, BoatService, StorageConstants) {
 	var bg = angular.element("#hiroshajo-content");
 
 	$scope.descToggle = false;
@@ -21,19 +19,19 @@ app.controller("BoatController", function($scope, $rootScope, $location, Lightbo
 				loadBoatDetails(boatId);
 			}
 		});
-		$rootScope.changePage("Csónakok, katamarán", null);
-		$rootScope.changeMeta("Csónakok", "Híröshajó kecskemét horgász csónakok", "horgász csónak, katamarán");
+		changePageAndMeta();
 		setBackground(null);
 
 	}
+	
+	
 
 	$scope.select = function(boatId) {
 		loadBoatDetails(boatId);
 	}
 
 	$scope.back = function() {
-		$rootScope.changePage("Csónakok, katamarán", null);
-		$rootScope.changeMeta("Csónakok", "Híröshajó kecskemét horgász csónakok", "horgász csónak, katamarán");
+		changePageAndMeta();
 		$scope.boat = null;
 		$scope.descCollapse = false;
 		setBackground(null);
@@ -84,6 +82,16 @@ app.controller("BoatController", function($scope, $rootScope, $location, Lightbo
 		// add background
 		setBackground(boat.background);
 	}
+	
+	var changePageAndMeta = function() {
+		if ($rootScope.lang === StorageConstants.lang_eng) {
+			$rootScope.changePage("Boats, catamarans", null);
+			$rootScope.changeMeta("Boats", "Híröshajó kecskemét fishing boats", "fishing boats, catamaran");
+		} else {
+			$rootScope.changePage("Csónakok, katamarán", null);
+			$rootScope.changeMeta("Csónakok", "Híröshajó kecskemét horgász csónakok", "horgász csónak, katamarán");
+		}
+	}
 
 	var setBackground = function(path) {
 		var bg_path = "url(images/bg/";
@@ -102,6 +110,5 @@ app.controller("BoatController", function($scope, $rootScope, $location, Lightbo
 	}
 
 	refresh();
-	$scope.Lightbox = Lightbox;
 
 });

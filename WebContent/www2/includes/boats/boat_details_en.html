@@ -1,0 +1,107 @@
+<div class="row">
+	<div class="col-sm-5">
+		<button class="btn btn-warning" ng-click="back()">Back to models page</button>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-12">
+		<div id="boat-description">
+			<div ng-if="descCollapse" ng-bind-html="txt"></div>
+			<div ng-if="descCollapse" id="txtFull" class="collapse" ng-bind-html="txtFull"></div>
+			<div id="collapse-btn" class="text-center" ng-show="descCollapse" data-toggle="collapse" data-target="#txtFull" ng-click="toggleDesc()"
+				ng-bind="descButtonExpandText"></div>
+			<div ng-if="!descCollapse" ng-bind-html="txtFull"></div>
+		</div>
+	</div>
+</div>
+<div class="row" id="boat-details">
+	<div class="col-sm-6">
+		<div id="panel" class="panel">
+			<div class="row">
+				<div id="header" class="col-sm-12 text-center">
+					<p>{{boat.name}} technical data
+					<p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-10 col-sm-offset-1">
+					<table class="table table-responsive table-condensed">
+						<tbody>
+							<tr>
+								<td>Length</td>
+								<td>{{boat.length}} cm</td>
+							</tr>
+							<tr>
+								<td>Width</td>
+								<td>{{boat.width}} cm</td>
+							</tr>
+							<tr>
+								<td>Weight</td>
+								<td>{{boat.weight}} kg</td>
+							</tr>
+							<tr>
+								<td>Csónak formája</td>
+								<td>{{boat.form_hu}}</td>
+							</tr>
+							<tr>
+								<td>Loadability</td>
+								<td>{{boat.loadability}} kg</td>
+							</tr>
+							<tr>
+								<td>Engine</td>
+								<td>{{boat.engine}} LE</td>
+							</tr>
+							<tr>
+								<td>Szállítható személyek</td>
+								<td>{{boat.transport}} fő</td>
+							</tr>
+							<tr ng-if="color != null">
+								<td>Color</td>
+								<td>{{boat.color | hunPrice}}</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<div id="boat-price" class="text-center">
+						{{boat.price | hunPrice }}
+						<p ng-if="boat.price_sub != null" class="boat-subprice">{{boat.price_sub}}</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<p class="text-center ">
+						Orderable supplements can be found on page <strong><a href="#/fittings">Fittings</a></strong> and <strong><a
+							href="#/prices">Prices</a></strong>.
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<p class="text-center">
+						<small>Az árak az áfát nem tartalmazzák!</small>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="panel" id="boat-gallery">
+					<div class="panel-heading">Prices do not include VAT!</div>
+					<div class="panel-body">
+						<button class="btn btn-warning" ng-if="boat.gallery != null && boat.gallery.length > 0" ng-click="openGallery()">Gallery</button>
+						<button class="btn btn-warning" ng-if="boat.videos != null && boat.videos.length > 0" ng-click="openVideos()">Videos</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-4 col-sm-offset-1">
+		<div ng-repeat="path in boat.pics" class="side-img">
+			<img alt="hiroshajo1" class="img-responsive img-thumbnail" ng-src="{{path}}">
+		</div>
+	</div>
+</div>

@@ -1,0 +1,9 @@
+<div id="hiroshajo-jumbotron" ng-controller="MainCarouselController">
+	<uib-carousel id="hh-carousel" no-wrap="false" interval="4000"> <uib-slide ng-repeat="slide in slides"> <a
+		ng-href="#/boats?boatId={{slide.id}}"> <img ng-src="{{slide.image}}" style="margin: auto;">
+	</a>
+	<div class="carousel-caption">
+		<span>{{slide.text}}</span>
+	</div>
+	</uib-slide> </uib-carousel>
+</div>
