@@ -1,5 +1,5 @@
 app
-		.run(function($rootScope, $window, LocalStorageService, StorageConstants) {
+		.run(function($rootScope, $window,$uibModal, LocalStorageService, StorageConstants) {
 			var meta = {
 				"title" : "Üvegszálas műanyag hajó, csónak, horgászcsónak gyártás. "
 						+ (new Date).getFullYear(),
@@ -52,6 +52,11 @@ app
 				} else if (lang.indexOf("en") != -1) {
 					LocalStorageService.lang(StorageConstants.lang_eng);
 					$rootScope.lang = StorageConstants.lang_eng;
+					$uibModal.open({
+						animation : true,
+						controller : 'SalesModalController',
+						templateUrl : 'includes/main/salesModal.html'
+					});
 				} else {
 					LocalStorageService.lang(StorageConstants.lang_hu);
 					$rootScope.lang = StorageConstants.lang_hu;
@@ -63,7 +68,7 @@ app
 			angular.element("#header-evszam").attr("src",
 					"images/header/evszam" + (new Date).getFullYear() + ".png");
 
-			// get language default is hun
+			// get language default is hu
 			var lang = LocalStorageService.lang();
 			if (lang == null) {
 				LocalStorageService.lang(StorageConstants.lang_hu);

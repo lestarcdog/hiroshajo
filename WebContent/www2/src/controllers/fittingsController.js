@@ -9,7 +9,6 @@ app.controller("FittingsController", function($scope, $rootScope, FittingsServic
 
 	var refresh = function() {
 		FittingsService.getFittings().then(function(response) {
-			console.log(response);
 			$scope.fittings = response.data;
 		});
 	}
