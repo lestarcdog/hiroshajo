@@ -4,10 +4,23 @@ app.controller("PriceController", function($scope, $rootScope, ProductCategory,
 	$scope.items = items = {};
 	$scope.search = {};
 	$scope.categoryNames = ProductCategory;
+	
+	$rootScope.$on("langChanged", function(event, newLang) {
+		changePageAndMeta(newLang);
+	})
+	
+	var changePageAndMeta = function(newLang) {
+		if(newLang == StorageConstants.lang_eng) {
+			$rootScope.changePage("Prices", null);
+			$rootScope.changeMeta("Prices", null, null);
+		} else {
+			$rootScope.changePage("Árak", null);
+			$rootScope.changeMeta("Árak", null, null);
+		}
+	}
 
 	var refresh = function() {
-		$rootScope.changePage("Árak", null);
-		$rootScope.changeMeta("Árak", null, null);
+		changePageAndMeta($rootScope.lang);
 		categories = {};
 		angular.forEach(ProductCategory, function(value, key) {
 			categories[key] = {

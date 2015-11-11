@@ -2,9 +2,9 @@ app.controller("BoatController", function($scope, $rootScope, $location, Lightbo
 	var bg = angular.element("#hiroshajo-content");
 
 	$scope.descToggle = false;
-	$scope.descButtonExpandText = "Bővebben..."
 	$scope.descCollapse = false;
-
+	var expandText = "";
+	var collapseText = "";
 	$scope.boats = [];
 	$scope.boat = null;
 	$scope.descCollapse = false;
@@ -12,7 +12,6 @@ app.controller("BoatController", function($scope, $rootScope, $location, Lightbo
 	var refresh = function() {
 		BoatService.getBoats().then(function(response) {
 			$scope.boats = response.data;
-			// console.log($scope.boats);
 
 			var boatId = $location.search().boatId
 			if (boatId != null) {
@@ -23,8 +22,14 @@ app.controller("BoatController", function($scope, $rootScope, $location, Lightbo
 		setBackground(null);
 
 	}
-	
-	
+
+	$rootScope.$on("langChanged", function(event, newLang) {
+		changePageAndMeta(newLang);
+		if ($scope.boat != null) {
+			loadBoatDetails($scope.boat.id);
+		}
+
+	})
 
 	$scope.select = function(boatId) {
 		loadBoatDetails(boatId);
@@ -40,10 +45,10 @@ app.controller("BoatController", function($scope, $rootScope, $location, Lightbo
 	$scope.toggleDesc = function() {
 		$scope.descToggle = !$scope.descToggle;
 		if ($scope.descToggle) {
-			$scope.descButtonExpandText = "Bezár...";
+			$scope.descButtonExpandText = collapseText;
 			$scope.txt = "";
 		} else {
-			$scope.descButtonExpandText = "Bővebben...";
+			$scope.descButtonExpandText = expandText;
 			$scope.txt = $scope.boat.desc_hu[0];
 		}
 	}
@@ -61,35 +66,53 @@ app.controller("BoatController", function($scope, $rootScope, $location, Lightbo
 		if (boat == null) {
 			return;
 		}
-		$scope.boat = boat;
-		// add description toggle
-		if (angular.isArray(boat.desc_hu)) {
-			$scope.descCollapse = true;
-			$scope.txt = boat.desc_hu[0];
-			$scope.txtFull = boat.desc_hu.join("");
+
+		var desc;
+		if ($rootScope.lang == StorageConstants.lang_eng) {
+			desc = boat.desc_en;
 		} else {
-			$scope.txtFull = boat.desc_hu;
+			desc = boat.desc_hu;
+		}
+
+		// add description toggle
+		if (angular.isArray(desc)) {
+			$scope.descCollapse = true;
+			$scope.txt = desc[0];
+			$scope.txtFull = "<p>" + desc.join("</p><p>") + "</p>";
+		} else {
+			$scope.txtFull = desc;
 		}
 
 		var tag = "";
-		if (boat.tag_hu != null && boat.tag_hu !== "") {
-			tag = " " + boat.tag_hu;
+		if ($rootScope.lang === StorageConstants.lang_eng) {
+			if (boat.tag_en != null && boat.tag_en !== "") {
+				tag = " " + boat.tag_hu;
+			}
+		} else {
+			if (boat.tag_hu != null && boat.tag_hu !== "") {
+				tag = " " + boat.tag_hu;
+			}
 		}
 
+		$scope.boat = boat;
 		$rootScope.changePage(boat.name + tag, null);
 		$rootScope.changeMeta(boat.name, boat.name + tag, boat.name + tag);
 
 		// add background
 		setBackground(boat.background);
 	}
-	
+
 	var changePageAndMeta = function() {
 		if ($rootScope.lang === StorageConstants.lang_eng) {
 			$rootScope.changePage("Boats, catamarans", null);
 			$rootScope.changeMeta("Boats", "Híröshajó kecskemét fishing boats", "fishing boats, catamaran");
+			$scope.descButtonExpandText = expandText = "More...";
+			collapseText = "Close";
 		} else {
 			$rootScope.changePage("Csónakok, katamarán", null);
 			$rootScope.changeMeta("Csónakok", "Híröshajó kecskemét horgász csónakok", "horgász csónak, katamarán");
+			$scope.descButtonExpandText = expandText = "Bővebben...";
+			collapseText = "Bezár";
 		}
 	}
 

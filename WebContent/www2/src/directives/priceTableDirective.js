@@ -1,4 +1,4 @@
-app.directive("priceTable",function() {
+app.directive("priceTable",function($rootScope) {
 	return {
 		restrict: "E",
 		scope: {
@@ -6,7 +6,6 @@ app.directive("priceTable",function() {
 			items : "=",
 			searchKeyword : "="
 		},
-		transclude: true,
-		templateUrl: "src/directives/template/priceTable.html"
+		templateUrl: "src/directives/template/priceTable_"+$rootScope.lang+".html"
 	}
 });

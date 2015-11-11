@@ -1,8 +1,7 @@
 app
-		.run(function($rootScope, $window,$uibModal, LocalStorageService, StorageConstants) {
+		.run(function($rootScope, $window, $uibModal, LocalStorageService, StorageConstants) {
 			var meta = {
-				"title" : "Üvegszálas műanyag hajó, csónak, horgászcsónak gyártás. "
-						+ (new Date).getFullYear(),
+				"title" : "Üvegszálas műanyag hajó, csónak, horgászcsónak gyártás. " + (new Date).getFullYear(),
 				"description" : "A Híröshajó Kft. katamarán aljú, üvegszálas műanyag hajó, csónak, horgászcsónak tervezésével és gyártásával foglalkozik.",
 				"keyword" : "hajó, csónak, horgászcsónak, üvegszálas műanyag"
 			};
@@ -61,12 +60,12 @@ app
 					LocalStorageService.lang(StorageConstants.lang_hu);
 					$rootScope.lang = StorageConstants.lang_hu;
 				}
-				//$window.location.reload();
+				$rootScope.$emit("langChanged", $rootScope.lang);
+				// $window.location.reload();
 			}
 
 			// add date to header
-			angular.element("#header-evszam").attr("src",
-					"images/header/evszam" + (new Date).getFullYear() + ".png");
+			angular.element("#header-evszam").attr("src", "images/header/evszam" + (new Date).getFullYear() + ".png");
 
 			// get language default is hu
 			var lang = LocalStorageService.lang();

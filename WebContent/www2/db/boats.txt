@@ -3,7 +3,9 @@
 	{
 		"name": "K Maxxi XXL",
 		"tag_hu": "",
+		"tab_en": "",
 		"desc_hu": "Egy igazán nagy csónak, az igazán nagy horgászoknak. Óriási méretei ellenére, a menettulajdonsága kiváló, melyet már tesztekkel is bizonyítottunk. 2014-ben elkészült a belső tároló dobozos változat.",
+		"desc_en": "A great boat for great fishers. In spite of its giant sizes the boats' course performance and stability extraordinary. We have proven it by many test runs. The orderable supplements are in underdevelopment. At the moment only the wheel corbel and the boat seats are available.",
 		"length": 570,
 		"width": 210,
 		"weight": 280,
@@ -72,7 +74,9 @@
 	{
 		"name": "K Maxxi",
 		"tag_hu": "horgászcsónak",
+		"tag_en": "fishing boat",
 		"desc_hu": "Ez a horgászcsónak a horgászok álma! Méreteiben ideális tavi és folyami horgászatra egyaránt.",
+		"desc_en": "This is the dream of Anglers! Because of its proportions it is ideal for angling in rivers and lakes.",
 		"length": 460,
 		"width": 170,
 		"weight": 150,
@@ -122,7 +126,9 @@
 	{
 		"name": "K Maxxi Extra",
 		"tag_hu": "horgászcsónak",
+		"tag_en": "fishing boat",
 		"desc_hu": "Ez a horgászcsónak a K Maxxi meghosszabított változata. Méretei lehetővé teszik több horgász kényelmes horgászatát. A K Maxxi szerelvényei ehhez a típushoz is megfelelőek.",
+		"desc_en": "The K Maxxi Extra is the elongated version of the long standing Maxxi. Its proportions allow of comfortable post of more anglers. The fittings of Maxxi are suitable for this type too.",
 		"length": 545,
 		"width": 170,
 		"weight": 185,
@@ -154,7 +160,19 @@
 	{
 		"name": "K Maxxi Joker",
 		"tag_hu": "az univerzális csónak",
-		"desc_hu": "Ez az univerzális csónak a K Maxxi Extra továbbfejlesztett változata. Legfontosabb újdonságai a járható orrfedés és a motorteknő. Használható kézikaros motorral is, de ebben az esetben célszerű hosszúszárú motort választani, mert az irányítókar belóghat az utastérbe. Ehhez a csónakhoz készült a kis helyigényű oldalsó kormánykonzol, mely tartalmaz egy kis szélvédőt és elfér rajta a halradar képernyője is. A csónak kapott 20 cm-es oldalmagasítást, mely jól véd a hullámosabb vizeken, de nem akadályoz a kuttyogatásban. Belső tere teljesen üres és sík, szabadon berendezhető ülésekkel. 50 LE-s motorral egy hatalmas belső terű sportcsónak.Egyedi, fülkés változatra való továbbépítésre is alkalmas, mert a fedélzet belső pereme biztosítja a vízelvezetést.",
+		"tag_en": " the universal boat",
+		"desc_hu": 
+		[
+			"Ez az univerzális csónak a K Maxxi Extra továbbfejlesztett változata. Legfontosabb újdonságai a járható orrfedés és a motorteknő. Használható kézikaros motorral is, de ebben az esetben célszerű hosszúszárú motort választani, mert az irányítókar belóghat az utastérbe.",
+			" Ehhez a csónakhoz készült a kis helyigényű oldalsó kormánykonzol, mely tartalmaz egy kis szélvédőt és elfér rajta a halradar képernyője is. A csónak kapott 20 cm-es oldalmagasítást, mely jól véd a hullámosabb vizeken, de nem akadályoz a kuttyogatásban. Belső tere teljesen üres és sík, szabadon berendezhető ülésekkel. 50 LE-s motorral egy hatalmas belső terű sportcsónak.Egyedi, fülkés változatra való továbbépítésre is alkalmas, mert a fedélzet belső pereme biztosítja a vízelvezetést."
+		],
+
+		"desc_en": 
+		[
+			"It is the improved version of K MAXXI EXTRA, its most important novelties are the beak covering which can be stepped and the sump. It is usable also with crank-handle motor, but in this case it is advisable to choose long trim motor because the steering lever can hang down into the passenger's cab.",
+			"For this was made the little sidelong wheel corbel, which contains a little windscreen and there is place for the screen of the fish radar. The 20 cm side heighting can protect well on more wavy waters, but doesn't impede in kuttyogtatás (this is a special Hungarian fishing method). Its inner space is totally empty and flat, it can be equipped with seats. With 50 PS motor it is a sport boat with a huge inner space.It is suitable for further building of customized type with cabin because the upper edge of the deck ensures the drainage."
+		],
+
 		"length": 545,
 		"width": 170,
 		"weight": 245,
@@ -195,6 +213,7 @@
 		"name": "K Maxxi Joker Cabin",
 		"tag_hu": "",
 		"desc_hu": "A K MAXXI JOKER típusra, utólag ráhelyezhető kabin. Melyet a régebben gyártott JOKER-ekre is rá lehet szerelni, a kis kormánykonzol a kabin belsejében is elhelyezhető.",
+		"desc_en": "This is a boat principally for anglers, which is the modified version of K MAXXI JOKER. The cabin can be supplemented subsequently to former JOKER types too. The little wheel corbel can be placed also inside of the cabin.",
 		"length": 545,
 		"width": 170,
 		"weight": 274,
@@ -300,14 +319,15 @@
 	{
 		"name": "K1 fisherman",
 		"tag_hu": "egy sokcélú csónak",
+		"tag_en": "multi-purpose boat",
 		"desc_hu": 
 		[
-			"<p>Ez a sokcélú csónak, motorosként használva, a különleges fenékvezetőnek köszönhetően rendkívül könnyen irányítható és stabil menettulajdonságú. Súlya lehetővé teszi, hogy akár kézikocsival egy ember is könnyedén mozgatni tudja. 2016-ban a cég 20 éves fennállásának évfordulójára megújult a K1 fisherman típus. </p>",
-			"<p>Miután összegyűlt 20 év adriai nyaralások tapasztalata, ezt tükrözi az új típus. Magasabb oldalfal, nagyobb belső tér, jobb hullámállóság, kiváló menetteljesítmény jellemző a 380cm hosszú 155 cm széles K1 fishermant.</p> <p>Úgymint a többi típusnál felszerelhető orrdobozzal, hátsó padokkal, belépővel, fürdőlétrával, takaró szállító ponyvával, vízen tároló ponyvával. és vagy korláttal már szinte nagy csónakos lesz.</p>",
-			"<p>A K1 fishermant lehet rövid, illetve hosszú csizmás motorhoz rendelni. Még egy nagy változás, hogy 20 LE feletti motorhoz fel kell szerelni egy hátsó fartükörhöz csatlakoztatható sikló szárnyat, mellyel ez a kis csónak 8 LE motorral, 2 személlyel is még siklik. (Tengeren 140 kg terheléssel 25 km/h) Ha egy személy használja mindenképpen szükséges a súlypontot előbbre vinni, ehhez feltétlenül szükséges a motor gázkarjának a meghosszabbítása. Csak egy ötlet 80 cm hosszú PVC csövet megmelegítve, ráhúzva a gázmarkolatra, tökéletes megoldás. Kihűlés után természetesen le lehet venni és bármikor visszarakni.</p>",
-			"<p>A K1 fisherman súlya 93 kg, így könnyen mozgatható, akár kézikocsival, vagy a hozzá kapható vizsgáztatott utánfutóval. Mint az összes típusnál lehet külső és belső színt választani, az alap változat: alul fehér, felül baige színű. Bármilyen egyéb kérés esetén forduljon hozzám Juharos Imréhez bizalommal.</p>"
+			"Ez a sokcélú csónak, motorosként használva, a különleges fenékvezetőnek köszönhetően rendkívül könnyen irányítható és stabil menettulajdonságú. Súlya lehetővé teszi, hogy akár kézikocsival egy ember is könnyedén mozgatni tudja. 2016-ban a cég 20 éves fennállásának évfordulójára megújult a K1 fisherman típus.",
+			"Miután összegyűlt 20 év adriai nyaralások tapasztalata, ezt tükrözi az új típus. Magasabb oldalfal, nagyobb belső tér, jobb hullámállóság, kiváló menetteljesítmény jellemző a 380cm hosszú 155 cm széles K1 fishermant.</p> <p>Úgymint a többi típusnál felszerelhető orrdobozzal, hátsó padokkal, belépővel, fürdőlétrával, takaró szállító ponyvával, vízen tároló ponyvával. és vagy korláttal már szinte nagy csónakos lesz.",
+			"A K1 fishermant lehet rövid, illetve hosszú csizmás motorhoz rendelni. Még egy nagy változás, hogy 20 LE feletti motorhoz fel kell szerelni egy hátsó fartükörhöz csatlakoztatható sikló szárnyat, mellyel ez a kis csónak 8 LE motorral, 2 személlyel is még siklik. (Tengeren 140 kg terheléssel 25 km/h) Ha egy személy használja mindenképpen szükséges a súlypontot előbbre vinni, ehhez feltétlenül szükséges a motor gázkarjának a meghosszabbítása. Csak egy ötlet 80 cm hosszú PVC csövet megmelegítve, ráhúzva a gázmarkolatra, tökéletes megoldás. Kihűlés után természetesen le lehet venni és bármikor visszarakni.",
+			"A K1 fisherman súlya 93 kg, így könnyen mozgatható, akár kézikocsival, vagy a hozzá kapható vizsgáztatott utánfutóval. Mint az összes típusnál lehet külső és belső színt választani, az alap változat: alul fehér, felül baige színű. Bármilyen egyéb kérés esetén forduljon hozzám Juharos Imréhez bizalommal."
 		],
-
+		"desc_en": "A boat of many purposes. Using with engine due to the special bottom it is very easily manoeuvrable and has a stable characteristic of the ship in motion. Its weight allows transportability on the top of a car, one person can easily move with a hand-cart.",
 		"length": 380,
 		"width": 155,
 		"weight": 93,
@@ -391,7 +411,9 @@
 	{
 		"name": "K Maxxi Party",
 		"tag_hu": "a sportcélú hajó",
+		"tag_en": "the sport-boat",
 		"desc_hu": "A K Maxxi Party egyaránt alkalmas tavi és folyami csónakázásra. Már 15 LE-s motorral lendeületesen mozog a vízen.",
+		"desc_en" : "The K Maxi Party is suitable for lake and river boating and a 15 HP engine is enough for its switftly moving.",
 		"length": 460,
 		"width": 170,
 		"weight": 220,

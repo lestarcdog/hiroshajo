@@ -1,0 +1,72 @@
+<div class="row">
+	<div class="col-sm-2">
+		<div class="form-horizontal">
+			<div class="form-group-sm">
+				<label for="name">Search</label> <input type="text"
+					ng-model="search.name" placeholder="search keyword"
+					class="form-control">
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-8">
+		<div class="form-horizontal">
+			<div class="form-group-sm">
+				<label ng-repeat="cat in search.categories" class="small-label">{{cat.name}}
+					<input type="checkbox" ng-model="cat.value" class="form-control">
+				</label>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-sm-2">
+		<div class="form-horizontal" >
+			<div class="form-group-sm" style="line-height: 75px">
+				<button class="btn btn-warning " ng-click="reset()">Show all</button>
+				<button class="btn btn-default glyphicon glyphicon-ban-circle"
+					ng-click="disable()"></button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row" style="margin-top: 10px">
+	<div class="col-sm-12">
+		<p>
+			Price list in .pdf downloadable format (hungarian): <a
+				href="documents/arlista.pdf">Híröshajó árlista.pdf</a>
+		</p>
+	</div>
+</div>
+
+<price-table ng-if="search.categories['boats'].value"
+	title="{{categoryNames['boats'].name_en}}" items="items['boats']"
+	search-keyword="search.name"></price-table>
+
+<price-table ng-if="search.categories['wheel-corbel'].value"
+	title="{{categoryNames['wheel-corbel'].name_en}}"
+	items="items['wheel-corbel']" search-keyword="search.name"></price-table>
+
+<price-table ng-if="search.categories['beak-entry'].value"
+	title="{{categoryNames['beak-entry'].name_en}}"
+	items="items['beak-entry']" search-keyword="search.name"></price-table>
+
+<price-table ng-if="search.categories['chair-box'].value"
+	title="{{categoryNames['chair-box'].name_en}}"
+	items="items['chair-box']" search-keyword="search.name"></price-table>
+
+<price-table ng-if="search.categories['canvas'].value"
+	title="{{categoryNames['canvas'].name_en}}" items="items['canvas']"
+	search-keyword="search.name"></price-table>
+
+<price-table ng-if="search.categories['miscellaneous'].value"
+	title="{{categoryNames['miscellaneous'].name_en}}"
+	items="items['miscellaneous']" search-keyword="search.name"></price-table>
+<div class="row">
+	<div class="col-sm-12 text-center">
+		<p>A fenti árak visszavonásig érvényesek, miután 90%-ban az euró
+			árfolyamával vannak összefüggésben. Az árak magyar forintban
+			értendőek, forgalmi adó nélkül. Az ÁFA 27% !!</p>
+	</div>
+</div>
+<price-table ng-if="search.categories['trailer'].value"
+	title="{{categoryNames['trailer'].name_en}}" items="items['trailer']"
+	search-keyword="search.name"></price-table>
