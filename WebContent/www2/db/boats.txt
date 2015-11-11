@@ -164,7 +164,7 @@
 		"desc_hu": 
 		[
 			"Ez az univerzális csónak a K Maxxi Extra továbbfejlesztett változata. Legfontosabb újdonságai a járható orrfedés és a motorteknő. Használható kézikaros motorral is, de ebben az esetben célszerű hosszúszárú motort választani, mert az irányítókar belóghat az utastérbe.",
-			" Ehhez a csónakhoz készült a kis helyigényű oldalsó kormánykonzol, mely tartalmaz egy kis szélvédőt és elfér rajta a halradar képernyője is. A csónak kapott 20 cm-es oldalmagasítást, mely jól véd a hullámosabb vizeken, de nem akadályoz a kuttyogatásban. Belső tere teljesen üres és sík, szabadon berendezhető ülésekkel. 50 LE-s motorral egy hatalmas belső terű sportcsónak.Egyedi, fülkés változatra való továbbépítésre is alkalmas, mert a fedélzet belső pereme biztosítja a vízelvezetést."
+			"Ehhez a csónakhoz készült a kis helyigényű oldalsó kormánykonzol, mely tartalmaz egy kis szélvédőt és elfér rajta a halradar képernyője is. A csónak kapott 20 cm-es oldalmagasítást, mely jól véd a hullámosabb vizeken, de nem akadályoz a kuttyogatásban. Belső tere teljesen üres és sík, szabadon berendezhető ülésekkel. 50 LE-s motorral egy hatalmas belső terű sportcsónak.Egyedi, fülkés változatra való továbbépítésre is alkalmas, mert a fedélzet belső pereme biztosítja a vízelvezetést."
 		],
 
 		"desc_en": 

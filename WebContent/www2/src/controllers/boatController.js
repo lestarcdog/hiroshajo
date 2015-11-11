@@ -5,8 +5,10 @@ app.controller("BoatController", function($scope, $rootScope, $location, Lightbo
 	$scope.descCollapse = false;
 	var expandText = "";
 	var collapseText = "";
+	var desc = null;
 	$scope.boats = [];
 	$scope.boat = null;
+	$scope.boatId = null;
 	$scope.descCollapse = false;
 
 	var refresh = function() {
@@ -26,7 +28,7 @@ app.controller("BoatController", function($scope, $rootScope, $location, Lightbo
 	$rootScope.$on("langChanged", function(event, newLang) {
 		changePageAndMeta(newLang);
 		if ($scope.boat != null) {
-			loadBoatDetails($scope.boat.id);
+			loadBoatDetails($scope.boatId);
 		}
 
 	})
@@ -39,6 +41,7 @@ app.controller("BoatController", function($scope, $rootScope, $location, Lightbo
 		changePageAndMeta();
 		$scope.boat = null;
 		$scope.descCollapse = false;
+		$scope.boatId = null;
 		setBackground(null);
 	}
 
@@ -49,7 +52,7 @@ app.controller("BoatController", function($scope, $rootScope, $location, Lightbo
 			$scope.txt = "";
 		} else {
 			$scope.descButtonExpandText = expandText;
-			$scope.txt = $scope.boat.desc_hu[0];
+			$scope.txt = desc[0];
 		}
 	}
 
@@ -67,7 +70,7 @@ app.controller("BoatController", function($scope, $rootScope, $location, Lightbo
 			return;
 		}
 
-		var desc;
+		desc;
 		if ($rootScope.lang == StorageConstants.lang_eng) {
 			desc = boat.desc_en;
 		} else {
@@ -95,6 +98,7 @@ app.controller("BoatController", function($scope, $rootScope, $location, Lightbo
 		}
 
 		$scope.boat = boat;
+		$scope.boatId = boatId;
 		$rootScope.changePage(boat.name + tag, null);
 		$rootScope.changeMeta(boat.name, boat.name + tag, boat.name + tag);
 
