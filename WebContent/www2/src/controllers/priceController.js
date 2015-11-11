@@ -1,5 +1,5 @@
 app.controller("PriceController", function($scope, $rootScope, ProductCategory,
-		PriceService, BoatService) {
+		PriceService, BoatService, StorageConstants) {
 	var categories = {};
 	$scope.items = items = {};
 	$scope.search = {};
@@ -24,7 +24,8 @@ app.controller("PriceController", function($scope, $rootScope, ProductCategory,
 		categories = {};
 		angular.forEach(ProductCategory, function(value, key) {
 			categories[key] = {
-				"name" : value.name_hu.substring(0, 20),
+				"name_hu" : value.name_hu.substring(0, 20),
+				"name_en" : value.name_en.substring(0, 20),
 				"value" : true
 			};
 			items[key] = [];
@@ -40,7 +41,8 @@ app.controller("PriceController", function($scope, $rootScope, ProductCategory,
 			angular.forEach(response.data, function(boat, key) {
 				if (boat.available) {
 					items.boats.push({
-						"name" : boat.name,
+						"name_hu" : boat.name,
+						"name_en" : boat.name,
 						"price" : boat.price
 					});
 				}
@@ -49,7 +51,8 @@ app.controller("PriceController", function($scope, $rootScope, ProductCategory,
 		PriceService.getPrices().then(function(response) {
 			angular.forEach(response.data, function(value, key) {
 				items[value.type].push({
-					"name" : value.name_hu,
+					"name_hu" : value.name_hu,
+					"name_en" : value.name_en,
 					"price" : value.price
 				});
 			});

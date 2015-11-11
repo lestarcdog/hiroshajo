@@ -11,7 +11,7 @@
 	<div class="col-sm-8">
 		<div class="form-horizontal">
 			<div class="form-group-sm">
-				<label ng-repeat="cat in search.categories" class="small-label">{{cat.name}}
+				<label ng-repeat="cat in search.categories" class="small-label">{{cat.name_en}}
 					<input type="checkbox" ng-model="cat.value" class="form-control">
 				</label>
 			</div>
@@ -62,9 +62,7 @@
 	items="items['miscellaneous']" search-keyword="search.name"></price-table>
 <div class="row">
 	<div class="col-sm-12 text-center">
-		<p>A fenti árak visszavonásig érvényesek, miután 90%-ban az euró
-			árfolyamával vannak összefüggésben. Az árak magyar forintban
-			értendőek, forgalmi adó nélkül. Az ÁFA 27% !!</p>
+		<p>The prices are in Hungarian Forint and not inlcuding the VAT. The hungarian VAT is 27%! </p>
 	</div>
 </div>
 <price-table ng-if="search.categories['trailer'].value"

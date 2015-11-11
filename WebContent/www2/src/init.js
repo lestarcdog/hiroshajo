@@ -51,6 +51,7 @@ app
 				} else if (lang.indexOf("en") != -1) {
 					LocalStorageService.lang(StorageConstants.lang_eng);
 					$rootScope.lang = StorageConstants.lang_eng;
+
 					$uibModal.open({
 						animation : true,
 						controller : 'SalesModalController',

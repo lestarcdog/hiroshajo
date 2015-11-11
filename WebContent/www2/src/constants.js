@@ -7,8 +7,8 @@ app.constant("httpEndpoints", {
 app.constant("StorageConstants", {
 	"langProperty" : "hiroshajo.lang",
 	"lang_hu" : "hu",
-	"lang_eng" : "en"
-
+	"lang_eng" : "en",
+	"salePopUp" : true
 });
 
 app.constant("ProductCategory", {

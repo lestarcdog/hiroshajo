@@ -77,7 +77,7 @@
 }
 
 #main-navigation a:hover, .dropdown-menu li>a:hover, .dropdown-menu>li>a:focus,
-	.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+	.nav .open>a, .nav .open>a:hover, .nav .open>a:focus, #main-navigation ul.nav li.active ul li a:hover {
 	background: #777;
 }
 

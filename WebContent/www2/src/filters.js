@@ -1,4 +1,4 @@
-app.filter("hunPrice", function() {
+app.filter("hunPrice", function($rootScope, StorageConstants) {
 	return function(value) {
 		if (angular.isNumber(value)) {
 			var full = value.toString();
@@ -14,7 +14,13 @@ app.filter("hunPrice", function() {
 			}
 			return reverse(out) + " Ft";
 		} else {
-			return value;
+			var v = value
+			if ($rootScope.lang == StorageConstants.lang_eng) {
+				v = v.replace("darab", "piece");
+				v = v.replace("db", "piece");
+				v = v.replace("felület", "surface");
+			}
+			return v;
 		}
 	}
 });

@@ -1,379 +1,442 @@
 [
 	{
 		"type": "boats",
+		"name_hu": "K Maxxi XXL komplett belső tárolókkal",
+		"name_en": "K Maxxi XXL with complete upholster set",
+		"price": 980000
+	},
+
+	{
+		"type": "boats",
 		"name_hu": "4.60-as erősítés 25 LE felett",
+		"name_en": "4.60 boat strenghtening above 25HP",
 		"price": 38000
 	},
 
 	{
 		"type": "boats",
 		"name_hu": "5.45-as erősítés 25 LE felett",
+		"name_en": "5.45 boat strenghtening above 25HP",
 		"price": 40000
 	},
 
 	{
 		"type": "boats",
-		"name_hu": "K Maxxi XXL komplett belső tárolókkal",
-		"price": 980000
-	},
-
-	{
-		"type": "boats",
 		"name_hu": "Színfelár erős színek esetén",
+		"name_en": "Additional color costs",
 		"price": "6000 Ft / felület"
 	},
 
 	{
 		"type": "wheel-corbel",
 		"name_hu": "Kis kormánykonzol",
+		"name_en": "Little wheel corbel",
 		"price": 28000
 	},
 
 	{
 		"type": "wheel-corbel",
 		"name_hu": "Kis kormánykonzolra védőkeret",
+		"name_en": "Little wheel corbel with windscreen frame",
 		"price": 11000
 	},
 
 	{
 		"type": "wheel-corbel",
 		"name_hu": "Nagy kormányállás",
+		"name_en": "Big wheel",
 		"price": 35000
 	},
 
 	{
 		"type": "wheel-corbel",
 		"name_hu": "Álló kormányállás nagyajtóval",
+		"name_en": "Standing wheel",
 		"price": 83000
 	},
 
 	{
 		"type": "wheel-corbel",
 		"name_hu": "Jet kormányállás",
+		"name_en": "Jet wheel",
 		"price": 59000
 	},
 
 	{
 		"type": "beak-entry",
 		"name_hu": "Mini belépő",
+		"name_en": "Mini beak entry",
 		"price": 34000
 	},
 
 	{
 		"type": "beak-entry",
 		"name_hu": "Kis orrbelépő",
+		"name_en": "Beak entry",
 		"price": 41000
 	},
 
 	{
 		"type": "beak-entry",
 		"name_hu": "Kis orrbelépőre kapaszkodó korlát",
+		"name_en": "Handhold for beak covering",
 		"price": 25000
 	},
 
 	{
 		"type": "beak-entry",
 		"name_hu": "Halász orrlefedés",
+		"name_en": "Fisher beak covering",
 		"price": 45000
 	},
 
 	{
 		"type": "beak-entry",
 		"name_hu": "Orrborítás ajtóval",
+		"name_en": "Beak covering",
 		"price": 61000
 	},
 
 	{
 		"type": "beak-entry",
 		"name_hu": "XXL orrlefedés",
+		"name_en": "XXL beak covering",
 		"price": 120000
 	},
 
 	{
 		"type": "beak-entry",
 		"name_hu": "Belépő K1-re",
+		"name_en": "K1 Fisherman covering",
 		"price": 33000
 	},
 
 	{
 		"type": "beak-entry",
 		"name_hu": "Belépő lezárás gumi kötéllel",
+		"name_en": "Entry coverage with rubber rope",
 		"price": 5000
 	},
 
 	{
 		"type": "beak-entry",
 		"name_hu": "Első tároló doboz K1-re",
+		"name_en": "K1 Fisherman front storage box",
 		"price": 55000
 	},
 
 	{
 		"type": "chair-box",
 		"name_hu": "K Maxxi ülődeszka",
+		"name_en": "K Maxxi plus seat",
 		"price": 7500
 	},
 
 	{
 		"type": "chair-box",
 		"name_hu": "K Maxxi Extra ülődeszka",
+		"name_en": "K Maxxi Extra plus seat",
 		"price": 7500
 	},
 
 	{
 		"type": "chair-box",
 		"name_hu": "K1 fisherman ülődeszka",
+		"name_en": "K1 fisherman seat",
 		"price": 7500
 	},
 
 	{
 		"type": "chair-box",
 		"name_hu": "K Maxxi és Extra hátsó műanyag pad",
+		"name_en": "K Maxxi és Extra back plastic bench",
 		"price": 33000
 	},
 
 	{
 		"type": "chair-box",
 		"name_hu": "K1 fisherman hátsó műanyag pad",
+		"name_en": "K1 Fisherman rear plastic bench",
 		"price": 32000
 	},
 
 	{
 		"type": "chair-box",
 		"name_hu": "Műanyag hajósszék",
+		"name_en": "Plastic boat chair",
 		"price": 25000
 	},
 
 	{
 		"type": "chair-box",
 		"name_hu": "Forgó műanyag hajósszék",
+		"name_en": "Rotatable plastic boat chair",
 		"price": 34000
 	},
 
 	{
 		"type": "chair-box",
 		"name_hu": "Kárpitozott hajósszék",
+		"name_en": "Boat chair with upholster",
 		"price": 31000
 	},
 
 	{
 		"type": "chair-box",
 		"name_hu": "Forgó kárpitozott szék",
+		"name_en": "Rotatable boat chair with upholster",
 		"price": 39000
 	},
 
 	{
 		"type": "chair-box",
 		"name_hu": "XXL hátsó ülődoboz (jobb vagy baloldalra",
+		"name_en": "XXL rear storage box (right or left handside)",
 		"price": 72000
 	},
 
 	{
 		"type": "chair-box",
 		"name_hu": "XXL oldalsó tároló doboz (jobb vagy baloldalra)",
+		"name_en": "XXL side storage box (right or left handside)",
 		"price": 85000
 	},
 
 	{
 		"type": "canvas",
 		"name_hu": "K Maxxi 4.60 szállító ponyva",
+		"name_en": "K Maxxi 4.60 transport canvas",
 		"price": 53000
 	},
 
 	{
 		"type": "canvas",
 		"name_hu": "K Maxxi Extra 5.45 szállító ponyva",
+		"name_en": "K Maxxi Extra 5.45 transport canvas",
 		"price": 59000
 	},
 
 	{
 		"type": "canvas",
 		"name_hu": "K Maxxi Joker 5.45 ponyva",
+		"name_en": "K Maxxi Joker 5.45 canvas",
 		"price": 65000
 	},
 
 	{
 		"type": "canvas",
 		"name_hu": "K Maxxi Party 4.60 ponyva",
+		"name_en": "K Maxxi Party 4.60",
 		"price": 62000
 	},
 
 	{
 		"type": "canvas",
 		"name_hu": "K1 fisherman szállító ponyva",
+		"name_en": "K1 Fisherman transport canvas",
 		"price": 48000
 	},
 
 	{
 		"type": "canvas",
 		"name_hu": "K Maxxi XXL szállító ponyva",
+		"name_en": "K Maxxi XXL transport canvas",
 		"price": 89000
 	},
 
 	{
 		"type": "canvas",
 		"name_hu": "K Maxxi XXL ponyva kormyányállással",
+		"name_en": "K Maxxi XXL canvas with wheel corbe",
 		"price": 110000
 	},
 
 	{
 		"type": "canvas",
 		"name_hu": "K Maxxi és Extrára vizentároló ponyva",
+		"name_en": "K Maxxi and Extra canvas at water",
 		"price": 68000
 	},
 
 	{
 		"type": "canvas",
 		"name_hu": "K1 fisherman vízentároló ponyva",
+		"name_en": "K1 Fisherman canvas at water",
 		"price": 60000
 	},
 
 	{
 		"type": "miscellaneous",
 		"name_hu": "Színfelár kiegészítőkre erős színek esetén",
+		"name_en": "Additional color costs",
 		"price": "3 000 Ft / db"
 	},
 
 	{
 		"type": "miscellaneous",
+		"name_hu": "Motorkikötő elem (tőcsavar) beépítése",
+		"name_en": "Port installation for engines",
+		"price": 18000
+	},
+
+	{
+		"type": "miscellaneous",
 		"name_hu": "K1 fisherman korlát",
+		"name_en": "K1 Fisherman barrier",
 		"price": 55000
 	},
 
 	{
 		"type": "miscellaneous",
 		"name_hu": "K Maxxi korlát",
+		"name_en": "K Maxxi barrier",
 		"price": 60000
 	},
 
 	{
 		"type": "miscellaneous",
 		"name_hu": "Fürdőlétra",
+		"name_en": "Bathing ladder",
 		"price": 39000
 	},
 
 	{
 		"type": "miscellaneous",
 		"name_hu": "Villanymotortartó",
+		"name_en": "Electric motor holster",
 		"price": 13000
 	},
 
 	{
 		"type": "miscellaneous",
 		"name_hu": "K1 fisherman fém evező villahüvely",
+		"name_en": "K1 fisherman metal thole case",
 		"price": 12000
 	},
 
 	{
 		"type": "miscellaneous",
-		"name_hu": "Motorkikötő elem (tőcsavar) beépítése",
-		"price": 18000
-	},
-
-	{
-		"type": "miscellaneous",
 		"name_hu": "K1 fisherman réz evező villa",
+		"name_en": "K1 fisherman thole from copper",
 		"price": 8000
 	},
 
 	{
 		"type": "miscellaneous",
 		"name_hu": "K1 fisherman 230 cm-es faevező",
+		"name_en": "K1 fisherman 230 cm wooden paddle",
 		"price": 22000
 	},
 
 	{
 		"type": "miscellaneous",
 		"name_hu": "K Maxxi XXL korlát 3/4 hosszig",
+		"name_en": "K Maxxi XXL barrier (in 3/4 length)",
 		"price": 165000
 	},
 
 	{
 		"type": "miscellaneous",
 		"name_hu": "K mini műanyag evező villa és hüvely",
+		"name_en": "K mini Plastic paddle holder with oarlock",
 		"price": 4500
 	},
 
 	{
 		"type": "miscellaneous",
 		"name_hu": "Műanyag bika felszerelve 4db",
+		"name_en": "Plastic screw mounted 4db",
 		"price": 3600
 	},
 
 	{
 		"type": "miscellaneous",
 		"name_hu": "Alumínium bika felszerelve 1db",
+		"name_en": "Aluminium screw mounted 1db",
 		"price": 3900
 	},
 
 	{
 		"type": "miscellaneous",
 		"name_hu": "Napvédő tető alumínium vázas",
+		"name_en": "Antisun roof (aluminium frame)",
 		"price": 35000
 	},
 
 	{
 		"type": "miscellaneous",
 		"name_hu": "K Maxxi Jokerre szerelhető lehajtható Cabrio tető",
+		"name_en": "For K Maxxi Joker collapsible Cabrio roof",
 		"price": 138000
 	},
 
 	{
 		"type": "miscellaneous",
 		"name_hu": "Bármely típusba komplett kormánymű 150 LE-ig beszerelve",
+		"name_en": "For any boat steering-gear up to 150 PS",
 		"price": 88000
 	},
 
 	{
 		"type": "miscellaneous",
 		"name_hu": "K1 fisherman szőnyeg",
+		"name_en": "K1 fisherman carpet",
 		"price": 16000
 	},
 
 	{
 		"type": "miscellaneous",
 		"name_hu": "K Maxxi szőnyeg",
+		"name_en": "K Maxxi carpet",
 		"price": 25000
 	},
 
 	{
 		"type": "miscellaneous",
 		"name_hu": "K Maxxi Extra, XXL szőnyeg",
+		"name_en": "K Maxxi Extra, XXL carpet",
 		"price": 29000
 	},
 
 	{
 		"type": "trailer",
 		"name_hu": "K1 fisherman 3.60-hoz",
+		"name_en": "K1 fisherman 3.60",
 		"price": 315000
 	},
 
 	{
 		"type": "trailer",
 		"name_hu": "K Maxxi 4.60-hoz",
+		"name_en": "K Maxxi 4.60",
 		"price": 340000
 	},
 
 	{
 		"type": "trailer",
 		"name_hu": "K Maxxi Extra 5.45-höz",
+		"name_en": "K Maxxi Extra 5.45",
 		"price": 360000
 	},
 
 	{
 		"type": "trailer",
 		"name_hu": "K Maxxi XXL",
+		"name_en": "K Maxxi XXL",
 		"price": 390000
 	},
 
 	{
 		"type": "trailer",
 		"name_hu": "Ráfutófék (bármely típushoz)",
+		"name_en": "Inertia brake (any boat)",
 		"price": 100000
 	},
 
 	{
 		"type": "trailer",
 		"name_hu": "Forgalomba helyezési díj",
+		"name_en": "Registration fee",
 		"price": 40000
 	}
 ]

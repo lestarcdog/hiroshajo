@@ -89,7 +89,7 @@ app.controller("BoatController", function($scope, $rootScope, $location, Lightbo
 		var tag = "";
 		if ($rootScope.lang === StorageConstants.lang_eng) {
 			if (boat.tag_en != null && boat.tag_en !== "") {
-				tag = " " + boat.tag_hu;
+				tag = " " + boat.tag_en;
 			}
 		} else {
 			if (boat.tag_hu != null && boat.tag_hu !== "") {

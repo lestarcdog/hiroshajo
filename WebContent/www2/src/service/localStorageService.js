@@ -7,7 +7,20 @@ app.service("LocalStorageService", function($window, StorageConstants) {
 			return store.setItem(StorageConstants.langProperty, lang);
 		}
 	}
+
+	var popUpConfig = function(show) {
+		if (show == null) {
+			var ret = store.getItem(StorageConstants.salePopUp);
+			if (ret == null) {
+				store.setItem(StorageConstants.salePopUp, true);
+			}
+			return true;
+		} else {
+			return store.setItem(StorageConstants.salePopUp, show);
+		}
+	}
 	return {
-		lang : lang
+		lang : lang,
+		salePopUp : popUpConfig
 	}
 })
