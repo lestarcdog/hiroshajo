@@ -14,7 +14,7 @@ app.controller("MainCarouselController", [ "$scope", "BoatService", function($sc
 				}
 			});
 		});
-	}
+	};
 
 	refresh();
 } ]);

@@ -1,23 +1,22 @@
-app.controller("PriceController", function($scope, $rootScope, ProductCategory,
-		PriceService, BoatService, StorageConstants) {
+app.controller("PriceController", function($scope, $rootScope, ProductCategory, PriceService, BoatService, StorageConstants) {
 	var categories = {};
 	$scope.items = items = {};
 	$scope.search = {};
 	$scope.categoryNames = ProductCategory;
-	
+
 	$rootScope.$on("langChanged", function(event, newLang) {
 		changePageAndMeta(newLang);
-	})
-	
+	});
+
 	var changePageAndMeta = function(newLang) {
-		if(newLang == StorageConstants.lang_eng) {
+		if (newLang == StorageConstants.lang_eng) {
 			$rootScope.changePage("Prices", null);
 			$rootScope.changeMeta("Prices", null, null);
 		} else {
 			$rootScope.changePage("Árak", null);
 			$rootScope.changeMeta("Árak", null, null);
 		}
-	}
+	};
 
 	var refresh = function() {
 		changePageAndMeta($rootScope.lang);
@@ -46,7 +45,7 @@ app.controller("PriceController", function($scope, $rootScope, ProductCategory,
 						"price" : boat.price
 					});
 				}
-			})
+			});
 		});
 		PriceService.getPrices().then(function(response) {
 			angular.forEach(response.data, function(value, key) {
@@ -57,7 +56,7 @@ app.controller("PriceController", function($scope, $rootScope, ProductCategory,
 				});
 			});
 		});
-	}
+	};
 
 	$scope.reset = function() {
 		$scope.search = {};
@@ -68,7 +67,7 @@ app.controller("PriceController", function($scope, $rootScope, ProductCategory,
 		angular.forEach($scope.search.categories, function(v, key) {
 			v.value = false;
 		});
-	}
+	};
 
 	refresh();
 });

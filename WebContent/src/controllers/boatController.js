@@ -15,7 +15,8 @@ app.controller("BoatController", function($scope, $rootScope, $location, Lightbo
 		BoatService.getBoats().then(function(response) {
 			$scope.boats = response.data;
 
-			var boatId = $location.search().boatId
+			var boatId = $location.search().boatId;
+
 			if (boatId != null) {
 				loadBoatDetails(boatId);
 			}
@@ -23,7 +24,7 @@ app.controller("BoatController", function($scope, $rootScope, $location, Lightbo
 		changePageAndMeta();
 		setBackground(null);
 
-	}
+	};
 
 	$rootScope.$on("langChanged", function(event, newLang) {
 		changePageAndMeta(newLang);
@@ -31,11 +32,11 @@ app.controller("BoatController", function($scope, $rootScope, $location, Lightbo
 			loadBoatDetails($scope.boatId);
 		}
 
-	})
+	});
 
 	$scope.select = function(boatId) {
 		loadBoatDetails(boatId);
-	}
+	};
 
 	$scope.back = function() {
 		changePageAndMeta();
@@ -43,7 +44,7 @@ app.controller("BoatController", function($scope, $rootScope, $location, Lightbo
 		$scope.descCollapse = false;
 		$scope.boatId = null;
 		setBackground(null);
-	}
+	};
 
 	$scope.toggleDesc = function() {
 		$scope.descToggle = !$scope.descToggle;
@@ -54,15 +55,15 @@ app.controller("BoatController", function($scope, $rootScope, $location, Lightbo
 			$scope.descButtonExpandText = expandText;
 			$scope.txt = desc[0];
 		}
-	}
+	};
 
 	$scope.openGallery = function() {
 		Lightbox.openModal($scope.boat.gallery, 0);
-	}
+	};
 
 	$scope.openVideos = function() {
 		Lightbox.openModal($scope.boat.videos, 0);
-	}
+	};
 
 	var loadBoatDetails = function(boatId) {
 		var boat = $scope.boats[boatId];
@@ -70,7 +71,6 @@ app.controller("BoatController", function($scope, $rootScope, $location, Lightbo
 			return;
 		}
 
-		desc;
 		if ($rootScope.lang == StorageConstants.lang_eng) {
 			desc = boat.desc_en;
 		} else {
@@ -104,7 +104,7 @@ app.controller("BoatController", function($scope, $rootScope, $location, Lightbo
 
 		// add background
 		setBackground(boat.background);
-	}
+	};
 
 	var changePageAndMeta = function() {
 		if ($rootScope.lang === StorageConstants.lang_eng) {
@@ -118,7 +118,7 @@ app.controller("BoatController", function($scope, $rootScope, $location, Lightbo
 			$scope.descButtonExpandText = expandText = "Bővebben...";
 			collapseText = "Bezár";
 		}
-	}
+	};
 
 	var setBackground = function(path) {
 		var bg_path = "url(images/bg/";
@@ -129,12 +129,12 @@ app.controller("BoatController", function($scope, $rootScope, $location, Lightbo
 			bg_path += "blurred_main_bg.jpg";
 			bg.css("background-repeat", "repeat");
 		}
-		bg_path += ")"
+		bg_path += ")";
 
 		bg.hide();
 		bg.css("background-image", bg_path);
 		bg.fadeIn(500);
-	}
+	};
 
 	refresh();
 

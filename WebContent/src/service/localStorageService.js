@@ -6,7 +6,7 @@ app.service("LocalStorageService", function($window, StorageConstants) {
 		} else {
 			return store.setItem(StorageConstants.langProperty, lang);
 		}
-	}
+	};
 
 	var popUpConfig = function(show) {
 		if (show == null) {
@@ -22,5 +22,5 @@ app.service("LocalStorageService", function($window, StorageConstants) {
 	return {
 		lang : lang,
 		salePopUp : popUpConfig
-	}
-})
+	};
+});

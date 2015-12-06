@@ -42,7 +42,7 @@ app
 				} else {
 					$rootScope.page.title = page.title;
 				}
-			}
+			};
 
 			$rootScope.setLang = function(lang) {
 				if (lang.indexOf("hu") != -1) {
@@ -63,7 +63,7 @@ app
 				}
 				$rootScope.$emit("langChanged", $rootScope.lang);
 				// $window.location.reload();
-			}
+			};
 
 			// add date to header
 			angular.element("#header-evszam").attr("src", "images/header/evszam" + (new Date).getFullYear() + ".png");

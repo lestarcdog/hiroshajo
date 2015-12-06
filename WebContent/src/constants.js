@@ -41,6 +41,5 @@ app.constant("ProductCategory", {
 		"name_hu" : "Ráfutófék nélküli tüzihorganyzott utánfutók (bruttó ár)",
 		"name_en" : "Hot-dip galvanized trailers"
 	}
-	
 
-})
+});

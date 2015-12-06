@@ -4,7 +4,8 @@ app.filter("hunPrice", function($rootScope, StorageConstants) {
 			var full = value.toString();
 			var out = "";
 			var c = 0;
-			for (i = full.length - 1; i >= 0; i--) {
+			var i;
+			for (i = (full.length - 1); i >= 0; i--) {
 				out += full.charAt(i);
 				c++;
 				if (c === 3) {
@@ -14,7 +15,7 @@ app.filter("hunPrice", function($rootScope, StorageConstants) {
 			}
 			return reverse(out) + " Ft";
 		} else {
-			var v = value
+			var v = value;
 			if ($rootScope.lang == StorageConstants.lang_eng) {
 				v = v.replace("darab", "piece");
 				v = v.replace("db", "piece");
@@ -22,7 +23,7 @@ app.filter("hunPrice", function($rootScope, StorageConstants) {
 			}
 			return v;
 		}
-	}
+	};
 });
 
 function reverse(s) {
