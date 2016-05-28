@@ -1,0 +1,28 @@
+{
+  "name": "hiroshajo",
+  "version": "1.0.0",
+  "description": "hiroshajo a legjobb hajo",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lestarcdog/hiroshajo.git"
+  },
+  "keywords": [
+    "hiroshajo",
+    "katamaran",
+    "kecskemet"
+  ],
+  "author": "csaba lestar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lestarcdog/hiroshajo/issues"
+  },
+  "homepage": "https://github.com/lestarcdog/hiroshajo#readme",
+  "devDependencies": {
+    "browser-sync": "^2.12.10",
+    "gulp": "^3.9.1"
+  }
+}

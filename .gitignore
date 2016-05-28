@@ -5,3 +5,5 @@
 /build/
 .classpath
 .tern-project
+node_modules/
+

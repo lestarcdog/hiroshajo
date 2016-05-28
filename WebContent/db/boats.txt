@@ -10,6 +10,7 @@
 		"width": 210,
 		"weight": 280,
 		"form_hu": "katamarán",
+		"form_en": "catamaran",
 		"loadability": 1400,
 		"engine": "max 70",
 		"transport": 6,
@@ -81,6 +82,7 @@
 		"width": 170,
 		"weight": 150,
 		"form_hu": "katamarán",
+		"form_en": "catamaran",
 		"loadability": 450,
 		"engine": "max 40",
 		"transport": 5,
@@ -133,6 +135,7 @@
 		"width": 170,
 		"weight": 185,
 		"form_hu": "katamarán",
+		"form_en": "catamaran",
 		"loadability": 500,
 		"engine": "max 40",
 		"transport": 6,
@@ -177,6 +180,7 @@
 		"width": 170,
 		"weight": 245,
 		"form_hu": "katamarán",
+		"form_en": "catamaran",
 		"loadability": 500,
 		"engine": "max 70",
 		"transport": 6,
@@ -218,6 +222,7 @@
 		"width": 170,
 		"weight": 274,
 		"form_hu": "katamarán",
+		"form_en": "catamaran",
 		"loadability": 500,
 		"engine": "max 70",
 		"transport": 5,
@@ -293,6 +298,7 @@
 		"width": 0,
 		"weight": 0,
 		"form_hu": "",
+		"form_en": "",
 		"loadability": 0,
 		"engine": "",
 		"transport": 0,
@@ -327,11 +333,13 @@
 			"A K1 fishermant lehet rövid, illetve hosszú csizmás motorhoz rendelni. Még egy nagy változás, hogy 20 LE feletti motorhoz fel kell szerelni egy hátsó fartükörhöz csatlakoztatható sikló szárnyat, mellyel ez a kis csónak 8 LE motorral, 2 személlyel is még siklik. (Tengeren 140 kg terheléssel 25 km/h) Ha egy személy használja mindenképpen szükséges a súlypontot előbbre vinni, ehhez feltétlenül szükséges a motor gázkarjának a meghosszabbítása. Csak egy ötlet 80 cm hosszú PVC csövet megmelegítve, ráhúzva a gázmarkolatra, tökéletes megoldás. Kihűlés után természetesen le lehet venni és bármikor visszarakni.",
 			"A K1 fisherman súlya 93 kg, így könnyen mozgatható, akár kézikocsival, vagy a hozzá kapható vizsgáztatott utánfutóval. Mint az összes típusnál lehet külső és belső színt választani, az alap változat: alul fehér, felül baige színű. Bármilyen egyéb kérés esetén forduljon hozzám Juharos Imréhez bizalommal."
 		],
+
 		"desc_en": "A boat of many purposes. Using with engine due to the special bottom it is very easily manoeuvrable and has a stable characteristic of the ship in motion. Its weight allows transportability on the top of a car, one person can easily move with a hand-cart.",
 		"length": 380,
 		"width": 155,
 		"weight": 93,
 		"form_hu": "katamarán",
+		"form_en": "catamaran",
 		"loadability": 360,
 		"engine": "max 20 LE",
 		"transport": 4,
@@ -380,31 +388,46 @@
 	{
 		"name": "K2 Party",
 		"tag_hu": "",
-		"desc_hu": "",
-		"length": 0,
-		"width": 0,
-		"weight": 0,
-		"form_hu": "",
-		"loadability": 0,
-		"engine": "",
-		"transport": 0,
-		"price": 0,
+		"desc_hu": "K2 Party nem rendelhető. Esetleg nézzen körül a használt hajóknál.",
+		"tag_en": "",
+		"desc_en": "K2 Party is not available anymore. Please visit our used boats page.",
+		"length": 550,
+		"width": 224,
+		"weight": 450,
+		"form_hu": "katamarán",
+		"form_en": "catamaran",
+		"loadability": 680,
+		"engine": "max 150 PS",
+		"transport": 6,
+		"price": "Nem elérhető | Not available",
 		"pics": 
 		[
-			
+			"images/boats/k2/k2_party_1.jpg"
 		],
 
 		"carousel_img": "",
-		"gallery": "",
+		"gallery": 
+		[
+			"gallery/k2/k2part01.jpg",
+			"gallery/k2/k2part02.jpg",
+			"gallery/k2/k2part03.jpg",
+			"gallery/k2/k2part04.jpg",
+			"gallery/k2/k2part05.jpg",
+			"gallery/k2/k2part06.jpg"
+		],
+
 		"button_img": "buttons/k_2_party_on.jpg",
 		"videos": 
 		[
-			
+			{
+				"type": "video",
+				"url": "https://youtu.be/vTvbjH1pDFw"
+			}
 		],
 
-		"background": "",
+		"background": "beach.jpg",
 		"novelty": false,
-		"available": false
+		"available": true
 	},
 
 	"9": 
@@ -413,11 +436,12 @@
 		"tag_hu": "a sportcélú hajó",
 		"tag_en": "the sport-boat",
 		"desc_hu": "A K Maxxi Party egyaránt alkalmas tavi és folyami csónakázásra. Már 15 LE-s motorral lendeületesen mozog a vízen.",
-		"desc_en" : "The K Maxi Party is suitable for lake and river boating and a 15 HP engine is enough for its switftly moving.",
+		"desc_en": "The K Maxi Party is suitable for lake and river boating and a 15 HP engine is enough for its switftly moving.",
 		"length": 460,
 		"width": 170,
 		"weight": 220,
 		"form_hu": "katamarán",
+		"form_en": "catamaran",
 		"loadability": 450,
 		"engine": "max 70",
 		"transport": 5,
@@ -471,6 +495,7 @@
 		"width": 0,
 		"weight": 0,
 		"form_hu": "",
+		"form_en": "",
 		"loadability": 0,
 		"engine": "",
 		"transport": 0,
@@ -502,6 +527,7 @@
 		"width": 0,
 		"weight": 0,
 		"form_hu": "",
+		"form_en": "",
 		"loadability": 0,
 		"engine": "",
 		"transport": 0,
