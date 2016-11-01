@@ -67,7 +67,6 @@
 		],
 
 		"background": "fishing_lake.jpg",
-		"novelty": true,
 		"available": true
 	},
 
@@ -87,7 +86,7 @@
 		"engine": "max 40",
 		"transport": 5,
 		"color": 5000,
-		"price": 315000,
+		"price": 350000,
 		"pics": 
 		[
 			"images/boats/maxxi/hatso.jpg",

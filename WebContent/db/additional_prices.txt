@@ -99,13 +99,6 @@
 
 	{
 		"type": "beak-entry",
-		"name_hu": "XXL orrlefedés",
-		"name_en": "XXL beak covering",
-		"price": 120000
-	},
-
-	{
-		"type": "beak-entry",
 		"name_hu": "Belépő K1-re",
 		"name_en": "K1 Fisherman covering",
 		"price": 33000
@@ -189,20 +182,6 @@
 	},
 
 	{
-		"type": "chair-box",
-		"name_hu": "XXL hátsó ülődoboz (jobb vagy baloldalra",
-		"name_en": "XXL rear storage box (right or left handside)",
-		"price": 72000
-	},
-
-	{
-		"type": "chair-box",
-		"name_hu": "XXL oldalsó tároló doboz (jobb vagy baloldalra)",
-		"name_en": "XXL side storage box (right or left handside)",
-		"price": 85000
-	},
-
-	{
 		"type": "canvas",
 		"name_hu": "K Maxxi 4.60 szállító ponyva",
 		"name_en": "K Maxxi 4.60 transport canvas",
@@ -266,6 +245,13 @@
 	},
 
 	{
+    	"type": "canvas",
+    	"name_hu": "K1 szállító ponyva",
+    	"name_en": "K1 canvas",
+    	"price": 49000
+    },
+
+	{
 		"type": "miscellaneous",
 		"name_hu": "Színfelár kiegészítőkre erős színek esetén",
 		"name_en": "Additional color costs",
@@ -311,13 +297,13 @@
 		"type": "miscellaneous",
 		"name_hu": "K1 fisherman fém evező villahüvely",
 		"name_en": "K1 fisherman metal thole case",
-		"price": 12000
+		"price": 15000
 	},
 
 	{
 		"type": "miscellaneous",
-		"name_hu": "K1 fisherman réz evező villa",
-		"name_en": "K1 fisherman thole from copper",
+		"name_hu": "K1 fisherman fém evező villa",
+		"name_en": "K1 fisherman thole from metal",
 		"price": 8000
 	},
 
@@ -339,21 +325,21 @@
 		"type": "miscellaneous",
 		"name_hu": "K mini műanyag evező villa és hüvely",
 		"name_en": "K mini Plastic paddle holder with oarlock",
-		"price": 4500
+		"price": 5000
 	},
 
 	{
 		"type": "miscellaneous",
 		"name_hu": "Műanyag bika felszerelve 4db",
 		"name_en": "Plastic screw mounted 4db",
-		"price": 3600
+		"price": 4000
 	},
 
 	{
 		"type": "miscellaneous",
-		"name_hu": "Alumínium bika felszerelve 1db",
-		"name_en": "Aluminium screw mounted 1db",
-		"price": 3900
+		"name_hu": "K1 hátsó szárny",
+		"name_en": "K1 cavitation wing",
+		"price": 12000
 	},
 
 	{
@@ -400,37 +386,37 @@
 
 	{
 		"type": "trailer",
-		"name_hu": "K1 fisherman 3.60-hoz",
-		"name_en": "K1 fisherman 3.60",
-		"price": 315000
+		"name_hu": "K1 fisherman 3.80-hoz",
+		"name_en": "K1 fisherman 3.80",
+		"price": 330000
 	},
 
 	{
 		"type": "trailer",
 		"name_hu": "K Maxxi 4.60-hoz",
 		"name_en": "K Maxxi 4.60",
-		"price": 340000
+		"price": 360000
 	},
 
 	{
 		"type": "trailer",
 		"name_hu": "K Maxxi Extra 5.45-höz",
 		"name_en": "K Maxxi Extra 5.45",
-		"price": 360000
+		"price": 385000
 	},
 
 	{
 		"type": "trailer",
 		"name_hu": "K Maxxi XXL",
 		"name_en": "K Maxxi XXL",
-		"price": 390000
+		"price": 435000
 	},
 
 	{
 		"type": "trailer",
 		"name_hu": "Ráfutófék (bármely típushoz)",
 		"name_en": "Inertia brake (any boat)",
-		"price": 100000
+		"price": 127000
 	},
 
 	{
@@ -438,5 +424,23 @@
 		"name_hu": "Forgalomba helyezési díj",
 		"name_en": "Registration fee",
 		"price": 40000
+	},
+	{
+		"type": "miscellaneous",
+		"name_hu": "XXL korlát",
+		"name_en": "XXL barrier",
+		"price": 40000
+	},
+	{
+		"type": "trailer",
+		"name_hu": "K1 Fisherman zárható orrlefedés",
+		"name_en": "K1 Fisherman closable the beak entry",
+		"price": 55000
+	},
+	{
+		"type": "canvas",
+		"name_hu": "Takaró ponyva",
+		"name_en": "Canvas at the water",
+		"price": 110000
 	}
 ]
