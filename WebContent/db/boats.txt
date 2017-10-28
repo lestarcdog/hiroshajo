@@ -1,7 +1,7 @@
 {
 	"1": 
 	{
-		"name": "K Maxxi XXL",
+		"name": "K MAXXI XXL",
 		"tag_hu": "",
 		"tab_en": "",
 		"desc_hu": "Egy igazán nagy csónak, az igazán nagy horgászoknak. Óriási méretei ellenére, a menettulajdonsága kiváló, melyet már tesztekkel is bizonyítottunk. 2014-ben elkészült a belső tároló dobozos változat.",
@@ -72,7 +72,7 @@
 
 	"2": 
 	{
-		"name": "K Maxxi",
+		"name": "K MAXXI",
 		"tag_hu": "horgászcsónak",
 		"tag_en": "fishing boat",
 		"desc_hu": "Ez a horgászcsónak a horgászok álma! Méreteiben ideális tavi és folyami horgászatra egyaránt.",
@@ -125,11 +125,11 @@
 
 	"3": 
 	{
-		"name": "K Maxxi Extra",
+		"name": "K MAXXI EXTRA",
 		"tag_hu": "horgászcsónak",
 		"tag_en": "fishing boat",
-		"desc_hu": "Ez a horgászcsónak a K Maxxi meghosszabított változata. Méretei lehetővé teszik több horgász kényelmes horgászatát. A K Maxxi szerelvényei ehhez a típushoz is megfelelőek.",
-		"desc_en": "The K Maxxi Extra is the elongated version of the long standing Maxxi. Its proportions allow of comfortable post of more anglers. The fittings of Maxxi are suitable for this type too.",
+		"desc_hu": "Ez a horgászcsónak a K MAXXI meghosszabított változata. Méretei lehetővé teszik több horgász kényelmes horgászatát. A K MAXXI szerelvényei ehhez a típushoz is megfelelőek.",
+		"desc_en": "The K MAXXI EXTRA is the elongated version of the long standing MAXXI. Its proportions allow of comfortable post of more anglers. The fittings of Maxxi are suitable for this type too.",
 		"length": 545,
 		"width": 170,
 		"weight": 185,

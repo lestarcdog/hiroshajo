@@ -11,8 +11,8 @@
 
 	"2": 
 	{
-		"name_hu": "Vízen tároló ponyva KMaxi és Maxi Extra csónakokhoz",
-		"name_en": "Canvas at the water for K Maxxi and Maxxi Extra",
+		"name_hu": "Vízen tároló ponyva K MAXXI és K MAXXI EXTRA csónakokhoz",
+		"name_en": "Canvas at the water for K MAXXI and K MAXXI EXTRA",
 		"desc_hu": "7 perc alatt felszerelhető ponyva, üvegszálas sátor rudakkal. PVC ponyva távtartó gerinccel, a csónak szélére szerelt műanyag elemekkel. Tároló táskával. 55x65 cm",
 		"desc_en": "Applicable under 7 minutes with glassfiber tent rods. The plastic elements built on the side of the boat. With holder bag. 55x65 cm",
 		"img": "takaroponyva.jpg",
@@ -31,11 +31,12 @@
 
 	"4": 
 	{
-		"name_hu": "Orrborításra szerelhető kapaszkodó",
-		"name_en": "Handhold for beak covering",
-		"desc_hu": "Anyagai 22mm-es rozsdamentes cső. Orrborítás gyártásánál, előre fogadó elemeket kell beépíteni.",
-		"desc_en": "22 mm stainless steel tube (cannot be supplemented subsequently because while building the beak covering it is needed to build extra elements in advance).",
-		"img": "orr_boritas.jpg",
+		"name_hu": "Zárható halászorr lefedés",
+		"name_en": "Closeable beak covering",
+		"desc_hu": "K MAXXI és K MAXXI EXTRA-ba szerelhető süllyesztett síkú zárható orrlefedés. Rozsdamentes zsanérokkal és lakatpánttal.",
+		"desc_en": "Applicable for K MAXXI and K MAXXI EXTRA with closeable beak covering with stainless lock",
+		"img": "zarhato_halaszorr_lefedes.jpg",
+		"novelty": true,
 		"order": 1
 	},
 
@@ -53,8 +54,8 @@
 	{
 		"name_hu": "Korlát",
 		"name_en": "Barrier",
-		"desc_hu": "KMaxxi és KMaxxi Extra csónakra szerelhető korlát, anyaga 18mm-es rozsdamentes polírozott cső. Natúr és halász orrlefedéses csónakra rakható. Utólag is szerelhető",
-		"desc_en": "18 mm stainless steel polished tube which can be fitted on KMaxxi and KMaxxi Extra types (on every kind of beak coverings) subsequently too.",
+		"desc_hu": "K MAXXI és K MAXXI EXTRA csónakra szerelhető korlát, anyaga 18mm-es rozsdamentes polírozott cső. Natúr és halász orrlefedéses csónakra rakható. Utólag is szerelhető",
+		"desc_en": "18 mm stainless steel polished tube which can be fitted on K MAXXI and K MAXXI EXTRA types (on every kind of beak coverings) subsequently too.",
 		"img": "korlat_maxxi.jpg",
 		"order": 1
 	},
@@ -207,24 +208,44 @@
          "img": "k1_fisherman_tereloszarny.JPG",
          "order": 1
     },
-    "21":
+    "22":
     {
          "name_hu": "XXL korlát",
          "name_en" : "XXL barrier",
          "desc_hu": "Elől nyitott rozsdamentes korlát",
          "desc_en" : "Front open stainless barrier",
          "img": "xxl_korlat.JPG",
-         "novelty": true,
+         "novelty": false,
          "order": 1
     },
-     "22":
+    "23":
      {
           "name_hu": "Takaró ponyva",
           "name_en" : "Canvas at the water",
           "desc_hu": "Kamion ponyvából készült erős szállító ponyva.",
           "desc_en" : "Made out of strong truck canvas for transportation purposes.",
           "img": "xxl_takaroponyva.JPG",
-          "novelty": true,
+          "novelty": false,
+          "order": 1
+     },
+	 "24":
+     {
+          "name_hu": "K MAXXI XXL hátsó tároló doboz. Jobb és bal oldalra",
+          "name_en" : "K MAXXI XXL rear container box. Right and left side",
+          "desc_hu": "",
+          "desc_en" : "",
+          "img": "kmaxxi_xxl_hatso_tarolodoboz.jpg",
+          "novelty": false,
+          "order": 1
+     },
+	"25":
+     {
+          "name_hu": "K MAXXI XXL első tároló doboz",
+          "name_en" : "K MAXXI XXL front container box",
+          "desc_hu": "",
+          "desc_en" : "",
+          "img": "xxl_elsotarolodoboz.jpg",
+          "novelty": false,
           "order": 1
      }
 }
