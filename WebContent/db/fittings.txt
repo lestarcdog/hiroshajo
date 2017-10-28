@@ -21,8 +21,8 @@
 
 	"3": 
 	{
-		"name_hu": "Orr borítás",
-		"name_en": "Beak covering",
+		"name_hu": "Orrborítás ajtóval",
+		"name_en": "Beak covering with door",
 		"desc_hu": "A K MAXXI-ba vízmentesen szerelhető tárolódoboz. A csónak belseje felől 2 szárnyú ajtóval rozsdamentes zsanérokkal lakatszemmel szerelt. Teteje 125 kg-ig járható.",
 		"desc_en": "It can be fitted waterproof container box which can be fitted in K MAXXI with 2 winged door with rustproof hinges and lakatszem from the inside of the boat. Its top can be stepped with max. 125 kg.",
 		"img": "orr_boritas.jpg",
@@ -246,6 +246,15 @@
           "desc_en" : "",
           "img": "xxl_elsotarolodoboz.jpg",
           "novelty": false,
+          "order": 1
+     },
+	"26":
+     {
+          "name_hu": "K1 belépő lezárás gumi kötéllel",
+          "name_en" : "K1 beak entry closing with rubber band",
+          "desc_hu": "",
+          "desc_en" : "",
+          "img": "k1_belepo_lezaras_gumikotellel.jpg",
           "order": 1
      }
 }
