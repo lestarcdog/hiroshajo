@@ -379,7 +379,7 @@
 		],
 
 		"background": "fishing_lake.jpg",
-		"novelty": true,
+		"novelty": false,
 		"available": true
 	},
 
