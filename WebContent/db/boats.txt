@@ -426,7 +426,7 @@
 
 		"background": "beach.jpg",
 		"novelty": false,
-		"available": true
+		"available": false
 	},
 
 	"9": 
