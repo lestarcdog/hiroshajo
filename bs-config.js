@@ -19,7 +19,7 @@ module.exports = {
             "port": 8080
         }
     },
-    "files": false,
+    "files": ['WebContent/**'],
     "watchOptions": {},
     "server": ['WebContent'],
     "proxy": false,
