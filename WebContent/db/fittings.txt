@@ -54,8 +54,8 @@
 	"8": {
 		"name_hu": "Orr csiga",
 		"name_en": "Beak pulley",
-		"desc_hu": "",
-		"desc_en": "",
+		"desc_hu": "Orr csiga szett, mely a K Maxxi és Extra orrlefedésekre szerelhető. A szett tartalma kötél leengedő csiga, a felszerelő elem és a kötélfogó.",
+		"desc_en": "Beak pulley mountable on all K Maxxi and Extra beak entry. The fitting contains the pulley, mounting body, and the toggle.",
 		"img": "orr_csiga.jpg",
 		"novelty": true,
 		"break": true
