@@ -1,5 +1,5 @@
 app
-        .run(function($rootScope, $window, $uibModal, LocalStorageService, StorageConstants) {
+        .run(function($rootScope, $window, $uibModal, $location, LocalStorageService, StorageConstants) {
             var meta = {
                 "title" : "Üvegszálas műanyag hajó, csónak, horgászcsónak gyártás. " + (new Date).getFullYear(),
                 "description" : "A Híröshajó Kft. katamarán aljú, üvegszálas műanyag hajó, csónak, horgászcsónak tervezésével és gyártásával foglalkozik.",
@@ -76,4 +76,9 @@ app
                 lang = LocalStorageService.lang();
             }
             $rootScope.lang = lang;
+
+            var track = function() {
+                $window.ga('send', 'pageview', {page: $location.url()});
+            }
+            $rootScope.$on('$viewContentLoaded', track);
         });
