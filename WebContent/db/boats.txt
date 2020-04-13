@@ -27,7 +27,11 @@
 		"carousel_img": "images/boats/xxl/xxl_carousel.jpg",
 		"gallery": 
 		[
-			"gallery/xxl/IMG_0328.jpg",
+			"gallery/xxl/P1010046.JPG",
+			"gallery/xxl/P1010048.JPG",
+			"gallery/xxl/xxl_2020_1.jpg",
+			"gallery/xxl/xxl_2020_2.jpg",
+			"gallery/xxl/xxl_2020_3.jpg",
 			"gallery/xxl/IMG_0332.jpg",
 			"gallery/xxl/IMG_0333.jpg",
 			"gallery/xxl/IMG_0336.jpg",

@@ -213,6 +213,14 @@
 		"img": "xxl_elsotarolodoboz.jpg"
 	},
 	"29": {
+		"name_hu": "XXL zárható orrlefedés 220cm 3 ajtóval",
+		"name_en": "XXL closeable beak entry 220cm 3 doors",
+		"desc_hu": "",
+		"desc_en": "",
+		"img": "xxl_220cm_3doors.jpg",
+		"novelty": true
+	},
+	"30": {
 		"name_hu": "K1 belépő lezárás gumi kötéllel",
 		"name_en": "K1 beak entry closing with rubber band",
 		"desc_hu": "",
