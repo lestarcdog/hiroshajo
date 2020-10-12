@@ -6,14 +6,6 @@
 		"desc_en": "Large box closable with metal hasp.",
 		"img": "k1_fisherman_zarhato_orrlefedes.JPG"
 	},
-	"2": {
-		"name_hu": "Vízen tároló ponyva K MAXXI és K MAXXI EXTRA csónakokhoz",
-		"name_en": "Canvas at the water for K MAXXI and K MAXXI EXTRA",
-		"desc_hu": "7 perc alatt felszerelhető ponyva, üvegszálas sátor rudakkal. PVC ponyva távtartó gerinccel, a csónak szélére szerelt műanyag elemekkel. Tároló táskával. 55x65 cm",
-		"desc_en": "Applicable under 7 minutes with glassfiber tent rods. The plastic elements built on the side of the boat. With holder bag. 55x65 cm",
-		"img": "takaroponyva.jpg",
-		"break": true
-	},
 	"3": {
 		"name_hu": "Orrborítás ajtóval",
 		"name_en": "Beak covering with door",
