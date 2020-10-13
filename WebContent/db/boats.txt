@@ -14,7 +14,7 @@
 		"loadability": 1400,
 		"engine": "max 70",
 		"transport": 6,
-		"price": 730000,
+		"price": 775000,
 		"price_sub_hu": "-tól",
 		"price_sub_en": "-from",
 		"pics": 
@@ -92,7 +92,7 @@
 		"engine": "max 40",
 		"transport": 5,
 		"color": 5000,
-		"price": 408000,
+		"price": 435000,
 		"pics": 
 		[
 			"images/boats/maxxi/hatso.jpg",
@@ -144,7 +144,7 @@
 		"loadability": 500,
 		"engine": "max 40",
 		"transport": 6,
-		"price": 462000,
+		"price": 490000,
 		"pics": 
 		[
 			"images/boats/extra/tomeg.jpg",
@@ -189,7 +189,7 @@
 		"loadability": 500,
 		"engine": "max 70",
 		"transport": 6,
-		"price": 654000,
+		"price": 690000,
 		"pics": 
 		[
 			"images/boats/joker/imi_vezet.jpg",
@@ -231,7 +231,7 @@
 		"loadability": 500,
 		"engine": "max 70",
 		"transport": 5,
-		"price": 1017000,
+		"price": 1080000,
 		"price_sub_hu": "(kormánymű nélkül)",
 		"price_sub_en": "(without wheel corbel)",
 		"pics": 
@@ -349,7 +349,7 @@
 		"loadability": 360,
 		"engine": "max 20 LE",
 		"transport": 4,
-		"price": 320000,
+		"price": 340000,
 		"pics": 
 		[
 			"images/boats/fisherman/k1_fisherman_1.jpg",
@@ -451,7 +451,7 @@
 		"loadability": 450,
 		"engine": "max 70",
 		"transport": 5,
-		"price": 980000,
+		"price": 1040000,
 		"price_sub_hu": "(kárpítozott műanyagtest kormányművel)",
 		"price_sub_en": "(upholsters body with wheelcorbel)",
 		"pics": 
