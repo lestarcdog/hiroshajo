@@ -67,7 +67,8 @@ app
             };
 
             // add date to header
-            angular.element("#header-evszam").attr("src", "images/header/evszam2020.png");
+            var year = new Date().getFullYear()
+            angular.element("#header-evszam").attr("src", "images/header/evszam" + year + ".png");
 
             // get language default is hu
             var lang = LocalStorageService.lang();
