@@ -4,7 +4,7 @@
   "description": "hiroshajo a legjobb hajo",
   "main": "index.html",
   "scripts": {
-    "start": "node_modules/.bin/browser-sync -c bs-config.js start",
+    "start": "node_modules\\.bin\\browser-sync -c bs-config.js start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/lestarcdog/hiroshajo#readme",
   "devDependencies": {
-    "browser-sync": "^2.12.10"
+    "browser-sync": "^2.26.14"
   }
 }
