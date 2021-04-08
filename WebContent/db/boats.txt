@@ -27,6 +27,8 @@
 		"carousel_img": "images/boats/xxl/xxl_carousel.jpg",
 		"gallery": 
 		[
+			"gallery/xxl/xxl_burkolat_1.jpg",
+			"gallery/xxl/xxl_burkolat_2.jpg",
 			"gallery/xxl/P1010046.JPG",
 			"gallery/xxl/P1010048.JPG",
 			"gallery/xxl/xxl_2020_1.jpg",
