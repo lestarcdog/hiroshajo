@@ -261,3 +261,8 @@ label.small-label {
 	font-size: 11px;
 	padding: 0 5px;
 }
+
+#fake-contact-address {
+	font-size: 10px;
+	color: red;
+}
