@@ -2,7 +2,7 @@
 	<div ng-repeat="(k,boat) in boats">
 		<div class="pull-left boat-item">
 			<h4>
-				{{boat.name}} <span class="label label-danger" ng-if="boat.novelty" style="top: 0">Újdonság</span> <small ng-if="!boat.available"><br />(Nem
+				{{boat.name}} <span class="label label-warning novelty-label" ng-if="boat.novelty">Újdonság</span> <small ng-if="!boat.available"><br />(Nem
 					elérhető)</small>
 			</h4>
 			<a ng-if="boat.available" ng-click="select(k)" href=""><img class="img-responsive center-block enabled"

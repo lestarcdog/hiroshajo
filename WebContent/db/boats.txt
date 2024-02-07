@@ -501,32 +501,42 @@
 	{
 		"name": "K mini boat&box",
 		"tag_hu": "",
-		"desc_hu": "",
-		"length": 0,
-		"width": 0,
-		"weight": 0,
-		"form_hu": "",
-		"form_en": "",
-		"loadability": 0,
-		"engine": "",
-		"transport": 0,
-		"price": 0,
+		"tag_en": "",
+		"desc_hu": "A csónak egy pillanat alatt félbehajtható és egy nagyméretû, zárt csomagtartóvá alakítható. Az új konstrukció rozsdamentes zsanérokkal, és állítható békazárral szerelt.A légkamrák függőleges merevítőkkel erősítettek ,a járófelület fabetétes kompozit anyagú. <br><br>2024-ben korlátozott számban újra elérhető lesz a BOAT&BOX",
+		"desc_en": "The boat can be folded in half in a snap and converted into a large, enclosed boot. The new construction is equipped with stainless hinges and adjustable locks.The air chambers are reinforced with vertical stiffeners and the walking surface is made of wood composite. <br><br>In 2024 the BOAT&BOX will be available in limited numbers.",
+		"length": 266,
+		"width": 133,
+		"weight": 46,
+		"form_hu": "katamarán",
+		"form_en": "catamaran",
+		"loadability": 200,
+		"engine": "max. 5 LE",
+		"transport": 2,
+		"price": 299000,
+		"price_sub_hu": "2024-es ár",
+		"price_sub_en": "in year 2024",
 		"pics": 
 		[
-			
+			"gallery/boatbox/box01.jpg",
+			"gallery/boatbox/box02.jpg"
 		],
-
 		"carousel_img": "",
-		"gallery": "",
 		"button_img": "buttons/k_mini_boatandbo_on.jpg",
+		"gallery": [
+			"gallery/boatbox/box01.jpg",
+			"gallery/boatbox/box02.jpg",
+			"gallery/boatbox/box03.jpg",
+			"gallery/boatbox/box04.jpg",
+			"gallery/boatbox/box05.jpg"
+		],
 		"videos": 
 		[
 			
 		],
 
-		"background": "",
-		"novelty": false,
-		"available": false
+		"background": "fishing_lake2.jpg",
+		"novelty": true,
+		"available": true
 	},
 
 	"11": 
